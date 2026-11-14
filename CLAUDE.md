@@ -26,3 +26,7 @@ Quando o usuário pedir um vídeo **estilo POV**, seguir o guia em `docs/ESTILO_
 - tela final "O que você faria?" com opções A e B, "Comenta A ou B ▼" e "a maioria decide o Ep. 02";
 - 75–90 s, 1080x1920, 30 fps.
 A referência serve só de formato: histórias, personagens e cenários sempre originais.
+
+# Vozes do ElevenLabs usadas
+- **A Última Corrida (motoboy):** "James – Professional British Male", estabilidade 59, similaridade 47, modelo v4. Usar a mesma em todas as partes.
+- **E se você acordasse em 2001:** Parte A com "Patrick – An engaging audiobook narrator" e Parte B com "Adam – Dominant, Firm" (estabilidade 50, similaridade 75, v4).
