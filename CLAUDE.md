@@ -7,6 +7,15 @@
   H.264 Main 4.1, yuv420p, AAC, faststart, cerca de 10 MB. O usuário não consegue baixar pelo GitHub.
 - Idioma: português do Brasil.
 
+# Dois formatos de vídeo
+
+- **"Vídeo POV"** → seguir `docs/ESTILO_POV.md` (resumo abaixo).
+- **"Vídeo narrado"** → o formato de "A Última Corrida" (motoboy): um narrador conta a história em "você" e terceira pessoa,
+  em desenho animado vertical (personagens 2D de cabeça redonda em mundo 3D com contorno preto), câmera que desliza,
+  trilha de suspense e efeitos com volume na metade da voz, legenda palavra por palavra em CAIXA ALTA (palavra falada em amarelo)
+  e tela final "VOCÊ FICA OU SAI?" com duas opções, para a votação decidir a próxima parte.
+  Segue a skill cartoon-audio-short. Código-base do motoboy: `~/shorts/ultima-corrida` (só existe neste container).
+
 # Vídeos "estilo POV"
 
 Quando o usuário pedir um vídeo **estilo POV**, seguir o guia em `docs/ESTILO_POV.md`:
