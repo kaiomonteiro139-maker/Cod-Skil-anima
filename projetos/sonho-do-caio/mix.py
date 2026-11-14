@@ -11,8 +11,9 @@ def grms(x, gate_db=-40):
     top = r.max(); keep = r[r > top * 10 ** (gate_db / 20)]; return np.sqrt((keep ** 2).mean())
 voice, music, sfx = load_mp3(sys.argv[1]), load_wav(sys.argv[2]), load_wav(sys.argv[3])
 N = len(music); v = np.zeros(N); v[: min(N, len(voice))] = voice[:N]
-gv = grms(v); music *= 0.5 * gv / grms(music)
-sfx *= 0.5 * gv / grms(sfx)
+MG, SG = 10 ** (-17 / 20), 10 ** (-10 / 20)
+gv = grms(v); music *= MG * gv / grms(music)
+sfx *= SG * gv / grms(sfx)
 cap = 0.7 * np.abs(v).max()
 pk = np.abs(sfx).max()
 if pk > cap: sfx *= cap / pk

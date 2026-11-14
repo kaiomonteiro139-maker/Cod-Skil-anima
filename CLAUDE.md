@@ -12,7 +12,7 @@
 - **"Vídeo POV"** → seguir `docs/ESTILO_POV.md` (resumo abaixo).
 - **"Vídeo narrado"** → o formato de "A Última Corrida" (motoboy): um narrador conta a história em "você" e terceira pessoa,
   em desenho animado vertical (personagens 2D de cabeça redonda em mundo 3D com contorno preto), câmera que desliza,
-  trilha de suspense e efeitos com volume na metade da voz, legenda palavra por palavra em CAIXA ALTA (palavra falada em amarelo)
+  trilha **bem de fundo** (cerca de 17 dB abaixo da voz, nunca atrapalhando a locução) e efeitos cerca de 10 dB abaixo da voz, legenda palavra por palavra em CAIXA ALTA (palavra falada em amarelo)
   e tela final "VOCÊ FICA OU SAI?" com duas opções, para a votação decidir a próxima parte.
   Segue a skill cartoon-audio-short. Código-base do motoboy: `~/shorts/ultima-corrida` (só existe neste container).
 
@@ -30,3 +30,8 @@ A referência serve só de formato: histórias, personagens e cenários sempre o
 # Vozes do ElevenLabs usadas
 - **A Última Corrida (motoboy):** "James – Professional British Male", estabilidade 59, similaridade 47, modelo v4. Usar a mesma em todas as partes.
 - **E se você acordasse em 2001:** Parte A com "Patrick – An engaging audiobook narrator" e Parte B com "Adam – Dominant, Firm" (estabilidade 50, similaridade 75, v4).
+
+# Voz feita pelo Claude (quando o usuário pede)
+- Piper pt_BR "cadu" com narração **animada e um pouco rápida**: length-scale ~0.95, frases de destaque com "!",
+  pausas curtas, tom 1 semitom acima e brilho leve. Conferir com transcrição se as palavras-chave saem claras
+  (ex.: "seguidor" precisou de length-scale 1.0 para não virar "servidor").

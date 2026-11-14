@@ -1,10 +1,12 @@
 # Emotional score (piano + strings) and SFX stems for "O Sonho do Caio" Parte 1. Writes work/music.wav and work/sfx.wav.
 import numpy as np, wave
-SR = 44100; DUR = 62.0; N = int(SR * DUR); rng = np.random.default_rng(5); T = np.arange(N) / SR
+import json
+KN = np.array(json.load(open('work/warp.json'))); Wt = lambda t: float(np.interp(t, KN[:, 1], KN[:, 0]))
+SR = 44100; DUR = float(KN[-1][0]); N = int(SR * DUR); rng = np.random.default_rng(5); T = np.arange(N) / SR
 def env(n, a=0.005, r=0.1):
     e = np.ones(n); na = max(1, min(n, int(a * SR))); nr = max(1, min(n, int(r * SR))); e[:na] = np.linspace(0, 1, na); e[-nr:] *= np.linspace(1, 0, nr); return e
 def place(buf, x, t0, g=1.0):
-    i = int(t0 * SR); j = min(N, i + len(x))
+    i = int(Wt(t0) * SR); j = min(N, i + len(x))
     if j > i: buf[i:j] += g * x[: j - i]
 def bp(x, lo, hi):
     X = np.fft.rfft(x); f = np.fft.rfftfreq(len(x), 1 / SR); X *= (1 / (1 + (lo / np.maximum(f, 1)) ** 4)) * (1 / (1 + (f / hi) ** 4)); return np.fft.irfft(X, len(x))
@@ -69,7 +71,7 @@ def pop():
     d = 0.16; n = int(d * SR); t = np.arange(n) / SR; return np.sin(2 * np.pi * np.cumsum(500 + 900 * t / d) / SR) * np.exp(-t / 0.05)
 amb = bp(noise(DUR), 300, 2000) * 0.2 + bp(noise(DUR), 2500, 6000) * 0.06 * (0.6 + 0.4 * np.sin(2 * np.pi * T / 3))
 for a, b, g in [(0, 13.8, 1), (21.3, 35.8, 1), (49.4, 62, 0.6)]:
-    m = (T >= a) & (T < b); sfx[m] += amb[m] * g
+    m = (T >= Wt(a)) & (T < Wt(b)); sfx[m] += amb[m] * g
 for x in np.arange(0.0, 4.6, 0.72): place(sfx, thump(150, 0.15), x + 0.0, 0.6)          # juggling touches
 for x in np.arange(7.8, 10.8, 0.42): place(sfx, thump(120, 0.12), x, 0.25)             # dribbling far
 place(sfx, thump(90, 0.25), 12.35, 1.0); place(sfx, whoosh(0.5, 400, 3000), 12.4, 0.4)  # the kick through the flip-flops
