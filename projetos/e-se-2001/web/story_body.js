@@ -298,6 +298,17 @@ shot(E(75) + 0.4, (t) => ({ light: "morning", year: 2026, laptop: false, dark: 0
   cam: glide(t, E(75) + 0.4, 318.6, [-0.95, 1.34, 2.1], [-1.3, 1.25, 0.9], [-0.9, 1.34, 2.3], [-1.3, 1.25, 0.9], 38, 39),
   overlay: (g, W, H) => endCard(g, W, H, t) }));
 
+// THUMBNAIL (outside the video timeline): t >= 2000
+shot(2000, (t) => { const v = (globalThis.THUMBV ?? 0);
+  const cams = [
+    { pos: [0.35, 1.42, 0.55], look: [0.05, 1.38, -1.3], fov: 42 },
+    { pos: [0.05, 1.4, 0.2], look: [0.2, 1.42, -1.3], fov: 46 },
+    { pos: [-0.05, 1.32, -0.15], look: [0.1, 1.45, -1.6], fov: 50 },
+    { pos: [0.0, 1.38, 0.15], look: [0.05, 1.36, -1.3], fov: 48 },
+    { pos: [0.1, 1.36, 0.35], look: [0.15, 1.33, -1.3], fov: 46 } ];
+  return { light: "morning", lap: 6, year: 2001,
+    actors: [hero({ expr: "shock", blink: false }, { tint: [0.95, 1, 1.06] })],
+    cam: cams[v] }; });
 S.sort((a, b) => a.t0 - b.t0);
 for (let i = 0; i < S.length; i++) S[i].t1 = i + 1 < S.length ? S[i + 1].t0 : 1e9;
 export const SHOTS = S;
