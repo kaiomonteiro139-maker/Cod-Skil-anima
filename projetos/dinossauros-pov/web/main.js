@@ -235,6 +235,7 @@ const V = (a) => new THREE.Vector3(...a);
 function placeArm(g, p) { if (!p) { g.visible = false; return; } g.visible = true; g.position.set(...p.p); g.rotation.set(...p.r); }
 window.renderFrame = async (f) => {
   const t = f / FPS, st = stateAt(t);
+  if (globalThis.THUMB) { const k = globalThis.THUMB; if (k.look) st.cam.look = k.look; if (k.pos) st.cam.pos = k.pos; if (k.fov) st.cam.fov = k.fov; st.cam.roll = k.roll ?? st.cam.roll; st.dark = 0; }
   // light
   const night = st.light === "night";
   if (night) { paintSky(st.sky?.[0] || "#060a1c", st.sky?.[1] || "#121a3a", st.sky?.[2] || "#1e2546"); hemi.color.setHex(0x3a4a80); hemi.groundColor.setHex(0x0a0a14); hemi.intensity = 0.95; sun.intensity = 0; moonL.intensity = 1.1;
