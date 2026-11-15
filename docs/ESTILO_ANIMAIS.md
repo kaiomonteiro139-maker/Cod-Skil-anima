@@ -56,3 +56,10 @@ Frases curtíssimas, uma ideia por frase, quase sem pausa (pausas médias de 0,3
 - Bichos 3D feitos de esferas, cápsulas e cilindros; listras como faixas em volta das cápsulas (nunca em esfera, que vira "bola de praia").
 - Manada grande com instâncias (corpo, pescoço e cabeça); vista de cima vira "pinos", então usar ângulo alto inclinado.
 - Câmera nunca atrás do bicho que fala: perfil ou três quartos de frente. Juba com volume atrás da cabeça.
+
+## 8. Shorts para ganhar seguidores (`projetos/cachorrinho-300-dias/`)
+- Pedido para seguir **no meio** (~20 s), ligado à emoção ("Se você quer que esse cachorrinho encontre uma casa, segue o canal agora! Ele precisa de você!"),
+  com botão "+ Seguir" animado que vira "✓ Seguindo".
+- Final em aberto + "a parte 2 só sai quando a gente chegar em mil seguidores" com barra de meta 🔒.
+- Áudio **sem ruído**: voz com `afftdn` + `agate`, música limpa, efeitos tonais (latido sintetizado, motor, clique). Chuva só na imagem.
+- Números na manchete com fonte Inter (a Playfair desenha números "minúsculos").

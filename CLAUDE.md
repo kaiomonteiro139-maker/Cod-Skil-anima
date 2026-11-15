@@ -1,5 +1,8 @@
 # Preferências do usuário para vídeos
 
+- **Áudio sem chiado nem ruído de fundo.** Nada de ambiência feita com ruído (vento, chuva, insetos, "hiss"); só música limpa e efeitos tonais/curtos.
+  Voz sempre limpa (filtro de ruído + silêncio absoluto entre as frases). Conferir o nível de ruído nas pausas antes de entregar.
+
 - **Legendas são obrigatórias em todo vídeo.** Legenda queimada no vídeo, sincronizada palavra por palavra com a locução
   (1 a 3 palavras por linha, em CAIXA ALTA, branca com contorno escuro, palavra falada destacada em amarelo, no terço inferior).
   Não repetir em legenda um texto que já está escrito na tela (ex.: a tela final de enquete).
