@@ -43,3 +43,10 @@ A referência serve só de formato: histórias, personagens e cenários sempre o
 - Piper pt_BR "cadu" com narração **animada e um pouco rápida**: length-scale ~0.95, frases de destaque com "!",
   pausas curtas, tom 1 semitom acima e brilho leve. Conferir com transcrição se as palavras-chave saem claras
   (ex.: "seguidor" precisou de length-scale 1.0 para não virar "servidor").
+
+# Vídeos "estilo fábula de animais"
+Quando o usuário pedir **vídeo de animais**, **fábula** ou igual ao "da cobra e dos 300 ratos", seguir `docs/ESTILO_ANIMAIS.md`:
+3D com sombreamento de desenho e contorno preto, bichos simples e fofos (olhos brilhando no escuro), câmera sempre em movimento lento,
+corte a cada ~3–4 s; gancho com números ("1 cobra, 300 ratos"), virada por manipulação, escalada com contador ("NOITE 30") e lição no final;
+manchete serifada em CAIXA ALTA no topo (palavra-chave em amarelo/vermelho) + legenda palavra por palavra (cinza → branco, chave em amarelo);
+narrador grave e rápido (~155 ppm) e trilha quase inaudível (~22–25 dB abaixo da voz); final com "manda pra alguém que…". Vertical 1080x1920.
