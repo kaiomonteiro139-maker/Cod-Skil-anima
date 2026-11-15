@@ -269,6 +269,19 @@ const FXD = {
   knock: (g, t) => { const s = 0.8 + 0.3 * Math.min(1, t * 6); g.translate(256, 256); g.scale(s, s); g.rotate(-0.1); g.font = "900 120px 'DejaVu Sans'"; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round"; g.lineWidth = 22; g.strokeStyle = INK; g.strokeText("TOC TOC", 0, 0); g.fillStyle = "#ffffff"; g.fillText("TOC TOC", 0, 0); },
   heartbeat: (g, t) => { const s = 0.75 + 0.25 * Math.abs(Math.sin(t * 7)); g.translate(256, 256); g.scale(s, s); g.fillStyle = "#c0392b"; g.strokeStyle = INK; g.lineWidth = 16; g.beginPath(); g.moveTo(0, 120); g.bezierCurveTo(-200, -20, -110, -170, 0, -60); g.bezierCurveTo(110, -170, 200, -20, 0, 120); g.fill(); g.stroke(); },
   sweat: (g, t) => { const ph = (t * 1.2) % 1; g.globalAlpha = 1 - ph * 0.6; g.fillStyle = "#8fd0ff"; g.strokeStyle = INK; g.lineWidth = 8; g.beginPath(); g.moveTo(256, 150 + ph * 120); g.quadraticCurveTo(300, 260 + ph * 120, 256, 290 + ph * 120); g.quadraticCurveTo(212, 260 + ph * 120, 256, 150 + ph * 120); g.fill(); g.stroke(); g.globalAlpha = 1; },
+  backpack: (g, t) => { g.lineJoin = "round"; g.strokeStyle = INK; g.lineWidth = 12; g.fillStyle = "#2d5a8a"; g.beginPath(); g.roundRect(116, 150, 280, 320, 60); g.fill(); g.stroke();
+    g.fillStyle = "#24496f"; g.beginPath(); g.roundRect(156, 300, 200, 130, 30); g.fill(); g.stroke(); g.beginPath(); g.moveTo(186, 150); g.quadraticCurveTo(256, 60, 326, 150); g.stroke();
+    g.strokeStyle = "#c9a24a"; g.lineWidth = 8; g.beginPath(); g.moveTo(170, 330); g.lineTo(342, 330); g.stroke(); g.fillStyle = "#e8e0d0"; g.fillRect(246, 322, 20, 30); },
+  bagOpen: (g, t) => { g.lineJoin = "round"; g.strokeStyle = INK; g.lineWidth = 12; g.fillStyle = "#1e3f63"; g.beginPath(); g.ellipse(256, 230, 200, 70, 0, 0, 7); g.fill(); g.stroke();
+    for (let i = 0; i < 9; i++) { const x = 120 + (i % 3) * 92 + (i > 5 ? 20 : 0), y = 170 + Math.floor(i / 3) * 34; g.save(); g.translate(x, y); g.rotate((i % 2 ? 0.12 : -0.1)); g.fillStyle = "#5fbf6a"; g.fillRect(-44, -22, 88, 44); g.strokeStyle = INK; g.lineWidth = 6; g.strokeRect(-44, -22, 88, 44);
+      g.fillStyle = "#e8e0d0"; g.fillRect(-8, -22, 16, 44); g.fillStyle = INK; g.font = "900 26px 'DejaVu Sans'"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText("$", -26, 2); g.restore(); }
+    g.fillStyle = "#2d5a8a"; g.strokeStyle = INK; g.lineWidth = 12; g.beginPath(); g.moveTo(56, 230); g.quadraticCurveTo(70, 470, 256, 480); g.quadraticCurveTo(442, 470, 456, 230); g.quadraticCurveTo(256, 330, 56, 230); g.fill(); g.stroke();
+    const k = 0.5 + 0.5 * Math.sin(t * 6); g.fillStyle = `rgba(255,240,150,${0.25 * k})`; g.beginPath(); g.ellipse(256, 200, 220, 90, 0, 0, 7); g.fill(); },
+  receipt: (g, t) => { g.save(); g.translate(256, 256); g.rotate(-0.04); g.fillStyle = "#fbf7ee"; g.strokeStyle = INK; g.lineWidth = 8; g.beginPath(); g.rect(-200, -245, 400, 490); g.fill(); g.stroke();
+    g.fillStyle = "#2a6fb0"; g.fillRect(-200, -245, 400, 70); g.fillStyle = "#fff"; g.font = "900 34px 'DejaVu Sans'"; g.textAlign = "center"; g.fillText("✚ HOSPITAL SÃO LUCAS", 0, -198);
+    g.fillStyle = "#14161c"; g.textAlign = "left"; const L = [["700 26px", "Paciente: Ana, 6 anos"], ["700 26px", "Cirurgia cardíaca"], ["900 34px", "R$ 50.000,00"], ["900 26px", "PAGAMENTO: AMANHÃ"], ["700 24px", "Responsável: Márcio"], ["700 24px", "(11) 9 7302-4418"]];
+    L.forEach(([f, x], i) => { g.font = f + " 'DejaVu Sans'"; g.fillStyle = i === 3 ? "#c0392b" : "#14161c"; g.fillText(x, -175, -120 + i * 62); });
+    if (t > 0) { const k = Math.min(1, t); g.strokeStyle = "rgba(229,72,59,0.9)"; g.lineWidth = 7; g.beginPath(); g.ellipse(-20, 58, 185 * k, 30, 0, 0, 7); g.stroke(); } g.restore(); },
 };
 const SCREENS = {};
 import("./screens.js").then((m) => Object.assign(SCREENS, m));
