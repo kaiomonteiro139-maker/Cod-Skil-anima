@@ -347,6 +347,10 @@ function renderState(st, t) {
   renderer.setRenderTarget(rt); renderer.render(scene, camera); post.uniforms.vig.value = st.vig ?? 0.45; post.uniforms.sat.value = st.sat ?? 1; post.uniforms.gain.value.set(...(st.gain || [1, 1, 1]));
   renderer.setRenderTarget(null); renderer.render(postScene, postCam);
 }
+// ---------- big top label ("3 MESES DEPOIS"), pops in with k ----------
+function tagText(g, e) { const u = Math.min(W, H) / 1080, k = Math.min(1, e.k ?? 1), sc = k < 1 ? 0.6 + 0.4 * k + 0.15 * Math.sin(k * Math.PI) : 1;
+  g.save(); g.globalAlpha = Math.min(1, k * 2); g.translate(W / 2, H * (e.y ?? 0.15)); g.rotate(e.rot ?? -0.03); g.scale(sc, sc); g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round";
+  g.font = `900 ${Math.round((e.size || 110) * u)}px "DejaVu Sans", Arial, sans-serif`; g.lineWidth = 18 * u; g.strokeStyle = "#140c10"; g.strokeText(e.text, 0, 0); g.fillStyle = e.color || "#ffd23f"; g.fillText(e.text, 0, 0); g.restore(); }
 // ---------- end card: question + A/B (poll for the comments) ----------
 function endCard(g, e, t) { const k = Math.min(1, e.k), u = Math.min(W, H) / 1080, F = (w, z) => `${w} ${Math.round(z * u)}px "DejaVu Sans", Arial, sans-serif`;
   g.save(); g.fillStyle = `rgba(10,8,14,${0.62 * k})`; g.fillRect(0, 0, W, H); g.globalAlpha = k; g.textAlign = "center"; g.textBaseline = "middle"; g.lineJoin = "round";
@@ -365,6 +369,7 @@ window.renderFrame = async (f) => {
   renderState(S.a, t); og.globalAlpha = 1; og.drawImage(glc, 0, 0); overlays(og, S.a, t);
   if (S.b && S.mix > 0) { renderState(S.b, t); og.globalAlpha = S.mix; og.drawImage(glc, 0, 0); overlays(og, S.b, t); og.globalAlpha = 1; }
   if (S.a.flash) { og.fillStyle = `rgba(255,255,255,${S.a.flash})`; og.fillRect(0, 0, W, H); }
+  if (S.a.tag) tagText(og, S.a.tag);
   if (S.end) endCard(og, S.end, t);
   if (S.dark) { og.fillStyle = `rgba(0,0,0,${S.dark})`; og.fillRect(0, 0, W, H); }
   return out.toDataURL("image/jpeg", 0.94);

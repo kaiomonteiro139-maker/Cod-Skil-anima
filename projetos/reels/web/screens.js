@@ -1,4 +1,6 @@
 // Screen contents for the phone (540x1080), the monitors (1024x600) and the TV (960x540). All names and apps are fictional.
+import * as TT from "./toon.js";
+const PCARD = {}; function personOn(g, who, opts, x, y, w, h) { const key = JSON.stringify([who, opts]); let c = PCARD[key]; if (!c) { c = PCARD[key] = document.createElement("canvas"); c.width = 600; c.height = 1000; TT.bodyFront(new TT.Pen(c.getContext("2d")), who, opts); } g.drawImage(c, x, y, w, h); }
 const F = (w, s) => `${w} ${s}px "DejaVu Sans", Arial, sans-serif`;
 const rr = (g, x, y, w, h, r) => { g.beginPath(); g.roundRect(x, y, w, h, r); };
 let CLK = "23:47";
@@ -26,7 +28,7 @@ export function phone(g, mode, t, s) {
   else if (mode === "feed") { const off = -(s.scroll ?? 0) * 900;
     g.fillStyle = "#1c1f26"; g.font = F(900, 40); g.fillText("Fotogram", 270, 120);
     [["beach", "Cancún, México"], ["bag", "Presente pra mim"], ["car", "Nova conquista"]].forEach(([k, cap], i) => { const y = 160 + i * 620 + off; if (y > 1080 || y < -620) return;
-      g.fillStyle = "#e5487a"; g.beginPath(); g.arc(70, y + 40, 30, 0, 7); g.fill(); g.textAlign = "left"; g.fillStyle = "#1c1f26"; g.font = F(800, 28); g.fillText("bia.lux", 115, y + 50); photo(g, 20, y + 90, 500, 430, k);
+      g.fillStyle = "#e5487a"; g.beginPath(); g.arc(70, y + 40, 30, 0, 7); g.fill(); g.textAlign = "left"; g.fillStyle = "#1c1f26"; g.font = F(800, 28); g.fillText(s.user || "bia.lux", 115, y + 50); photo(g, 20, y + 90, 500, 430, k);
       g.font = F(600, 26); g.fillText("❤ 2.341   " + cap, 30, y + 565); g.textAlign = "center"; }); }
   else if (mode === "chat" || mode === "noreply") {
     g.fillStyle = "#1f8a6a"; g.fillRect(0, 60, 540, 110); g.fillStyle = "#fff"; g.font = F(800, 36); g.textAlign = "left"; g.fillText(s.name || "Bia", 110, 132); g.fillStyle = "#e5487a"; g.beginPath(); g.arc(65, 118, 30, 0, 7); g.fill();
@@ -34,7 +36,7 @@ export function phone(g, mode, t, s) {
     let y = 220; for (const [side, txt] of s.msgs || []) { const fs = s.big === false ? 28 : 36; g.font = F(700, fs); const w = Math.min(500, g.measureText(txt).width + 56); const x = side === "me" ? 520 - w : 20;
       g.fillStyle = side === "me" ? "#d8f8c8" : "#ffffff"; rr(g, x, y, w, fs * 2.7, 22); g.fill(); g.strokeStyle = "#d0d4dc"; g.lineWidth = 2; g.stroke(); g.fillStyle = "#1c1f26"; g.fillText(txt, x + 24, y + fs * 1.55, w - 44);
       if (side === "me") { g.fillStyle = mode === "noreply" ? "#9aa2ae" : "#3aa0e8"; g.font = F(700, 20); g.fillText(mode === "noreply" ? "✓" : "✓✓", x + w - 40, y + fs * 2.45); } y += fs * 3.1; }
-    if (mode === "noreply") { g.fillStyle = "#fff2f2"; rr(g, 40, 860, 460, 120, 20); g.fill(); g.fillStyle = "#c0392b"; g.font = F(800, 28); g.textAlign = "center"; g.fillText("Este número não existe", 270, 930); }
+    if (mode === "noreply" && s.note !== "") { g.fillStyle = "#fff2f2"; rr(g, 40, 860, 460, 120, 20); g.fill(); g.fillStyle = "#c0392b"; g.font = F(800, 28); g.textAlign = "center"; g.fillText(s.note ?? "Este número não existe", 270, 930); }
     g.textAlign = "center"; }
   else if (mode === "pix") { const k = Math.min(1, (s.k ?? 1));
     g.fillStyle = "#e8eaee"; g.font = F(200, 120); g.fillText("02:14", 270, 260);
@@ -43,8 +45,8 @@ export function phone(g, mode, t, s) {
     g.textAlign = "left"; g.fillStyle = "#6b7280"; g.font = F(700, 26); g.fillText("Pix recebido", 175, 410); g.fillStyle = "#14161c"; g.font = F(900, 58); g.fillText("R$ 4.870,00", 60, 540); g.fillStyle = "#6b7280"; g.font = F(500, 24); g.fillText("agora", 60, 600); g.restore(); g.textAlign = "center"; }
   else if (mode === "paid") { g.fillStyle = "#6a2ad0"; g.fillRect(0, 70, 540, 150); g.fillStyle = "#fff"; g.font = F(800, 40); g.fillText("Meu Banco", 270, 165);
     [["Fatura do cartão", "PAGA"], ["Dívidas da família", "QUITADAS"]].forEach(([a, b], i) => { const y = 300 + i * 300; g.fillStyle = "#1f232c"; rr(g, 30, y, 480, 250, 26); g.fill(); g.fillStyle = "#aab0bc"; g.font = F(700, 30); g.fillText(a, 270, y + 70); g.fillStyle = "#2fb36a"; g.font = F(900, 70); g.fillText("✓ " + b, 270, y + 170); }); }
-  else if (mode === "stories") { photo(g, 0, 0, 540, 1080, s.story || "beach"); g.fillStyle = "rgba(255,255,255,0.85)"; for (let i = 0; i < 4; i++) g.fillRect(20 + i * 128, 24, 118, 6);
-    g.textAlign = "left"; const cm = s.comments || []; cm.forEach((c, i) => { const y = 740 + i * 90; g.fillStyle = "rgba(0,0,0,0.55)"; rr(g, 24, y, 30 + c.length * 16, 66, 33); g.fill(); g.fillStyle = "#fff"; g.font = F(700, 28); g.fillText(c, 44, y + 44); }); g.textAlign = "center"; }
+  else if (mode === "stories") { photo(g, 0, 0, 540, 1080, s.story || "beach"); if (s.who) personOn(g, s.who, s.whoOpts || { mode: "stand", expr: "grin", seed: 5 }, 40, 300, 460, 767); g.fillStyle = "rgba(255,255,255,0.85)"; for (let i = 0; i < 4; i++) g.fillRect(20 + i * 128, 24, 118, 6);
+    g.textAlign = "left"; const cm = s.comments || []; cm.forEach((c, i) => { const y = (s.cy ?? 140) + i * 90; g.fillStyle = "rgba(0,0,0,0.55)"; rr(g, 24, y, 30 + c.length * 16, 66, 33); g.fill(); g.fillStyle = "#fff"; g.font = F(700, 28); g.fillText(c, 44, y + 44); }); g.textAlign = "center"; }
   else if (mode === "blocked") { g.fillStyle = "#6a2ad0"; g.fillRect(0, 70, 540, 150); g.fillStyle = "#fff"; g.font = F(800, 40); g.fillText("Meu Banco", 270, 165);
     g.fillStyle = "#ff4d4d"; g.beginPath(); g.arc(270, 420, 110, 0, 7); g.fill(); g.fillStyle = "#fff"; rr(g, 215, 400, 110, 90, 12); g.fill(); g.strokeStyle = "#fff"; g.lineWidth = 16; g.beginPath(); g.arc(270, 400, 36, Math.PI, 0); g.stroke();
     g.fillStyle = "#ff4d4d"; g.font = F(900, 52); g.fillText("CONTA", 270, 640); g.fillText("BLOQUEADA", 270, 705); g.fillStyle = "#aab0bc"; g.font = F(600, 26); g.fillText("Por determinação judicial", 270, 770); }
