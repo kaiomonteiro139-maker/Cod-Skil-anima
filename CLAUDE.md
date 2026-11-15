@@ -16,6 +16,14 @@
   e tela final "VOCÊ FICA OU SAI?" com duas opções, para a votação decidir a próxima parte.
   Segue a skill cartoon-audio-short. Código-base do motoboy: `~/shorts/ultima-corrida` (só existe neste container).
 
+# Vídeos "estilo ilustrado" (história em "você", horizontal, YouTube)
+
+Quando o usuário pedir um vídeo **igual ao "Largando Tudo Para Viver de YouTube"**, ou um vídeo **ilustrado**, seguir `docs/ESTILO_ILUSTRADO.md`:
+ilustração 2D com traço grosso e câmera sempre em movimento; personagem fixo (pele branca de boneco e roupa sempre igual);
+luz quente do abajur contra luz fria da tela; partículas brancas caindo; narração em "você" a cerca de 165 ppm, começando no quadro 0
+e quase sem pausas; trilha cerca de 10 dB abaixo da voz; legenda no rodapé em letras normais (palavra falada em amarelo);
+final com pergunta, pedido de inscrição e montagem voltando ao começo.
+
 # Vídeos "estilo POV"
 
 Quando o usuário pedir um vídeo **estilo POV**, seguir o guia em `docs/ESTILO_POV.md`:
