@@ -49,4 +49,4 @@ Quando o usuário pedir **vídeo de animais**, **fábula** ou igual ao "da cobra
 3D com sombreamento de desenho e contorno preto, bichos simples e fofos (olhos brilhando no escuro), câmera sempre em movimento lento,
 corte a cada ~3–4 s; gancho com números ("1 cobra, 300 ratos"), virada por manipulação, escalada com contador ("NOITE 30") e lição no final;
 manchete serifada em CAIXA ALTA no topo (palavra-chave em amarelo/vermelho) + legenda palavra por palavra (cinza → branco, chave em amarelo);
-narrador grave e rápido (~155 ppm) e trilha quase inaudível (~22–25 dB abaixo da voz); final com "manda pra alguém que…". Vertical 1080x1920.
+narrador animado, rápido e bem claro (voz do Claude: `projetos/leao-sem-dentes/tts_animada.py`, cadu 0.9 +1 semitom com brilho; o usuário achou a versão grave lenta demais) e trilha quase inaudível (~22–25 dB abaixo da voz); final com "manda pra alguém que…". Vertical 1080x1920.

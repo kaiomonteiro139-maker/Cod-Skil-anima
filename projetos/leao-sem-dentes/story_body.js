@@ -63,7 +63,7 @@ export function build() {
       cam: push(t, L.L9, L.L10, [P1[0] + 0.4, 1.6, P1[2] + 7.0], [P1[0] + 0.3, 1.25, P1[2]], [P1[0] + 0.4, 1.55, P1[2] + 5.6], [P1[0] + 0.4, 1.25, P1[2]], 52, 47) }; });
   // 10. then kicks — one against the other
   const P2 = [6, 0, 4];
-  shot(L.L10, (t) => { const tk = wt("coices", L.L10), ph = (t - tk) * 2.2, k = t > tk - 0.1 ? Math.max(0, Math.sin(ph * Math.PI)) : 0, k2 = t > tk + 1.3 ? Math.max(0, Math.sin((ph - 1.4) * Math.PI)) : 0;
+  shot(L.L10, (t) => { const tk = wt("coice", L.L10), ph = (t - tk) * 2.2, k = t > tk - 0.1 ? Math.max(0, Math.sin(ph * Math.PI)) : 0, k2 = t > tk + 1.3 ? Math.max(0, Math.sin((ph - 1.4) * Math.PI)) : 0;
     return { light: "day", zebras: [{ pos: [P2[0] - 0.9, 0, P2[2]], yaw: -Math.PI / 2, kick: k }, { pos: [P2[0] + 1.25, 0, P2[2] + 0.2], yaw: Math.PI / 2 + 0.6, kick: k2, rear: 0.4 * k }, { pos: [P2[0] + 4, 0, P2[2] - 3], yaw: 0.4, kick: k2 }, { pos: [P2[0] + 5.6, 0, P2[2] - 3.4], yaw: -2.6, rear: 0.5 * k }],
       impact: k > 0.8 ? [{ pos: [P2[0] + 0.3, 1.2, P2[2] + 0.3], s: 0.6, rot: t * 4 }] : (k2 > 0.8 ? [{ pos: [P2[0] + 4.8, 1.2, P2[2] - 3], s: 0.5 }] : []),
       dust: [0, 1, 2].map((i) => ({ pos: [P2[0] + i * 0.8 - 0.4, 0.25, P2[2] + 0.4], s: 0.9 + 0.3 * Math.sin(t * 3 + i), a: 0.45 * (k + k2) })),

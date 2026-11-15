@@ -13,7 +13,7 @@ HEAD = {  # line id → (line 1, line 2, colour of line 2)
   "L19": ("MANDA PRA", "ALGUÉM.", GOLD) }
 BADGE = {"L9": "1", "L10": "10", "L11": "50", "L12": "50"}
 KEY = {"leão", "dentes", "zebras", "zebra", "mordida", "velho", "duas", "mil", "conversar", "sussurrou", "rio", "morro", "água", "verdade", "ninguém", "empurrão",
-       "coices", "outra", "noite", "machucada", "esperava", "listras", "iguais", "inimigo", "mesmo", "problema", "gordo", "começado", "derrota", "lado", "fofoca", "manada", "brigue", "brigou"}
+       "coices", "coice", "outra", "noite", "machucada", "esperava", "listras", "iguais", "inimigo", "mesmo", "problema", "gordo", "começado", "derrota", "lado", "fofoca", "manada", "brigue", "brigou"}
 def ts(x): h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f"{h}:{m:02d}:{s:05.2f}"
 core = lambda w: re.sub(r"[^\wÀ-ú]", "", w.lower())
 head = """[Script Info]

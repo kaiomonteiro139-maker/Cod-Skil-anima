@@ -36,7 +36,7 @@ for i in range(24): place(sfx, thump(110 + (i % 3) * 20, 0.08), L["L4"] + i * 0.
 for x in [L["L6"] + 1.4, L["L7"] + 0.4]: place(sfx, bp(rng.standard_normal(int(1.0 * SR)), 2500, 8000) * env(int(1.0 * SR), 0.2, 0.4), x, 0.8)   # whisper hiss
 place(sfx, boom(), L["L8"], 0.8)
 te = wt("empurrão", L["L9"]); place(sfx, thump(80, 0.4), te, 1.4); place(sfx, whoosh(0.4), te - 0.2, 0.8)
-tk = wt("coices", L["L10"])
+tk = wt("coice", L["L10"])
 for i in range(4): place(sfx, thump(95, 0.25), tk + i * 0.46, 1.4); place(sfx, whoosh(0.25, 600, 4000), tk - 0.12 + i * 0.46, 0.6)
 place(sfx, thump(40, 1.2), L["L13"], 0.7); place(sfx, thump(40, 1.2), L["L16"], 0.7)
 place(sfx, bp(tone(np.linspace(75, 60, int(1.6 * SR)), 1.6, "saw"), 50, 600) * env(int(1.6 * SR), 0.3, 0.6), wt("derrota", L["L17"]) - 0.2, 1.4)   # low growl
