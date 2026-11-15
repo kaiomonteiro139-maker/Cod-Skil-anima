@@ -67,6 +67,13 @@ export function phone(g, mode, t, s) {
     g.fillStyle = "#fff"; g.font = F(800, 52); g.fillText(s.name || "Banco", 270, 300); const pr = 1 + 0.08 * Math.sin(t * 9);
     g.fillStyle = s.avatar || "#6a2ad0"; g.beginPath(); g.arc(270, 500, 110 * pr, 0, 7); g.fill(); g.fillStyle = "#fff"; g.font = F(900, 110); g.fillText((s.name || "B")[0], 270, 540);
     for (const [x, c] of [[140, "#e5483b"], [400, "#2fb36a"]]) { g.fillStyle = c; g.beginPath(); g.arc(x, 880, 64, 0, 7); g.fill(); } g.fillStyle = "#fff"; g.font = F(900, 50); g.fillText("✕", 140, 898); g.fillText("✆", 400, 898); }
+  else if (mode === "loto") {                                          // lottery results (fictional app), balls drop in with s.k (0..6), prize with s.win
+    g.fillStyle = "#14161c"; g.fillRect(0, 60, 540, 1020); g.fillStyle = "#1f9a5a"; g.fillRect(0, 60, 540, 150); g.fillStyle = "#fff"; g.font = F(900, 44); g.fillText("SORTE GRANDE", 270, 135); g.font = F(600, 24); g.fillText("Resultado • Concurso 2841", 270, 180);
+    const N = [7, 13, 22, 38, 41, 59], k = s.k ?? 6;
+    N.forEach((n, i) => { const x = 95 + (i % 3) * 175, y = 285 + Math.floor(i / 3) * 135, q = Math.max(0, Math.min(1, k - i)); if (q <= 0) return; const r = 56 * (q < 1 ? 0.6 + 0.4 * q + 0.15 * Math.sin(q * Math.PI) : 1);
+      g.fillStyle = "#2fb36a"; g.beginPath(); g.arc(x, y, r, 0, 7); g.fill(); g.strokeStyle = "#fff"; g.lineWidth = 6; g.stroke(); g.fillStyle = "#fff"; g.font = F(900, 52 * r / 56); g.fillText(String(n).padStart(2, "0"), x, y + 18 * r / 56); });
+    if (s.win) { const q = Math.min(1, s.win); g.save(); g.globalAlpha = q; g.fillStyle = "#ffd23f"; rr(g, 30, 485, 480, 235, 30); g.fill(); g.fillStyle = "#14161c"; g.font = F(900, 38); g.fillText("SEUS 6 NÚMEROS!", 270, 545);
+      g.font = F(700, 26); g.fillText("1 ganhador", 270, 590); g.font = F(900, 56); g.fillText("R$ 40.000.000", 270, 668); g.font = F(700, 24); g.fillText("prêmio principal", 270, 705); g.restore(); } }
   else if (mode === "empty") { g.fillStyle = "#e8eaee"; g.font = F(200, 120); g.fillText("19:02", 270, 260); g.fillStyle = "#7a808c"; g.font = F(600, 32); g.fillText("Nenhuma notificação", 270, 560); }
 }
 export function monitor(g, mode, t, s) {
