@@ -48,3 +48,11 @@ Frases curtíssimas, uma ideia por frase, quase sem pausa (pausas médias de 0,3
 - Voz: a do usuário (ElevenLabs) ou a minha (Piper "cadu", mais grave e um pouco mais lenta que a dos reels).
 - Legenda: palavra a palavra no estilo da seção 4 (cinza → branco, chave em amarelo) + manchete serifada no topo.
 - 1080x1920, 30 fps; duração de 60–150 s (ou 30–60 s para versões curtas).
+
+## 7. Primeiro vídeo feito neste estilo
+`projetos/leao-sem-dentes/` ("O leão sem dentes", 67 s). Lições práticas:
+- Voz Piper "cadu" grave (-2 semitons, length 0.98) com **6 tomadas por frase**, escolhendo a que a transcrição entende melhor (`tts_grave.py`).
+- Evitar "as zebras"/"mais zebras": o "s + z" vira "hebras". Reescrever a frase ("a manada do rio").
+- Bichos 3D feitos de esferas, cápsulas e cilindros; listras como faixas em volta das cápsulas (nunca em esfera, que vira "bola de praia").
+- Manada grande com instâncias (corpo, pescoço e cabeça); vista de cima vira "pinos", então usar ângulo alto inclinado.
+- Câmera nunca atrás do bicho que fala: perfil ou três quartos de frente. Juba com volume atrás da cabeça.
