@@ -207,7 +207,11 @@ const MX = 160, MKT = room(MX, 7, 6, 3.2, TX.wallCream, TX.floorTiles, 0xe8e8e2)
   for (const z of [-1.8, 0.4]) { for (const x of [-1.8, 1.8]) { tbox(2.8, 1.9, 0.55, toon(0xd8d8d0), x, 0, z, g); for (let r = 0; r < 4; r++) { let xx = -1.3; while (xx < 1.3) { const w = 0.12 + rnd() * 0.1, h = 0.18 + rnd() * 0.2; tbox(w, h, 0.3, toon(cols[Math.floor(rnd() * cols.length)]), x + xx + w / 2, 0.1 + r * 0.46, z + 0.15, g); xx += w + 0.02; } } } }
   add(new THREE.PlaneGeometry(2.0, 0.5), toon(0xffffff, sign(["MERCADO BOM PREÇO"], { w: 1024, h: 256, size: 90, bg: "#e5483b", fg: "#ffffff" })), 0, 2.6, -2.98, g);
   for (let i = 0; i < 3; i++) tbox(0.5, 0.35, 0.4, toon(0xb08a5a), -0.3 + i * 0.1, i * 0.35 * 0 + (i === 2 ? 0.35 : 0), 1.3 + (i === 2 ? 0 : i * 0.45), g);
-  for (const x of [-2, 0, 2]) { tbox(1.4, 0.05, 0.18, basic(0xf8fbff), x, 3.12, 0, g); } }
+  for (const x of [-2, 0, 2]) { tbox(1.4, 0.05, 0.18, basic(0xf8fbff), x, 3.12, 0, g); }
+  // checkout counter at the end of the aisle (cashier stands behind it at x ≈ +3.0)
+  tbox(0.6, 0.95, 1.3, toon(0xffffff, TX.dark), 2.55, 0, -0.7, g); tbox(0.64, 0.05, 1.34, toon(0xd8d2c4), 2.55, 0.95, -0.7, g);
+  tbox(0.3, 0.22, 0.3, toon(0x2a2a30), 2.6, 1.0, -0.3, g); tbox(0.26, 0.16, 0.03, toon(0x9fd8b0), 2.6, 1.25, -0.42, g);
+  add(new THREE.PlaneGeometry(0.9, 0.3), toon(0xffffff, sign(["CAIXA 1"], { w: 512, h: 170, size: 90, bg: "#2f8a4a", fg: "#ffffff" })), 2.55, 2.1, -0.7, g).rotation.y = -Math.PI / 2; }
 plight(0xf4f6ff, 5, 10, MX, 2.8, 0.5, "mkt", true);
 
 // ---------- POV phone with hands (child of the camera) ----------
@@ -248,6 +252,8 @@ const OUT = {
   c1: { jacket: "#5a6a8a", pants: "#2a2a30", boots: "#2a2a30", hat: "cap", cap: "#2a2a30", skin: "#c99067" },
   c2: { jacket: "#8a3a3a", pants: "#2a2a30", boots: "#2a2a30", hat: "hair", hair: "#141414", skin: "#e8c0a0" },
   c3: { jacket: "#3a6a5a", pants: "#2a2a30", boots: "#2a2a30", hat: "longhair", hair: "#5a3a22", skin: "#8a5534" },
+  kid: { jacket: "#f08a2c", pants: "#3b5b9a", boots: "#f4f1ea", hat: "hair", hair: "#2a1a12", skin: "#c99067", build: "kid" },
+  seg: { jacket: "#22252c", pants: "#1c1c22", boots: "#141414", hat: "cap", cap: "#22252c", skin: "#8a5534", build: "stout", buttons: "#c9a24a" },
   v1: { jacket: "#c9a66b", pants: "#3a3a48", boots: "#5a3a2a", hat: "hair", hair: "#9a9a9a", skin: "#c99067", build: "stout" },
   v2: { jacket: "#6fa8c9", dress: "#6fa8c9", pants: "#3a3a48", boots: "#5a3a2a", hat: "longhair", hair: "#2a1a12", skin: "#e8c0a0" },
 };
@@ -282,6 +288,11 @@ const FXD = {
     g.fillStyle = "#14161c"; g.textAlign = "left"; const L = [["700 26px", "Paciente: Ana, 6 anos"], ["700 26px", "Cirurgia cardíaca"], ["900 34px", "R$ 50.000,00"], ["900 26px", "PAGAMENTO: AMANHÃ"], ["700 24px", "Responsável: Márcio"], ["700 24px", "(11) 9 7302-4418"]];
     L.forEach(([f, x], i) => { g.font = f + " 'DejaVu Sans'"; g.fillStyle = i === 3 ? "#c0392b" : "#14161c"; g.fillText(x, -175, -120 + i * 62); });
     if (t > 0) { const k = Math.min(1, t); g.strokeStyle = "rgba(229,72,59,0.9)"; g.lineWidth = 7; g.beginPath(); g.ellipse(-20, 58, 185 * k, 30, 0, 0, 7); g.stroke(); } g.restore(); },
+  milk: (g, t) => { g.lineJoin = "round"; g.strokeStyle = INK; g.lineWidth = 10; g.fillStyle = "#f4f6fa"; g.beginPath(); g.moveTo(146, 120); g.lineTo(146, 420); g.ellipse(256, 420, 110, 34, 0, Math.PI, 0, true); g.lineTo(366, 120); g.fill(); g.stroke();
+    g.fillStyle = "#2d6fd0"; g.fillRect(151, 210, 210, 150); g.fillStyle = "#fff"; g.font = "900 46px 'DejaVu Sans'"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText("LEITE", 256, 262); g.font = "800 28px 'DejaVu Sans'"; g.fillText("EM PÓ", 256, 312);
+    g.fillStyle = "#c9ccd4"; g.beginPath(); g.ellipse(256, 120, 110, 34, 0, 0, 7); g.fill(); g.stroke(); },
+  milkPrice: (g, t) => { FXD.milk(g, t); const k = Math.min(1, t * 3), s = 0.6 + 0.4 * k + 0.12 * Math.sin(k * Math.PI); g.save(); g.translate(360, 400); g.rotate(-0.18); g.scale(s, s);
+    g.fillStyle = "#ffd23f"; g.strokeStyle = INK; g.lineWidth = 8; g.beginPath(); g.roundRect(-120, -50, 240, 100, 18); g.fill(); g.stroke(); g.fillStyle = INK; g.font = "900 54px 'DejaVu Sans'"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText("R$ 23", 0, 4); g.restore(); },
 };
 const SCREENS = {};
 import("./screens.js").then((m) => Object.assign(SCREENS, m));
