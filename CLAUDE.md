@@ -53,3 +53,8 @@ Quando o usuário pedir **vídeo de animais**, **fábula** ou igual ao "da cobra
 corte a cada ~3–4 s; gancho com números ("1 cobra, 300 ratos"), virada por manipulação, escalada com contador ("NOITE 30") e lição no final;
 manchete serifada em CAIXA ALTA no topo (palavra-chave em amarelo/vermelho) + legenda palavra por palavra (cinza → branco, chave em amarelo);
 narrador animado, rápido e bem claro (voz do Claude: `projetos/leao-sem-dentes/tts_animada.py`, cadu 0.9 +1 semitom com brilho; o usuário achou a versão grave lenta demais) e trilha quase inaudível (~22–25 dB abaixo da voz); final com "manda pra alguém que…". Vertical 1080x1920.
+
+# Biblioteca de efeitos sonoros do usuário
+Em `sfx/` (catálogo em `sfx/README.md`, vindos do repositório Gta): fahh, vine_boom, metal_pipe, dramatic_sting, suspense_hit, heartbeat,
+bass_drop, record_scratch, explosion, roblox_oof, bruh, cartoon_boing (WAV 48 kHz). Usar pelo nome quando o usuário pedir
+(ex.: "vine boom na revelação") e preferir estes aos efeitos sintetizados. Mixar abaixo da voz, sem cobrir a fala.
