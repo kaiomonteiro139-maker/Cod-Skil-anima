@@ -1,0 +1,11 @@
+[
+["L1", "Você acha uma mochila caída na rua.", 0.2],
+["L2", "Abre... e tem cinquenta mil reais lá dentro!", 0.3],
+["L3", "Ninguém viu. Nenhuma câmera.", 0.3],
+["L4", "Aí você acha um papel no fundo:", 0.15],
+["L5", "um recibo de hospital. Cirurgia de uma menina de seis anos.", 0.15],
+["L6", "Pagamento: amanhã.", 0.35],
+["L7", "Cinquenta mil, que mudariam a sua vida...", 0.2],
+["L8", "ou que salvam a vida dela.", 0.4],
+["L9", "O que você faz?", 0.2]
+]

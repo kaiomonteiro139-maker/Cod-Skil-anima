@@ -1,0 +1,620 @@
+[
+{
+"i": 0,
+"s": 0.0,
+"e": 2.38,
+"t": "Você está prestes a trancar a faculdade."
+},
+{
+"i": 1,
+"s": 2.86,
+"e": 4.2,
+"t": "E não é para trabalhar."
+},
+{
+"i": 2,
+"s": 4.8,
+"e": 13.38,
+"t": "Aos vinte e um anos, você está no terceiro período de Administração, com três mensalidades atrasadas e uma dívida no cartão que só cresce."
+},
+{
+"i": 3,
+"s": 13.8,
+"e": 17.48,
+"t": "Todo mês, a mesma conversa com a sua mãe na mesa da cozinha."
+},
+{
+"i": 4,
+"s": 17.86,
+"e": 21.48,
+"t": "Ela faz as contas, suspira e diz que vai dar um jeito."
+},
+{
+"i": 5,
+"s": 22.1,
+"e": 23.12,
+"t": "Mas nunca dá."
+},
+{
+"i": 6,
+"s": 23.68,
+"e": 26.16,
+"t": "Até que uma amiga antiga aparece no seu feed."
+},
+{
+"i": 7,
+"s": 26.16,
+"e": 30.4,
+"t": "Viagem para Cancún, bolsa nova, carro na garagem."
+},
+{
+"i": 8,
+"s": 30.56,
+"e": 32.6,
+"t": "Você pergunta onde ela está trabalhando."
+},
+{
+"i": 9,
+"s": 32.98,
+"e": 35.32,
+"t": "Ela só responde: \"Vem tomar um café comigo.\""
+},
+{
+"i": 10,
+"s": 36.0,
+"e": 38.12,
+"t": "Naquele café, ela conta tudo."
+},
+{
+"i": 11,
+"s": 38.66,
+"e": 39.58,
+"t": "Não é um emprego."
+},
+{
+"i": 12,
+"s": 39.88,
+"e": 40.62,
+"t": "É um esquema."
+},
+{
+"i": 13,
+"s": 40.98,
+"e": 44.44,
+"t": "Golpes pelo celular, contra pessoas que você nunca vai ver."
+},
+{
+"i": 14,
+"s": 44.86,
+"e": 47.42,
+"t": "\"Ninguém sai prejudicado de verdade\", ela diz."
+},
+{
+"i": 15,
+"s": 47.84,
+"e": 49.02,
+"t": "\"O banco devolve tudo.\""
+},
+{
+"i": 16,
+"s": 49.66,
+"e": 52.44,
+"t": "Você volta para casa e não consegue dormir."
+},
+{
+"i": 17,
+"s": 52.94,
+"e": 53.9,
+"t": "Olha para o teto."
+},
+{
+"i": 18,
+"s": 54.32,
+"e": 55.96,
+"t": "Olha para o boleto em cima da mesa."
+},
+{
+"i": 19,
+"s": 55.96,
+"e": 58.32,
+"t": "E manda uma mensagem: \"Tô dentro.\""
+},
+{
+"i": 20,
+"s": 58.9,
+"e": 61.56,
+"t": "Na semana seguinte, você tranca a matrícula."
+},
+{
+"i": 21,
+"s": 61.94,
+"e": 65.5,
+"t": "Para a sua família, você diz que conseguiu um emprego em marketing digital."
+},
+{
+"i": 22,
+"s": 66.04,
+"e": 67.88,
+"t": "A sua mãe chora de orgulho."
+},
+{
+"i": 23,
+"s": 68.36,
+"e": 69.74,
+"t": "O primeiro dia é o pior."
+},
+{
+"i": 24,
+"s": 70.36,
+"e": 71.42,
+"t": "As suas mãos tremem."
+},
+{
+"i": 25,
+"s": 71.74,
+"e": 76.1,
+"t": "O coração bate tão forte que você acha que o prédio inteiro consegue ouvir."
+},
+{
+"i": 26,
+"s": 76.54,
+"e": 78.42,
+"t": "E então, o celular vibra."
+},
+{
+"i": 27,
+"s": 78.84,
+"e": 79.78,
+"t": "O dinheiro caiu."
+},
+{
+"i": 28,
+"s": 79.78,
+"e": 83.4,
+"t": "Você passa a noite inteira olhando para aquele número na tela."
+},
+{
+"i": 29,
+"s": 83.76,
+"e": 86.92,
+"t": "Era mais do que você ganharia em dois meses de estágio."
+},
+{
+"i": 30,
+"s": 87.42,
+"e": 89.92,
+"t": "A culpa dura exatamente um dia."
+},
+{
+"i": 31,
+"s": 90.36,
+"e": 92.8,
+"t": "No segundo mês, as suas mãos já não tremem."
+},
+{
+"i": 32,
+"s": 93.16,
+"e": 95.18,
+"t": "No terceiro, você paga o cartão."
+},
+{
+"i": 33,
+"s": 95.58,
+"e": 100.12,
+"t": "No quarto, quita todas as dívidas da sua mãe e diz que foi um bônus da empresa."
+},
+{
+"i": 34,
+"s": 100.62,
+"e": 104.64,
+"t": "Ela te abraça na cozinha e diz que sempre soube que você ia longe."
+},
+{
+"i": 35,
+"s": 105.16,
+"e": 108.02,
+"t": "Você começa a comprar coisas que nunca imaginou ter."
+},
+{
+"i": 36,
+"s": 108.02,
+"e": 113.88,
+"t": "Roupas de marca, um celular novo, viagens de fim de semana, um carro financiado."
+},
+{
+"i": 37,
+"s": 114.3,
+"e": 117.06,
+"t": "Os seus stories ficam cada vez mais bonitos."
+},
+{
+"i": 38,
+"s": 117.54,
+"e": 120.9,
+"t": "Os antigos colegas da faculdade comentam: \"Que vida, hein?\""
+},
+{
+"i": 39,
+"s": 121.32,
+"e": 124.26,
+"t": "E você aprende a não pensar em quem está do outro lado."
+},
+{
+"i": 40,
+"s": 124.64,
+"e": 127.34,
+"t": "Para você, eles são só nomes numa planilha."
+},
+{
+"i": 41,
+"s": 127.7,
+"e": 133.94,
+"t": "Até que, numa terça-feira à noite, você está jantando com a sua mãe, e a televisão está ligada no jornal."
+},
+{
+"i": 42,
+"s": 134.34,
+"e": 137.4,
+"t": "Uma senhora de setenta e três anos aparece chorando."
+},
+{
+"i": 43,
+"s": 137.4,
+"e": 141.54,
+"t": "Ela perdeu todo o dinheiro que tinha guardado para a cirurgia do marido."
+},
+{
+"i": 44,
+"s": 141.92,
+"e": 143.62,
+"t": "A repórter fala o nome dela."
+},
+{
+"i": 45,
+"s": 143.98,
+"e": 145.1,
+"t": "E você reconhece."
+},
+{
+"i": 46,
+"s": 145.42,
+"e": 147.24,
+"t": "Aquele nome estava na sua planilha."
+},
+{
+"i": 47,
+"s": 147.68,
+"e": 153.66,
+"t": "A sua mãe balança a cabeça e diz: \"Que tipo de pessoa tem coragem de fazer isso com uma senhora?\""
+},
+{
+"i": 48,
+"s": 154.04,
+"e": 156.32,
+"t": "Você não consegue terminar o jantar."
+},
+{
+"i": 49,
+"s": 156.74,
+"e": 160.26,
+"t": "Naquela noite, pela primeira vez, você pensa em parar."
+},
+{
+"i": 50,
+"s": 160.84,
+"e": 163.38,
+"t": "Mas no dia seguinte chega a parcela do carro."
+},
+{
+"i": 51,
+"s": 163.38,
+"e": 164.9,
+"t": "E a fatura das viagens."
+},
+{
+"i": 52,
+"s": 165.32,
+"e": 166.36,
+"t": "E você continua."
+},
+{
+"i": 53,
+"s": 166.36,
+"e": 169.12,
+"t": "Só que alguma coisa mudou."
+},
+{
+"i": 54,
+"s": 169.4,
+"e": 171.8,
+"t": "Agora você troca de número toda semana."
+},
+{
+"i": 55,
+"s": 172.36,
+"e": 174.38,
+"t": "Olha pela janela antes de sair de casa."
+},
+{
+"i": 56,
+"s": 174.86,
+"e": 178.14,
+"t": "Cada carro parado na rua parece estar esperando por você."
+},
+{
+"i": 57,
+"s": 178.68,
+"e": 180.28,
+"t": "Você quase não dorme mais."
+},
+{
+"i": 58,
+"s": 180.94,
+"e": 185.08,
+"t": "O dinheiro continua entrando, mas a paz vai embora junto com ele."
+},
+{
+"i": 59,
+"s": 185.54,
+"e": 188.58,
+"t": "Então, um dia, a sua amiga para de responder."
+},
+{
+"i": 60,
+"s": 189.14,
+"e": 190.12,
+"t": "Os grupos somem."
+},
+{
+"i": 61,
+"s": 190.56,
+"e": 192.38,
+"t": "O número dela não existe mais."
+},
+{
+"i": 62,
+"s": 192.94,
+"e": 195.6,
+"t": "Você tenta se convencer de que ela só trocou de chip."
+},
+{
+"i": 63,
+"s": 195.6,
+"e": 198.44,
+"t": "Mas, no fundo, você sabe."
+},
+{
+"i": 64,
+"s": 198.92,
+"e": 203.0,
+"t": "Três semanas depois, às seis da manhã, alguém bate na porta."
+},
+{
+"i": 65,
+"s": 203.54,
+"e": 204.76,
+"t": "Não é uma batida normal."
+},
+{
+"i": 66,
+"s": 205.3,
+"e": 207.58,
+"t": "Você ouve a voz da sua mãe na sala."
+},
+{
+"i": 67,
+"s": 208.06,
+"e": 208.66,
+"t": "Confusa."
+},
+{
+"i": 68,
+"s": 209.08,
+"e": 209.72,
+"t": "Assustada."
+},
+{
+"i": 69,
+"s": 210.2,
+"e": 213.28,
+"t": "Quando você abre a porta do quarto, vê os policiais."
+},
+{
+"i": 70,
+"s": 213.66,
+"e": 218.16,
+"t": "E vê o rosto da sua mãe, olhando para você como se não te conhecesse."
+},
+{
+"i": 71,
+"s": 218.5,
+"e": 222.28,
+"t": "Eles levam o seu celular, o seu notebook e as chaves do carro."
+},
+{
+"i": 72,
+"s": 222.62,
+"e": 223.96,
+"t": "Na frente dos vizinhos."
+},
+{
+"i": 73,
+"s": 223.96,
+"e": 225.64,
+"t": "Na frente de todo mundo."
+},
+{
+"i": 74,
+"s": 226.08,
+"e": 230.8,
+"t": "Na delegacia, você descobre que o grupo estava sendo investigado havia oito meses."
+},
+{
+"i": 75,
+"s": 231.38,
+"e": 232.52,
+"t": "Cada transferência."
+},
+{
+"i": 76,
+"s": 232.84,
+"e": 233.72,
+"t": "Cada mensagem."
+},
+{
+"i": 77,
+"s": 233.72,
+"e": 234.94,
+"t": "Estava tudo lá."
+},
+{
+"i": 78,
+"s": 235.36,
+"e": 236.9,
+"t": "As suas contas são bloqueadas."
+},
+{
+"i": 79,
+"s": 237.38,
+"e": 238.84,
+"t": "O carro é apreendido."
+},
+{
+"i": 80,
+"s": 239.16,
+"e": 242.46,
+"t": "E os amigos que comentavam nos seus stories desaparecem."
+},
+{
+"i": 81,
+"s": 242.88,
+"e": 243.7,
+"t": "Ninguém liga."
+},
+{
+"i": 82,
+"s": 244.0,
+"e": 245.94,
+"t": "Ninguém pergunta como você está."
+},
+{
+"i": 83,
+"s": 246.36,
+"e": 249.48,
+"t": "A única pessoa que aparece na audiência é a sua mãe."
+},
+{
+"i": 84,
+"s": 249.94,
+"e": 250.92,
+"t": "Ela não diz nada."
+},
+{
+"i": 85,
+"s": 251.24,
+"e": 252.38,
+"t": "Só segura a sua mão."
+},
+{
+"i": 86,
+"s": 252.38,
+"e": 256.04,
+"t": "O advogado explica que você vai responder por estelionato."
+},
+{
+"i": 87,
+"s": 256.04,
+"e": 259.24,
+"t": "E que as vítimas têm o direito de receber o dinheiro de volta."
+},
+{
+"i": 88,
+"s": 259.7,
+"e": 262.66,
+"t": "Tudo o que você gastou, agora você deve."
+},
+{
+"i": 89,
+"s": 263.12,
+"e": 266.48,
+"t": "Entre os nomes do processo, está o daquela senhora do jornal."
+},
+{
+"i": 90,
+"s": 266.88,
+"e": 269.1,
+"t": "Todo aquele dinheiro durou oito meses."
+},
+{
+"i": 91,
+"s": 269.72,
+"e": 274.34,
+"t": "A dívida com a justiça, e com a sua consciência, vai durar muitos anos."
+},
+{
+"i": 92,
+"s": 274.94,
+"e": 278.0,
+"t": "Hoje, você trabalha num emprego comum, ganhando pouco."
+},
+{
+"i": 93,
+"s": 278.0,
+"e": 282.16,
+"t": "E uma parte de tudo o que você recebe vai direto para as vítimas."
+},
+{
+"i": 94,
+"s": 282.66,
+"e": 285.72,
+"t": "Às vezes, você passa em frente à faculdade que trancou."
+},
+{
+"i": 95,
+"s": 285.72,
+"e": 291.32,
+"t": "E pensa que, se tivesse aguentado só mais um pouco, a sua história podia ter sido outra."
+},
+{
+"i": 96,
+"s": 291.76,
+"e": 293.32,
+"t": "Você queria uma vida fácil."
+},
+{
+"i": 97,
+"s": 293.7,
+"e": 296.26,
+"t": "Mas descobriu que não existe dinheiro fácil."
+},
+{
+"i": 98,
+"s": 296.76,
+"e": 299.08,
+"t": "Só existe dinheiro que alguém perdeu."
+},
+{
+"i": 99,
+"s": 299.36,
+"e": 301.86,
+"t": "E você, conhece alguém que já caiu num golpe?"
+},
+{
+"i": 100,
+"s": 302.26,
+"e": 303.28,
+"t": "Conta aqui nos comentários."
+},
+{
+"i": 101,
+"s": 303.82,
+"e": 305.64,
+"t": "Essa história pode proteger alguém."
+},
+{
+"i": 102,
+"s": 305.64,
+"e": 309.74,
+"t": "E se inscreve no canal para acompanhar mais histórias em POV."
+}
+]
