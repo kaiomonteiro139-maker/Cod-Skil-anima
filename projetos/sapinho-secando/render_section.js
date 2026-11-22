@@ -1,0 +1,5 @@
+  SUNS.scale.setScalar(26 + Math.sin(t * 4) * 1.5); const pr = 0.55 + 0.9 * (st.pond ?? 0); POND.scale.set(pr * 1.2, pr, 1); POND2.scale.set(pr * 1.2, pr, 1);
+  if (st.frog) { poseFrog(st.frog, t); SWEAT.forEach((d, i) => { const ph = (t * 0.9 + i / 3) % 1; d.visible = !!st.frog.sweat; d.position.set(st.frog.pos[0] + 0.15 * (i - 1), 0.62 - ph * 0.4, st.frog.pos[2] + 0.28); }); } else FROG.g.visible = false;
+  const cl = st.cloud; CLOUD.visible = !!cl; RAIN.visible = !!(cl && cl.rain);
+  if (cl) { CLOUD.position.set(0.25, 2.2 + (1 - Math.min(1, cl.k * 2)) * 1.5, 0.75); CLOUD.scale.setScalar(Math.max(0.01, Math.min(1, cl.k * 2)));
+    if (cl.rain) { const a = RAIN.geometry.attributes.position.array; for (let i = 0; i < a.length / 6; i++) { const x = 0.25 + Math.sin(i * 12.9898) * 0.6, z = 0.75 + Math.cos(i * 4.1) * 0.35, ph = (t * 1.6 + (i * 0.618) % 1) % 1, y = 2.0 - ph * 2.0; a[i * 6] = x; a[i * 6 + 1] = y; a[i * 6 + 2] = z; a[i * 6 + 3] = x; a[i * 6 + 4] = y + 0.15; a[i * 6 + 5] = z; } RAIN.geometry.attributes.position.needsUpdate = true; } }
