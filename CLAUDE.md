@@ -58,3 +58,8 @@ narrador animado, rápido e bem claro (voz do Claude: `projetos/leao-sem-dentes/
 Em `sfx/` (catálogo em `sfx/README.md`, vindos do repositório Gta): fahh, vine_boom, metal_pipe, dramatic_sting, suspense_hit, heartbeat,
 bass_drop, record_scratch, explosion, roblox_oof, bruh, cartoon_boing (WAV 48 kHz). Usar pelo nome quando o usuário pedir
 (ex.: "vine boom na revelação") e preferir estes aos efeitos sintetizados. Mixar abaixo da voz, sem cobrir a fala.
+
+# Vídeos "E se você…" (curiosidade, com o rapaz em 3D)
+- Começar **direto com a narração** (voz no começo do vídeo, sem 0,6 s de silêncio), **sem áudio de meme** (nada de fahh, vine boom, bruh etc.).
+  Só música baixa e efeitos tonais discretos. Etiquetas brancas com bolinha vermelha para os fatos, legenda palavra por palavra e "+ Seguir" no final.
+- Projetos-base: `projetos/e-se-gelo`, `projetos/e-se-buraco`, `projetos/e-se-espaco` (mesmo personagem: casaco vermelho, gorro azul).
