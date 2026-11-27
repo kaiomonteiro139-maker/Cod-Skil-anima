@@ -1,4 +1,4 @@
-# usage: python3 make_thumb.py <quadro.jpg> <saida.jpg> "LINHA 1" "LINHA 2" [--longo]
+# usage: python3 make_thumb.py <quadro.jpg> <saida.jpg> "LINHA 1" "LINHA 2" [--longo] [--baixo]  (--baixo: texto no rodapé)
 # Thumbnail do canal: quadro do vídeo escurecido nas bordas + texto grande (branco/amarelo, contorno preto) + selo vermelho.
 import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
@@ -17,6 +17,7 @@ def fit(txt, maxw, size):
         size -= 4
     return ImageFont.truetype(F, size)
 y = int(H * (0.08 if not longo else 0.06))
+if "--baixo" in sys.argv: y = int(H * (0.62 if longo else 0.70))
 for txt, col in ((l1, (255, 255, 255)), (l2, (255, 214, 40))):
     f = fit(txt, W * 0.9, int(H * (0.085 if not longo else 0.16))); tw = dr.textlength(txt, font=f)
     dr.text(((W - tw) / 2, y), txt, font=f, fill=col, stroke_width=max(6, f.size // 9), stroke_fill=(0, 0, 0)); y += int(f.size * 1.15)
