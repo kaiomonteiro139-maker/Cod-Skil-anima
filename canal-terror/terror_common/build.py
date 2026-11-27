@@ -12,4 +12,9 @@ s = s.replace("far: { value: 100 }", "far: { value: 400 }").replace("0.02, 100);
 old = 'g.fillStyle = e.bg || "#ffd23f"; rr(g, -tw / 2, -bh / 2, tw, bh, 24 * U); g.fill(); g.lineWidth = 7 * U; g.strokeStyle = "#140c10"; g.stroke(); g.fillStyle = "#140c10"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(e.text, 0, 4 * U);'
 new = 'if (e.label) { const tw2 = tw + 40 * U; g.fillStyle = "#fff"; rr(g, -tw2 / 2, -bh / 2, tw2, bh, bh / 2); g.fill(); g.lineWidth = 8 * U; g.strokeStyle = "#e5323f"; g.stroke(); g.fillStyle = "#e5323f"; g.beginPath(); g.arc(-tw2 / 2 + 45 * U, 0, 13 * U, 0, 7); g.fill(); g.fillStyle = "#140c10"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(e.text, 22 * U, 4 * U); } else { ' + old + ' }'
 assert old in s; s = s.replace(old, new)
+s = s.replace("vig: { value: 0.35 }, red: { value: 0 } }", "vig: { value: 0.35 }, red: { value: 0 }, sepia: { value: 0 } }")
+s = s.replace("uniform float near, far, inkR, vig, red;", "uniform float near, far, inkR, vig, red, sepia;")
+s = s.replace("c = mix(c, vec3(0.9, 0.1, 0.1), red * vg * 0.6); gl_FragColor", "c = mix(c, vec3(0.9, 0.1, 0.1), red * vg * 0.6); float lum = dot(c, vec3(0.3, 0.59, 0.11)); c = mix(c, vec3(lum * 1.08, lum * 0.93, lum * 0.72), sepia); gl_FragColor")
+s = s.replace("post.uniforms.red.value = st.red ?? 0;", "post.uniforms.red.value = st.red ?? 0; post.uniforms.sepia.value = st.sepia ?? 0;")
+assert "sepia.value" in s and "lum * 1.08" in s
 open(D + '/web/main.js', 'w').write(s); print("built", D)
