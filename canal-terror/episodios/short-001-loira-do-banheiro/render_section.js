@@ -1,0 +1,6 @@
+  const lt = st.light ?? 1; TUBES.forEach((tb, i) => { const f = lt * (st.flicker ? (Math.sin(t * 37 + i * 3) > -0.2 && Math.sin(t * 11.3 + i) > -0.7 ? 1 : 0.08) : 1); tb.L0.intensity = 1.4 * f; tb.m.material.color.setHex(f > 0.5 ? 0xe8fff0 : 0x2a3430); });
+  HEMI.intensity = 0.25 + 0.55 * lt; sun.intensity = 0.15 + 0.85 * lt;
+  STALLS.forEach((s, i) => { s.pv.rotation.y = (st.doors?.[i] ?? 0); s.wat.rotation.z = st.flush === i ? t * 12 : 0; s.wat.material.color.setHex(st.flush === i ? 0x4a90c0 : 0x7ab0c8); });
+  { const a = DUST.geometry.attributes.position.array, b = DUST.userData.base; for (let i = 0; i < a.length / 3; i++) a[i * 3 + 1] = ((b[i * 3 + 1] + t * 0.05 + Math.sin(t + i) * 0.05) % 3.2); DUST.geometry.attributes.position.needsUpdate = true; }
+  if (st.guy) { poseGuy(st.guy, t); GUY.red.opacity = 1; GUY.g.scale.setScalar(0.8); } else GUY.g.visible = false;
+  GHOST.g.visible = (st.ghost?.k ?? 0) > 0; if (GHOST.g.visible) { const G = st.ghost; GHOST.g.position.set(G.pos[0], G.pos[1] + Math.sin(t * 1.5) * 0.03, G.pos[2]); GHOST.g.rotation.y = G.yaw ?? 0; GHOST.head.rotation.z = Math.sin(t * 0.8) * 0.12 + (G.tilt ?? 0); GHOST.glow.material.opacity = 0.35 * G.k; GHOST.g.traverse((o) => { if (o.isMesh) { o.material.transparent = true; o.material.opacity = Math.min(1, G.k); } }); }
