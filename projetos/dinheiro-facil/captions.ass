@@ -1,0 +1,845 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,DejaVu Sans,66,&H00FFFFFF,&H00FFFFFF,&H00100C0A,&H80000000,1,0,0,0,100,100,0,0,1,5,2,2,80,80,150,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} está prestes a
+Dialogue: 0,0:00:00.24,0:00:00.50,Cap,,0,0,0,,Você {\c&H00E6FF&}está{\c&HFFFFFF&} prestes a
+Dialogue: 0,0:00:00.50,0:00:01.14,Cap,,0,0,0,,Você está {\c&H00E6FF&}prestes{\c&HFFFFFF&} a
+Dialogue: 0,0:00:01.14,0:00:01.26,Cap,,0,0,0,,Você está prestes {\c&H00E6FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.26,0:00:01.72,Cap,,0,0,0,,{\c&H00E6FF&}trancar{\c&HFFFFFF&} a faculdade
+Dialogue: 0,0:00:01.72,0:00:01.86,Cap,,0,0,0,,trancar {\c&H00E6FF&}a{\c&HFFFFFF&} faculdade
+Dialogue: 0,0:00:01.86,0:00:02.86,Cap,,0,0,0,,trancar a {\c&H00E6FF&}faculdade{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.86,0:00:03.04,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} não é para
+Dialogue: 0,0:00:03.04,0:00:03.30,Cap,,0,0,0,,E {\c&H00E6FF&}não{\c&HFFFFFF&} é para
+Dialogue: 0,0:00:03.30,0:00:03.58,Cap,,0,0,0,,E não {\c&H00E6FF&}é{\c&HFFFFFF&} para
+Dialogue: 0,0:00:03.58,0:00:03.70,Cap,,0,0,0,,E não é {\c&H00E6FF&}para{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.70,0:00:04.80,Cap,,0,0,0,,{\c&H00E6FF&}trabalhar{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.80,0:00:05.02,Cap,,0,0,0,,{\c&H00E6FF&}Aos{\c&HFFFFFF&} vinte e um
+Dialogue: 0,0:00:05.02,0:00:05.14,Cap,,0,0,0,,Aos {\c&H00E6FF&}vinte{\c&HFFFFFF&} e um
+Dialogue: 0,0:00:05.14,0:00:05.26,Cap,,0,0,0,,Aos vinte {\c&H00E6FF&}e{\c&HFFFFFF&} um
+Dialogue: 0,0:00:05.26,0:00:05.38,Cap,,0,0,0,,Aos vinte e {\c&H00E6FF&}um{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.38,0:00:06.04,Cap,,0,0,0,,{\c&H00E6FF&}anos{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.04,0:00:06.18,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} está no terceiro
+Dialogue: 0,0:00:06.18,0:00:06.46,Cap,,0,0,0,,você {\c&H00E6FF&}está{\c&HFFFFFF&} no terceiro
+Dialogue: 0,0:00:06.46,0:00:06.58,Cap,,0,0,0,,você está {\c&H00E6FF&}no{\c&HFFFFFF&} terceiro
+Dialogue: 0,0:00:06.58,0:00:07.14,Cap,,0,0,0,,você está no {\c&H00E6FF&}terceiro{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.14,0:00:07.56,Cap,,0,0,0,,{\c&H00E6FF&}período{\c&HFFFFFF&} de Administração
+Dialogue: 0,0:00:07.56,0:00:07.76,Cap,,0,0,0,,período {\c&H00E6FF&}de{\c&HFFFFFF&} Administração
+Dialogue: 0,0:00:07.76,0:00:08.86,Cap,,0,0,0,,período de {\c&H00E6FF&}Administração{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.86,0:00:09.06,Cap,,0,0,0,,{\c&H00E6FF&}com{\c&HFFFFFF&} três mensalidades atrasadas
+Dialogue: 0,0:00:09.06,0:00:09.42,Cap,,0,0,0,,com {\c&H00E6FF&}três{\c&HFFFFFF&} mensalidades atrasadas
+Dialogue: 0,0:00:09.42,0:00:10.10,Cap,,0,0,0,,com três {\c&H00E6FF&}mensalidades{\c&HFFFFFF&} atrasadas
+Dialogue: 0,0:00:10.10,0:00:10.90,Cap,,0,0,0,,com três mensalidades {\c&H00E6FF&}atrasadas{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.90,0:00:11.18,Cap,,0,0,0,,{\c&H00E6FF&}e{\c&HFFFFFF&} uma dívida no
+Dialogue: 0,0:00:11.18,0:00:11.32,Cap,,0,0,0,,e {\c&H00E6FF&}uma{\c&HFFFFFF&} dívida no
+Dialogue: 0,0:00:11.32,0:00:11.78,Cap,,0,0,0,,e uma {\c&H00E6FF&}dívida{\c&HFFFFFF&} no
+Dialogue: 0,0:00:11.78,0:00:11.94,Cap,,0,0,0,,e uma dívida {\c&H00E6FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.94,0:00:12.32,Cap,,0,0,0,,{\c&H00E6FF&}cartão{\c&HFFFFFF&} que só cresce
+Dialogue: 0,0:00:12.32,0:00:12.50,Cap,,0,0,0,,cartão {\c&H00E6FF&}que{\c&HFFFFFF&} só cresce
+Dialogue: 0,0:00:12.50,0:00:12.80,Cap,,0,0,0,,cartão que {\c&H00E6FF&}só{\c&HFFFFFF&} cresce
+Dialogue: 0,0:00:12.80,0:00:13.80,Cap,,0,0,0,,cartão que só {\c&H00E6FF&}cresce{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.80,0:00:13.98,Cap,,0,0,0,,{\c&H00E6FF&}Todo{\c&HFFFFFF&} mês
+Dialogue: 0,0:00:13.98,0:00:14.62,Cap,,0,0,0,,Todo {\c&H00E6FF&}mês{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.62,0:00:14.70,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} mesma conversa com
+Dialogue: 0,0:00:14.70,0:00:15.10,Cap,,0,0,0,,a {\c&H00E6FF&}mesma{\c&HFFFFFF&} conversa com
+Dialogue: 0,0:00:15.10,0:00:15.78,Cap,,0,0,0,,a mesma {\c&H00E6FF&}conversa{\c&HFFFFFF&} com
+Dialogue: 0,0:00:15.78,0:00:15.92,Cap,,0,0,0,,a mesma conversa {\c&H00E6FF&}com{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.92,0:00:16.00,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} sua mãe na
+Dialogue: 0,0:00:16.00,0:00:16.16,Cap,,0,0,0,,a {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe na
+Dialogue: 0,0:00:16.16,0:00:16.40,Cap,,0,0,0,,a sua {\c&H00E6FF&}mãe{\c&HFFFFFF&} na
+Dialogue: 0,0:00:16.40,0:00:16.56,Cap,,0,0,0,,a sua mãe {\c&H00E6FF&}na{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.56,0:00:16.80,Cap,,0,0,0,,{\c&H00E6FF&}mesa{\c&HFFFFFF&} da cozinha
+Dialogue: 0,0:00:16.80,0:00:16.98,Cap,,0,0,0,,mesa {\c&H00E6FF&}da{\c&HFFFFFF&} cozinha
+Dialogue: 0,0:00:16.98,0:00:17.86,Cap,,0,0,0,,mesa da {\c&H00E6FF&}cozinha{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.86,0:00:18.02,Cap,,0,0,0,,{\c&H00E6FF&}Ela{\c&HFFFFFF&} faz as contas
+Dialogue: 0,0:00:18.02,0:00:18.28,Cap,,0,0,0,,Ela {\c&H00E6FF&}faz{\c&HFFFFFF&} as contas
+Dialogue: 0,0:00:18.28,0:00:18.48,Cap,,0,0,0,,Ela faz {\c&H00E6FF&}as{\c&HFFFFFF&} contas
+Dialogue: 0,0:00:18.48,0:00:19.34,Cap,,0,0,0,,Ela faz as {\c&H00E6FF&}contas{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.34,0:00:19.94,Cap,,0,0,0,,{\c&H00E6FF&}suspira{\c&HFFFFFF&} e diz que
+Dialogue: 0,0:00:19.94,0:00:20.40,Cap,,0,0,0,,suspira {\c&H00E6FF&}e{\c&HFFFFFF&} diz que
+Dialogue: 0,0:00:20.40,0:00:20.60,Cap,,0,0,0,,suspira e {\c&H00E6FF&}diz{\c&HFFFFFF&} que
+Dialogue: 0,0:00:20.60,0:00:20.78,Cap,,0,0,0,,suspira e diz {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.78,0:00:20.92,Cap,,0,0,0,,{\c&H00E6FF&}vai{\c&HFFFFFF&} dar um jeito
+Dialogue: 0,0:00:20.92,0:00:21.08,Cap,,0,0,0,,vai {\c&H00E6FF&}dar{\c&HFFFFFF&} um jeito
+Dialogue: 0,0:00:21.08,0:00:21.22,Cap,,0,0,0,,vai dar {\c&H00E6FF&}um{\c&HFFFFFF&} jeito
+Dialogue: 0,0:00:21.22,0:00:22.10,Cap,,0,0,0,,vai dar um {\c&H00E6FF&}jeito{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.10,0:00:22.30,Cap,,0,0,0,,{\c&H00E6FF&}Mas{\c&HFFFFFF&} nunca dá
+Dialogue: 0,0:00:22.30,0:00:22.72,Cap,,0,0,0,,Mas {\c&H00E6FF&}nunca{\c&HFFFFFF&} dá
+Dialogue: 0,0:00:22.72,0:00:23.68,Cap,,0,0,0,,Mas nunca {\c&H00E6FF&}dá{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.68,0:00:23.90,Cap,,0,0,0,,{\c&H00E6FF&}Até{\c&HFFFFFF&} que uma amiga
+Dialogue: 0,0:00:23.90,0:00:24.06,Cap,,0,0,0,,Até {\c&H00E6FF&}que{\c&HFFFFFF&} uma amiga
+Dialogue: 0,0:00:24.06,0:00:24.22,Cap,,0,0,0,,Até que {\c&H00E6FF&}uma{\c&HFFFFFF&} amiga
+Dialogue: 0,0:00:24.22,0:00:24.46,Cap,,0,0,0,,Até que uma {\c&H00E6FF&}amiga{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.46,0:00:24.96,Cap,,0,0,0,,{\c&H00E6FF&}antiga{\c&HFFFFFF&} aparece no seu
+Dialogue: 0,0:00:24.96,0:00:25.34,Cap,,0,0,0,,antiga {\c&H00E6FF&}aparece{\c&HFFFFFF&} no seu
+Dialogue: 0,0:00:25.34,0:00:25.60,Cap,,0,0,0,,antiga aparece {\c&H00E6FF&}no{\c&HFFFFFF&} seu
+Dialogue: 0,0:00:25.60,0:00:25.74,Cap,,0,0,0,,antiga aparece no {\c&H00E6FF&}seu{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.74,0:00:26.16,Cap,,0,0,0,,{\c&H00E6FF&}feed{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.16,0:00:27.02,Cap,,0,0,0,,{\c&H00E6FF&}Viagem{\c&HFFFFFF&} para Cancún
+Dialogue: 0,0:00:27.02,0:00:27.24,Cap,,0,0,0,,Viagem {\c&H00E6FF&}para{\c&HFFFFFF&} Cancún
+Dialogue: 0,0:00:27.24,0:00:28.14,Cap,,0,0,0,,Viagem para {\c&H00E6FF&}Cancún{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.14,0:00:28.44,Cap,,0,0,0,,{\c&H00E6FF&}bolsa{\c&HFFFFFF&} nova
+Dialogue: 0,0:00:28.44,0:00:29.20,Cap,,0,0,0,,bolsa {\c&H00E6FF&}nova{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.20,0:00:29.50,Cap,,0,0,0,,{\c&H00E6FF&}carro{\c&HFFFFFF&} na garagem
+Dialogue: 0,0:00:29.50,0:00:29.66,Cap,,0,0,0,,carro {\c&H00E6FF&}na{\c&HFFFFFF&} garagem
+Dialogue: 0,0:00:29.66,0:00:30.56,Cap,,0,0,0,,carro na {\c&H00E6FF&}garagem{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.56,0:00:30.76,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} pergunta onde ela
+Dialogue: 0,0:00:30.76,0:00:31.20,Cap,,0,0,0,,Você {\c&H00E6FF&}pergunta{\c&HFFFFFF&} onde ela
+Dialogue: 0,0:00:31.20,0:00:31.60,Cap,,0,0,0,,Você pergunta {\c&H00E6FF&}onde{\c&HFFFFFF&} ela
+Dialogue: 0,0:00:31.60,0:00:31.74,Cap,,0,0,0,,Você pergunta onde {\c&H00E6FF&}ela{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.74,0:00:31.96,Cap,,0,0,0,,{\c&H00E6FF&}está{\c&HFFFFFF&} trabalhando
+Dialogue: 0,0:00:31.96,0:00:32.98,Cap,,0,0,0,,está {\c&H00E6FF&}trabalhando{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.98,0:00:33.16,Cap,,0,0,0,,{\c&H00E6FF&}Ela{\c&HFFFFFF&} só responde Vem
+Dialogue: 0,0:00:33.16,0:00:33.34,Cap,,0,0,0,,Ela {\c&H00E6FF&}só{\c&HFFFFFF&} responde Vem
+Dialogue: 0,0:00:33.34,0:00:34.38,Cap,,0,0,0,,Ela só {\c&H00E6FF&}responde{\c&HFFFFFF&} Vem
+Dialogue: 0,0:00:34.38,0:00:34.46,Cap,,0,0,0,,Ela só responde {\c&H00E6FF&}Vem{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.46,0:00:34.68,Cap,,0,0,0,,{\c&H00E6FF&}tomar{\c&HFFFFFF&} um café comigo
+Dialogue: 0,0:00:34.68,0:00:34.84,Cap,,0,0,0,,tomar {\c&H00E6FF&}um{\c&HFFFFFF&} café comigo
+Dialogue: 0,0:00:34.84,0:00:35.04,Cap,,0,0,0,,tomar um {\c&H00E6FF&}café{\c&HFFFFFF&} comigo
+Dialogue: 0,0:00:35.04,0:00:36.00,Cap,,0,0,0,,tomar um café {\c&H00E6FF&}comigo{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.00,0:00:36.40,Cap,,0,0,0,,{\c&H00E6FF&}Naquele{\c&HFFFFFF&} café
+Dialogue: 0,0:00:36.40,0:00:37.06,Cap,,0,0,0,,Naquele {\c&H00E6FF&}café{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.06,0:00:37.22,Cap,,0,0,0,,{\c&H00E6FF&}ela{\c&HFFFFFF&} conta tudo
+Dialogue: 0,0:00:37.22,0:00:37.56,Cap,,0,0,0,,ela {\c&H00E6FF&}conta{\c&HFFFFFF&} tudo
+Dialogue: 0,0:00:37.56,0:00:38.66,Cap,,0,0,0,,ela conta {\c&H00E6FF&}tudo{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.66,0:00:38.80,Cap,,0,0,0,,{\c&H00E6FF&}Não{\c&HFFFFFF&} é um emprego
+Dialogue: 0,0:00:38.80,0:00:38.96,Cap,,0,0,0,,Não {\c&H00E6FF&}é{\c&HFFFFFF&} um emprego
+Dialogue: 0,0:00:38.96,0:00:39.06,Cap,,0,0,0,,Não é {\c&H00E6FF&}um{\c&HFFFFFF&} emprego
+Dialogue: 0,0:00:39.06,0:00:39.88,Cap,,0,0,0,,Não é um {\c&H00E6FF&}emprego{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.88,0:00:39.96,Cap,,0,0,0,,{\c&H00E6FF&}É{\c&HFFFFFF&} um esquema
+Dialogue: 0,0:00:39.96,0:00:40.04,Cap,,0,0,0,,É {\c&H00E6FF&}um{\c&HFFFFFF&} esquema
+Dialogue: 0,0:00:40.04,0:00:40.98,Cap,,0,0,0,,É um {\c&H00E6FF&}esquema{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.98,0:00:41.46,Cap,,0,0,0,,{\c&H00E6FF&}Golpes{\c&HFFFFFF&} pelo celular
+Dialogue: 0,0:00:41.46,0:00:41.70,Cap,,0,0,0,,Golpes {\c&H00E6FF&}pelo{\c&HFFFFFF&} celular
+Dialogue: 0,0:00:41.70,0:00:42.22,Cap,,0,0,0,,Golpes pelo {\c&H00E6FF&}celular{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.22,0:00:42.64,Cap,,0,0,0,,{\c&H00E6FF&}contra{\c&HFFFFFF&} pessoas que você
+Dialogue: 0,0:00:42.64,0:00:43.04,Cap,,0,0,0,,contra {\c&H00E6FF&}pessoas{\c&HFFFFFF&} que você
+Dialogue: 0,0:00:43.04,0:00:43.24,Cap,,0,0,0,,contra pessoas {\c&H00E6FF&}que{\c&HFFFFFF&} você
+Dialogue: 0,0:00:43.24,0:00:43.48,Cap,,0,0,0,,contra pessoas que {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.48,0:00:43.86,Cap,,0,0,0,,{\c&H00E6FF&}nunca{\c&HFFFFFF&} vai ver
+Dialogue: 0,0:00:43.86,0:00:44.18,Cap,,0,0,0,,nunca {\c&H00E6FF&}vai{\c&HFFFFFF&} ver
+Dialogue: 0,0:00:44.18,0:00:44.86,Cap,,0,0,0,,nunca vai {\c&H00E6FF&}ver{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.86,0:00:45.16,Cap,,0,0,0,,{\c&H00E6FF&}Ninguém{\c&HFFFFFF&} sai prejudicado
+Dialogue: 0,0:00:45.16,0:00:45.44,Cap,,0,0,0,,Ninguém {\c&H00E6FF&}sai{\c&HFFFFFF&} prejudicado
+Dialogue: 0,0:00:45.44,0:00:46.04,Cap,,0,0,0,,Ninguém sai {\c&H00E6FF&}prejudicado{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.04,0:00:46.22,Cap,,0,0,0,,{\c&H00E6FF&}de{\c&HFFFFFF&} verdade
+Dialogue: 0,0:00:46.22,0:00:46.96,Cap,,0,0,0,,de {\c&H00E6FF&}verdade{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.96,0:00:47.14,Cap,,0,0,0,,{\c&H00E6FF&}ela{\c&HFFFFFF&} diz
+Dialogue: 0,0:00:47.14,0:00:47.84,Cap,,0,0,0,,ela {\c&H00E6FF&}diz{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.84,0:00:47.96,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} banco devolve tudo
+Dialogue: 0,0:00:47.96,0:00:48.22,Cap,,0,0,0,,O {\c&H00E6FF&}banco{\c&HFFFFFF&} devolve tudo
+Dialogue: 0,0:00:48.22,0:00:48.64,Cap,,0,0,0,,O banco {\c&H00E6FF&}devolve{\c&HFFFFFF&} tudo
+Dialogue: 0,0:00:48.64,0:00:49.66,Cap,,0,0,0,,O banco devolve {\c&H00E6FF&}tudo{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.66,0:00:49.90,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} volta para casa
+Dialogue: 0,0:00:49.90,0:00:50.22,Cap,,0,0,0,,Você {\c&H00E6FF&}volta{\c&HFFFFFF&} para casa
+Dialogue: 0,0:00:50.22,0:00:50.44,Cap,,0,0,0,,Você volta {\c&H00E6FF&}para{\c&HFFFFFF&} casa
+Dialogue: 0,0:00:50.44,0:00:50.90,Cap,,0,0,0,,Você volta para {\c&H00E6FF&}casa{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.90,0:00:51.26,Cap,,0,0,0,,{\c&H00E6FF&}e{\c&HFFFFFF&} não consegue dormir
+Dialogue: 0,0:00:51.26,0:00:51.50,Cap,,0,0,0,,e {\c&H00E6FF&}não{\c&HFFFFFF&} consegue dormir
+Dialogue: 0,0:00:51.50,0:00:52.04,Cap,,0,0,0,,e não {\c&H00E6FF&}consegue{\c&HFFFFFF&} dormir
+Dialogue: 0,0:00:52.04,0:00:52.94,Cap,,0,0,0,,e não consegue {\c&H00E6FF&}dormir{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.94,0:00:53.22,Cap,,0,0,0,,{\c&H00E6FF&}Olha{\c&HFFFFFF&} para o teto
+Dialogue: 0,0:00:53.22,0:00:53.42,Cap,,0,0,0,,Olha {\c&H00E6FF&}para{\c&HFFFFFF&} o teto
+Dialogue: 0,0:00:53.42,0:00:53.50,Cap,,0,0,0,,Olha para {\c&H00E6FF&}o{\c&HFFFFFF&} teto
+Dialogue: 0,0:00:53.50,0:00:54.32,Cap,,0,0,0,,Olha para o {\c&H00E6FF&}teto{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.32,0:00:54.48,Cap,,0,0,0,,{\c&H00E6FF&}Olha{\c&HFFFFFF&} para o boleto
+Dialogue: 0,0:00:54.48,0:00:54.64,Cap,,0,0,0,,Olha {\c&H00E6FF&}para{\c&HFFFFFF&} o boleto
+Dialogue: 0,0:00:54.64,0:00:54.68,Cap,,0,0,0,,Olha para {\c&H00E6FF&}o{\c&HFFFFFF&} boleto
+Dialogue: 0,0:00:54.68,0:00:55.08,Cap,,0,0,0,,Olha para o {\c&H00E6FF&}boleto{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.08,0:00:55.26,Cap,,0,0,0,,{\c&H00E6FF&}em{\c&HFFFFFF&} cima da mesa
+Dialogue: 0,0:00:55.26,0:00:55.48,Cap,,0,0,0,,em {\c&H00E6FF&}cima{\c&HFFFFFF&} da mesa
+Dialogue: 0,0:00:55.48,0:00:55.62,Cap,,0,0,0,,em cima {\c&H00E6FF&}da{\c&HFFFFFF&} mesa
+Dialogue: 0,0:00:55.62,0:00:55.96,Cap,,0,0,0,,em cima da {\c&H00E6FF&}mesa{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.96,0:00:56.44,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} manda uma mensagem
+Dialogue: 0,0:00:56.44,0:00:56.66,Cap,,0,0,0,,E {\c&H00E6FF&}manda{\c&HFFFFFF&} uma mensagem
+Dialogue: 0,0:00:56.66,0:00:56.80,Cap,,0,0,0,,E manda {\c&H00E6FF&}uma{\c&HFFFFFF&} mensagem
+Dialogue: 0,0:00:56.80,0:00:57.82,Cap,,0,0,0,,E manda uma {\c&H00E6FF&}mensagem{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.82,0:00:57.96,Cap,,0,0,0,,{\c&H00E6FF&}Tô{\c&HFFFFFF&} dentro Na semana
+Dialogue: 0,0:00:57.96,0:00:58.90,Cap,,0,0,0,,Tô {\c&H00E6FF&}dentro{\c&HFFFFFF&} Na semana
+Dialogue: 0,0:00:58.90,0:00:59.06,Cap,,0,0,0,,Tô dentro {\c&H00E6FF&}Na{\c&HFFFFFF&} semana
+Dialogue: 0,0:00:59.06,0:00:59.30,Cap,,0,0,0,,Tô dentro Na {\c&H00E6FF&}semana{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.30,0:01:00.10,Cap,,0,0,0,,{\c&H00E6FF&}seguinte{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.10,0:01:00.32,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} tranca a matrícula
+Dialogue: 0,0:01:00.32,0:01:00.82,Cap,,0,0,0,,você {\c&H00E6FF&}tranca{\c&HFFFFFF&} a matrícula
+Dialogue: 0,0:01:00.82,0:01:00.96,Cap,,0,0,0,,você tranca {\c&H00E6FF&}a{\c&HFFFFFF&} matrícula
+Dialogue: 0,0:01:00.96,0:01:01.94,Cap,,0,0,0,,você tranca a {\c&H00E6FF&}matrícula{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.94,0:01:02.04,Cap,,0,0,0,,{\c&H00E6FF&}Para{\c&HFFFFFF&} a sua família
+Dialogue: 0,0:01:02.04,0:01:02.14,Cap,,0,0,0,,Para {\c&H00E6FF&}a{\c&HFFFFFF&} sua família
+Dialogue: 0,0:01:02.14,0:01:02.22,Cap,,0,0,0,,Para a {\c&H00E6FF&}sua{\c&HFFFFFF&} família
+Dialogue: 0,0:01:02.22,0:01:02.90,Cap,,0,0,0,,Para a sua {\c&H00E6FF&}família{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.90,0:01:03.08,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} diz que conseguiu
+Dialogue: 0,0:01:03.08,0:01:03.30,Cap,,0,0,0,,você {\c&H00E6FF&}diz{\c&HFFFFFF&} que conseguiu
+Dialogue: 0,0:01:03.30,0:01:03.42,Cap,,0,0,0,,você diz {\c&H00E6FF&}que{\c&HFFFFFF&} conseguiu
+Dialogue: 0,0:01:03.42,0:01:03.88,Cap,,0,0,0,,você diz que {\c&H00E6FF&}conseguiu{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.88,0:01:03.98,Cap,,0,0,0,,{\c&H00E6FF&}um{\c&HFFFFFF&} emprego em marketing
+Dialogue: 0,0:01:03.98,0:01:04.38,Cap,,0,0,0,,um {\c&H00E6FF&}emprego{\c&HFFFFFF&} em marketing
+Dialogue: 0,0:01:04.38,0:01:04.50,Cap,,0,0,0,,um emprego {\c&H00E6FF&}em{\c&HFFFFFF&} marketing
+Dialogue: 0,0:01:04.50,0:01:04.94,Cap,,0,0,0,,um emprego em {\c&H00E6FF&}marketing{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.94,0:01:06.04,Cap,,0,0,0,,{\c&H00E6FF&}digital{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.04,0:01:06.14,Cap,,0,0,0,,{\c&H00E6FF&}A{\c&HFFFFFF&} sua mãe chora
+Dialogue: 0,0:01:06.14,0:01:06.32,Cap,,0,0,0,,A {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe chora
+Dialogue: 0,0:01:06.32,0:01:06.60,Cap,,0,0,0,,A sua {\c&H00E6FF&}mãe{\c&HFFFFFF&} chora
+Dialogue: 0,0:01:06.60,0:01:07.18,Cap,,0,0,0,,A sua mãe {\c&H00E6FF&}chora{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.18,0:01:07.38,Cap,,0,0,0,,{\c&H00E6FF&}de{\c&HFFFFFF&} orgulho
+Dialogue: 0,0:01:07.38,0:01:08.36,Cap,,0,0,0,,de {\c&H00E6FF&}orgulho{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.36,0:01:08.50,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} primeiro dia é
+Dialogue: 0,0:01:08.50,0:01:08.78,Cap,,0,0,0,,O {\c&H00E6FF&}primeiro{\c&HFFFFFF&} dia é
+Dialogue: 0,0:01:08.78,0:01:09.20,Cap,,0,0,0,,O primeiro {\c&H00E6FF&}dia{\c&HFFFFFF&} é
+Dialogue: 0,0:01:09.20,0:01:09.44,Cap,,0,0,0,,O primeiro dia {\c&H00E6FF&}é{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.44,0:01:09.52,Cap,,0,0,0,,{\c&H00E6FF&}o{\c&HFFFFFF&} pior
+Dialogue: 0,0:01:09.52,0:01:10.36,Cap,,0,0,0,,o {\c&H00E6FF&}pior{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.36,0:01:10.48,Cap,,0,0,0,,{\c&H00E6FF&}As{\c&HFFFFFF&} suas mãos tremem
+Dialogue: 0,0:01:10.48,0:01:10.60,Cap,,0,0,0,,As {\c&H00E6FF&}suas{\c&HFFFFFF&} mãos tremem
+Dialogue: 0,0:01:10.60,0:01:10.94,Cap,,0,0,0,,As suas {\c&H00E6FF&}mãos{\c&HFFFFFF&} tremem
+Dialogue: 0,0:01:10.94,0:01:11.74,Cap,,0,0,0,,As suas mãos {\c&H00E6FF&}tremem{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.74,0:01:11.86,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} coração bate tão
+Dialogue: 0,0:01:11.86,0:01:12.22,Cap,,0,0,0,,O {\c&H00E6FF&}coração{\c&HFFFFFF&} bate tão
+Dialogue: 0,0:01:12.22,0:01:12.52,Cap,,0,0,0,,O coração {\c&H00E6FF&}bate{\c&HFFFFFF&} tão
+Dialogue: 0,0:01:12.52,0:01:12.90,Cap,,0,0,0,,O coração bate {\c&H00E6FF&}tão{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.90,0:01:13.44,Cap,,0,0,0,,{\c&H00E6FF&}forte{\c&HFFFFFF&} que você acha
+Dialogue: 0,0:01:13.44,0:01:13.72,Cap,,0,0,0,,forte {\c&H00E6FF&}que{\c&HFFFFFF&} você acha
+Dialogue: 0,0:01:13.72,0:01:13.92,Cap,,0,0,0,,forte que {\c&H00E6FF&}você{\c&HFFFFFF&} acha
+Dialogue: 0,0:01:13.92,0:01:14.16,Cap,,0,0,0,,forte que você {\c&H00E6FF&}acha{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.16,0:01:14.32,Cap,,0,0,0,,{\c&H00E6FF&}que{\c&HFFFFFF&} o prédio inteiro
+Dialogue: 0,0:01:14.32,0:01:14.44,Cap,,0,0,0,,que {\c&H00E6FF&}o{\c&HFFFFFF&} prédio inteiro
+Dialogue: 0,0:01:14.44,0:01:14.72,Cap,,0,0,0,,que o {\c&H00E6FF&}prédio{\c&HFFFFFF&} inteiro
+Dialogue: 0,0:01:14.72,0:01:15.24,Cap,,0,0,0,,que o prédio {\c&H00E6FF&}inteiro{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.24,0:01:15.64,Cap,,0,0,0,,{\c&H00E6FF&}consegue{\c&HFFFFFF&} ouvir
+Dialogue: 0,0:01:15.64,0:01:16.54,Cap,,0,0,0,,consegue {\c&H00E6FF&}ouvir{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.54,0:01:16.68,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} então
+Dialogue: 0,0:01:16.68,0:01:17.36,Cap,,0,0,0,,E {\c&H00E6FF&}então{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.36,0:01:17.48,Cap,,0,0,0,,{\c&H00E6FF&}o{\c&HFFFFFF&} celular vibra
+Dialogue: 0,0:01:17.48,0:01:17.86,Cap,,0,0,0,,o {\c&H00E6FF&}celular{\c&HFFFFFF&} vibra
+Dialogue: 0,0:01:17.86,0:01:18.84,Cap,,0,0,0,,o celular {\c&H00E6FF&}vibra{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.84,0:01:18.92,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} dinheiro caiu
+Dialogue: 0,0:01:18.92,0:01:19.20,Cap,,0,0,0,,O {\c&H00E6FF&}dinheiro{\c&HFFFFFF&} caiu
+Dialogue: 0,0:01:19.20,0:01:19.78,Cap,,0,0,0,,O dinheiro {\c&H00E6FF&}caiu{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.78,0:01:20.40,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} passa a noite
+Dialogue: 0,0:01:20.40,0:01:20.70,Cap,,0,0,0,,Você {\c&H00E6FF&}passa{\c&HFFFFFF&} a noite
+Dialogue: 0,0:01:20.70,0:01:20.90,Cap,,0,0,0,,Você passa {\c&H00E6FF&}a{\c&HFFFFFF&} noite
+Dialogue: 0,0:01:20.90,0:01:21.10,Cap,,0,0,0,,Você passa a {\c&H00E6FF&}noite{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.10,0:01:21.70,Cap,,0,0,0,,{\c&H00E6FF&}inteira{\c&HFFFFFF&} olhando para aquele
+Dialogue: 0,0:01:21.70,0:01:21.98,Cap,,0,0,0,,inteira {\c&H00E6FF&}olhando{\c&HFFFFFF&} para aquele
+Dialogue: 0,0:01:21.98,0:01:22.22,Cap,,0,0,0,,inteira olhando {\c&H00E6FF&}para{\c&HFFFFFF&} aquele
+Dialogue: 0,0:01:22.22,0:01:22.44,Cap,,0,0,0,,inteira olhando para {\c&H00E6FF&}aquele{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.44,0:01:22.80,Cap,,0,0,0,,{\c&H00E6FF&}número{\c&HFFFFFF&} na tela
+Dialogue: 0,0:01:22.80,0:01:23.02,Cap,,0,0,0,,número {\c&H00E6FF&}na{\c&HFFFFFF&} tela
+Dialogue: 0,0:01:23.02,0:01:23.76,Cap,,0,0,0,,número na {\c&H00E6FF&}tela{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.76,0:01:23.94,Cap,,0,0,0,,{\c&H00E6FF&}Era{\c&HFFFFFF&} mais do que
+Dialogue: 0,0:01:23.94,0:01:24.36,Cap,,0,0,0,,Era {\c&H00E6FF&}mais{\c&HFFFFFF&} do que
+Dialogue: 0,0:01:24.36,0:01:24.48,Cap,,0,0,0,,Era mais {\c&H00E6FF&}do{\c&HFFFFFF&} que
+Dialogue: 0,0:01:24.48,0:01:24.58,Cap,,0,0,0,,Era mais do {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.58,0:01:24.82,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} ganharia em dois
+Dialogue: 0,0:01:24.82,0:01:25.32,Cap,,0,0,0,,você {\c&H00E6FF&}ganharia{\c&HFFFFFF&} em dois
+Dialogue: 0,0:01:25.32,0:01:25.46,Cap,,0,0,0,,você ganharia {\c&H00E6FF&}em{\c&HFFFFFF&} dois
+Dialogue: 0,0:01:25.46,0:01:25.74,Cap,,0,0,0,,você ganharia em {\c&H00E6FF&}dois{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.74,0:01:26.18,Cap,,0,0,0,,{\c&H00E6FF&}meses{\c&HFFFFFF&} de estágio
+Dialogue: 0,0:01:26.18,0:01:26.40,Cap,,0,0,0,,meses {\c&H00E6FF&}de{\c&HFFFFFF&} estágio
+Dialogue: 0,0:01:26.40,0:01:27.42,Cap,,0,0,0,,meses de {\c&H00E6FF&}estágio{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.42,0:01:27.56,Cap,,0,0,0,,{\c&H00E6FF&}A{\c&HFFFFFF&} culpa dura exatamente
+Dialogue: 0,0:01:27.56,0:01:27.88,Cap,,0,0,0,,A {\c&H00E6FF&}culpa{\c&HFFFFFF&} dura exatamente
+Dialogue: 0,0:01:27.88,0:01:28.34,Cap,,0,0,0,,A culpa {\c&H00E6FF&}dura{\c&HFFFFFF&} exatamente
+Dialogue: 0,0:01:28.34,0:01:28.88,Cap,,0,0,0,,A culpa dura {\c&H00E6FF&}exatamente{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.88,0:01:29.62,Cap,,0,0,0,,{\c&H00E6FF&}um{\c&HFFFFFF&} dia
+Dialogue: 0,0:01:29.62,0:01:30.36,Cap,,0,0,0,,um {\c&H00E6FF&}dia{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.36,0:01:30.50,Cap,,0,0,0,,{\c&H00E6FF&}No{\c&HFFFFFF&} segundo mês
+Dialogue: 0,0:01:30.50,0:01:30.78,Cap,,0,0,0,,No {\c&H00E6FF&}segundo{\c&HFFFFFF&} mês
+Dialogue: 0,0:01:30.78,0:01:31.44,Cap,,0,0,0,,No segundo {\c&H00E6FF&}mês{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.44,0:01:31.56,Cap,,0,0,0,,{\c&H00E6FF&}as{\c&HFFFFFF&} suas mãos já
+Dialogue: 0,0:01:31.56,0:01:31.70,Cap,,0,0,0,,as {\c&H00E6FF&}suas{\c&HFFFFFF&} mãos já
+Dialogue: 0,0:01:31.70,0:01:32.10,Cap,,0,0,0,,as suas {\c&H00E6FF&}mãos{\c&HFFFFFF&} já
+Dialogue: 0,0:01:32.10,0:01:32.26,Cap,,0,0,0,,as suas mãos {\c&H00E6FF&}já{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.26,0:01:32.38,Cap,,0,0,0,,{\c&H00E6FF&}não{\c&HFFFFFF&} tremem
+Dialogue: 0,0:01:32.38,0:01:33.16,Cap,,0,0,0,,não {\c&H00E6FF&}tremem{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.16,0:01:33.32,Cap,,0,0,0,,{\c&H00E6FF&}No{\c&HFFFFFF&} terceiro
+Dialogue: 0,0:01:33.32,0:01:34.10,Cap,,0,0,0,,No {\c&H00E6FF&}terceiro{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.10,0:01:34.30,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} paga o cartão
+Dialogue: 0,0:01:34.30,0:01:34.66,Cap,,0,0,0,,você {\c&H00E6FF&}paga{\c&HFFFFFF&} o cartão
+Dialogue: 0,0:01:34.66,0:01:34.78,Cap,,0,0,0,,você paga {\c&H00E6FF&}o{\c&HFFFFFF&} cartão
+Dialogue: 0,0:01:34.78,0:01:35.58,Cap,,0,0,0,,você paga o {\c&H00E6FF&}cartão{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.58,0:01:35.72,Cap,,0,0,0,,{\c&H00E6FF&}No{\c&HFFFFFF&} quarto
+Dialogue: 0,0:01:35.72,0:01:36.42,Cap,,0,0,0,,No {\c&H00E6FF&}quarto{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.42,0:01:36.56,Cap,,0,0,0,,{\c&H00E6FF&}quita{\c&HFFFFFF&} todas as dívidas
+Dialogue: 0,0:01:36.56,0:01:37.00,Cap,,0,0,0,,quita {\c&H00E6FF&}todas{\c&HFFFFFF&} as dívidas
+Dialogue: 0,0:01:37.00,0:01:37.30,Cap,,0,0,0,,quita todas {\c&H00E6FF&}as{\c&HFFFFFF&} dívidas
+Dialogue: 0,0:01:37.30,0:01:37.72,Cap,,0,0,0,,quita todas as {\c&H00E6FF&}dívidas{\c&HFFFFFF&}
+Dialogue: 0,0:01:37.72,0:01:37.88,Cap,,0,0,0,,{\c&H00E6FF&}da{\c&HFFFFFF&} sua mãe e
+Dialogue: 0,0:01:37.88,0:01:38.06,Cap,,0,0,0,,da {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe e
+Dialogue: 0,0:01:38.06,0:01:38.32,Cap,,0,0,0,,da sua {\c&H00E6FF&}mãe{\c&HFFFFFF&} e
+Dialogue: 0,0:01:38.32,0:01:38.68,Cap,,0,0,0,,da sua mãe {\c&H00E6FF&}e{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.68,0:01:38.84,Cap,,0,0,0,,{\c&H00E6FF&}diz{\c&HFFFFFF&} que foi um
+Dialogue: 0,0:01:38.84,0:01:38.98,Cap,,0,0,0,,diz {\c&H00E6FF&}que{\c&HFFFFFF&} foi um
+Dialogue: 0,0:01:38.98,0:01:39.16,Cap,,0,0,0,,diz que {\c&H00E6FF&}foi{\c&HFFFFFF&} um
+Dialogue: 0,0:01:39.16,0:01:39.30,Cap,,0,0,0,,diz que foi {\c&H00E6FF&}um{\c&HFFFFFF&}
+Dialogue: 0,0:01:39.30,0:01:39.68,Cap,,0,0,0,,{\c&H00E6FF&}bônus{\c&HFFFFFF&} da empresa
+Dialogue: 0,0:01:39.68,0:01:39.78,Cap,,0,0,0,,bônus {\c&H00E6FF&}da{\c&HFFFFFF&} empresa
+Dialogue: 0,0:01:39.78,0:01:40.62,Cap,,0,0,0,,bônus da {\c&H00E6FF&}empresa{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.62,0:01:40.80,Cap,,0,0,0,,{\c&H00E6FF&}Ela{\c&HFFFFFF&} te abraça na
+Dialogue: 0,0:01:40.80,0:01:40.96,Cap,,0,0,0,,Ela {\c&H00E6FF&}te{\c&HFFFFFF&} abraça na
+Dialogue: 0,0:01:40.96,0:01:41.42,Cap,,0,0,0,,Ela te {\c&H00E6FF&}abraça{\c&HFFFFFF&} na
+Dialogue: 0,0:01:41.42,0:01:41.56,Cap,,0,0,0,,Ela te abraça {\c&H00E6FF&}na{\c&HFFFFFF&}
+Dialogue: 0,0:01:41.56,0:01:42.06,Cap,,0,0,0,,{\c&H00E6FF&}cozinha{\c&HFFFFFF&} e diz que
+Dialogue: 0,0:01:42.06,0:01:42.30,Cap,,0,0,0,,cozinha {\c&H00E6FF&}e{\c&HFFFFFF&} diz que
+Dialogue: 0,0:01:42.30,0:01:42.48,Cap,,0,0,0,,cozinha e {\c&H00E6FF&}diz{\c&HFFFFFF&} que
+Dialogue: 0,0:01:42.48,0:01:42.60,Cap,,0,0,0,,cozinha e diz {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.60,0:01:43.10,Cap,,0,0,0,,{\c&H00E6FF&}sempre{\c&HFFFFFF&} soube que você
+Dialogue: 0,0:01:43.10,0:01:43.66,Cap,,0,0,0,,sempre {\c&H00E6FF&}soube{\c&HFFFFFF&} que você
+Dialogue: 0,0:01:43.66,0:01:43.78,Cap,,0,0,0,,sempre soube {\c&H00E6FF&}que{\c&HFFFFFF&} você
+Dialogue: 0,0:01:43.78,0:01:44.04,Cap,,0,0,0,,sempre soube que {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:01:44.04,0:01:44.24,Cap,,0,0,0,,{\c&H00E6FF&}ia{\c&HFFFFFF&} longe
+Dialogue: 0,0:01:44.24,0:01:45.16,Cap,,0,0,0,,ia {\c&H00E6FF&}longe{\c&HFFFFFF&}
+Dialogue: 0,0:01:45.16,0:01:45.40,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} começa a comprar
+Dialogue: 0,0:01:45.40,0:01:45.72,Cap,,0,0,0,,Você {\c&H00E6FF&}começa{\c&HFFFFFF&} a comprar
+Dialogue: 0,0:01:45.72,0:01:45.90,Cap,,0,0,0,,Você começa {\c&H00E6FF&}a{\c&HFFFFFF&} comprar
+Dialogue: 0,0:01:45.90,0:01:46.06,Cap,,0,0,0,,Você começa a {\c&H00E6FF&}comprar{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.06,0:01:46.54,Cap,,0,0,0,,{\c&H00E6FF&}coisas{\c&HFFFFFF&} que nunca imaginou
+Dialogue: 0,0:01:46.54,0:01:46.78,Cap,,0,0,0,,coisas {\c&H00E6FF&}que{\c&HFFFFFF&} nunca imaginou
+Dialogue: 0,0:01:46.78,0:01:47.18,Cap,,0,0,0,,coisas que {\c&H00E6FF&}nunca{\c&HFFFFFF&} imaginou
+Dialogue: 0,0:01:47.18,0:01:47.74,Cap,,0,0,0,,coisas que nunca {\c&H00E6FF&}imaginou{\c&HFFFFFF&}
+Dialogue: 0,0:01:47.74,0:01:48.02,Cap,,0,0,0,,{\c&H00E6FF&}ter{\c&HFFFFFF&}
+Dialogue: 0,0:01:48.02,0:01:48.80,Cap,,0,0,0,,{\c&H00E6FF&}Roupas{\c&HFFFFFF&} de marca
+Dialogue: 0,0:01:48.80,0:01:48.92,Cap,,0,0,0,,Roupas {\c&H00E6FF&}de{\c&HFFFFFF&} marca
+Dialogue: 0,0:01:48.92,0:01:49.66,Cap,,0,0,0,,Roupas de {\c&H00E6FF&}marca{\c&HFFFFFF&}
+Dialogue: 0,0:01:49.66,0:01:49.74,Cap,,0,0,0,,{\c&H00E6FF&}um{\c&HFFFFFF&} celular novo
+Dialogue: 0,0:01:49.74,0:01:50.12,Cap,,0,0,0,,um {\c&H00E6FF&}celular{\c&HFFFFFF&} novo
+Dialogue: 0,0:01:50.12,0:01:50.96,Cap,,0,0,0,,um celular {\c&H00E6FF&}novo{\c&HFFFFFF&}
+Dialogue: 0,0:01:50.96,0:01:51.40,Cap,,0,0,0,,{\c&H00E6FF&}viagens{\c&HFFFFFF&} de fim de
+Dialogue: 0,0:01:51.40,0:01:51.62,Cap,,0,0,0,,viagens {\c&H00E6FF&}de{\c&HFFFFFF&} fim de
+Dialogue: 0,0:01:51.62,0:01:51.78,Cap,,0,0,0,,viagens de {\c&H00E6FF&}fim{\c&HFFFFFF&} de
+Dialogue: 0,0:01:51.78,0:01:51.88,Cap,,0,0,0,,viagens de fim {\c&H00E6FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.88,0:01:52.62,Cap,,0,0,0,,{\c&H00E6FF&}semana{\c&HFFFFFF&}
+Dialogue: 0,0:01:52.62,0:01:52.70,Cap,,0,0,0,,{\c&H00E6FF&}um{\c&HFFFFFF&} carro financiado
+Dialogue: 0,0:01:52.70,0:01:53.06,Cap,,0,0,0,,um {\c&H00E6FF&}carro{\c&HFFFFFF&} financiado
+Dialogue: 0,0:01:53.06,0:01:54.30,Cap,,0,0,0,,um carro {\c&H00E6FF&}financiado{\c&HFFFFFF&}
+Dialogue: 0,0:01:54.30,0:01:54.42,Cap,,0,0,0,,{\c&H00E6FF&}Os{\c&HFFFFFF&} seus stories ficam
+Dialogue: 0,0:01:54.42,0:01:54.50,Cap,,0,0,0,,Os {\c&H00E6FF&}seus{\c&HFFFFFF&} stories ficam
+Dialogue: 0,0:01:54.50,0:01:55.04,Cap,,0,0,0,,Os seus {\c&H00E6FF&}stories{\c&HFFFFFF&} ficam
+Dialogue: 0,0:01:55.04,0:01:55.40,Cap,,0,0,0,,Os seus stories {\c&H00E6FF&}ficam{\c&HFFFFFF&}
+Dialogue: 0,0:01:55.40,0:01:55.72,Cap,,0,0,0,,{\c&H00E6FF&}cada{\c&HFFFFFF&} vez mais bonitos
+Dialogue: 0,0:01:55.72,0:01:56.12,Cap,,0,0,0,,cada {\c&H00E6FF&}vez{\c&HFFFFFF&} mais bonitos
+Dialogue: 0,0:01:56.12,0:01:56.50,Cap,,0,0,0,,cada vez {\c&H00E6FF&}mais{\c&HFFFFFF&} bonitos
+Dialogue: 0,0:01:56.50,0:01:57.54,Cap,,0,0,0,,cada vez mais {\c&H00E6FF&}bonitos{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.54,0:01:57.66,Cap,,0,0,0,,{\c&H00E6FF&}Os{\c&HFFFFFF&} antigos colegas da
+Dialogue: 0,0:01:57.66,0:01:58.00,Cap,,0,0,0,,Os {\c&H00E6FF&}antigos{\c&HFFFFFF&} colegas da
+Dialogue: 0,0:01:58.00,0:01:58.50,Cap,,0,0,0,,Os antigos {\c&H00E6FF&}colegas{\c&HFFFFFF&} da
+Dialogue: 0,0:01:58.50,0:01:58.62,Cap,,0,0,0,,Os antigos colegas {\c&H00E6FF&}da{\c&HFFFFFF&}
+Dialogue: 0,0:01:58.62,0:01:59.08,Cap,,0,0,0,,{\c&H00E6FF&}faculdade{\c&HFFFFFF&} comentam Que vida
+Dialogue: 0,0:01:59.08,0:02:00.06,Cap,,0,0,0,,faculdade {\c&H00E6FF&}comentam{\c&HFFFFFF&} Que vida
+Dialogue: 0,0:02:00.06,0:02:00.18,Cap,,0,0,0,,faculdade comentam {\c&H00E6FF&}Que{\c&HFFFFFF&} vida
+Dialogue: 0,0:02:00.18,0:02:00.76,Cap,,0,0,0,,faculdade comentam Que {\c&H00E6FF&}vida{\c&HFFFFFF&}
+Dialogue: 0,0:02:00.76,0:02:01.32,Cap,,0,0,0,,{\c&H00E6FF&}hein{\c&HFFFFFF&} E você aprende
+Dialogue: 0,0:02:01.32,0:02:01.40,Cap,,0,0,0,,hein {\c&H00E6FF&}E{\c&HFFFFFF&} você aprende
+Dialogue: 0,0:02:01.40,0:02:01.60,Cap,,0,0,0,,hein E {\c&H00E6FF&}você{\c&HFFFFFF&} aprende
+Dialogue: 0,0:02:01.60,0:02:02.12,Cap,,0,0,0,,hein E você {\c&H00E6FF&}aprende{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.12,0:02:02.16,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} não pensar em
+Dialogue: 0,0:02:02.16,0:02:02.36,Cap,,0,0,0,,a {\c&H00E6FF&}não{\c&HFFFFFF&} pensar em
+Dialogue: 0,0:02:02.36,0:02:02.84,Cap,,0,0,0,,a não {\c&H00E6FF&}pensar{\c&HFFFFFF&} em
+Dialogue: 0,0:02:02.84,0:02:03.06,Cap,,0,0,0,,a não pensar {\c&H00E6FF&}em{\c&HFFFFFF&}
+Dialogue: 0,0:02:03.06,0:02:03.22,Cap,,0,0,0,,{\c&H00E6FF&}quem{\c&HFFFFFF&} está do outro
+Dialogue: 0,0:02:03.22,0:02:03.52,Cap,,0,0,0,,quem {\c&H00E6FF&}está{\c&HFFFFFF&} do outro
+Dialogue: 0,0:02:03.52,0:02:03.70,Cap,,0,0,0,,quem está {\c&H00E6FF&}do{\c&HFFFFFF&} outro
+Dialogue: 0,0:02:03.70,0:02:03.88,Cap,,0,0,0,,quem está do {\c&H00E6FF&}outro{\c&HFFFFFF&}
+Dialogue: 0,0:02:03.88,0:02:04.64,Cap,,0,0,0,,{\c&H00E6FF&}lado{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.64,0:02:04.78,Cap,,0,0,0,,{\c&H00E6FF&}Para{\c&HFFFFFF&} você
+Dialogue: 0,0:02:04.78,0:02:05.40,Cap,,0,0,0,,Para {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:02:05.40,0:02:05.58,Cap,,0,0,0,,{\c&H00E6FF&}eles{\c&HFFFFFF&} são só nomes
+Dialogue: 0,0:02:05.58,0:02:05.80,Cap,,0,0,0,,eles {\c&H00E6FF&}são{\c&HFFFFFF&} só nomes
+Dialogue: 0,0:02:05.80,0:02:06.08,Cap,,0,0,0,,eles são {\c&H00E6FF&}só{\c&HFFFFFF&} nomes
+Dialogue: 0,0:02:06.08,0:02:06.52,Cap,,0,0,0,,eles são só {\c&H00E6FF&}nomes{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.52,0:02:06.72,Cap,,0,0,0,,{\c&H00E6FF&}numa{\c&HFFFFFF&} planilha
+Dialogue: 0,0:02:06.72,0:02:07.70,Cap,,0,0,0,,numa {\c&H00E6FF&}planilha{\c&HFFFFFF&}
+Dialogue: 0,0:02:07.70,0:02:08.00,Cap,,0,0,0,,{\c&H00E6FF&}Até{\c&HFFFFFF&} que
+Dialogue: 0,0:02:08.00,0:02:08.56,Cap,,0,0,0,,Até {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.56,0:02:08.74,Cap,,0,0,0,,{\c&H00E6FF&}numa{\c&HFFFFFF&} terça-feira à noite
+Dialogue: 0,0:02:08.74,0:02:09.46,Cap,,0,0,0,,numa {\c&H00E6FF&}terça-feira{\c&HFFFFFF&} à noite
+Dialogue: 0,0:02:09.46,0:02:09.58,Cap,,0,0,0,,numa terça-feira {\c&H00E6FF&}à{\c&HFFFFFF&} noite
+Dialogue: 0,0:02:09.58,0:02:10.18,Cap,,0,0,0,,numa terça-feira à {\c&H00E6FF&}noite{\c&HFFFFFF&}
+Dialogue: 0,0:02:10.18,0:02:10.34,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} está jantando com
+Dialogue: 0,0:02:10.34,0:02:10.58,Cap,,0,0,0,,você {\c&H00E6FF&}está{\c&HFFFFFF&} jantando com
+Dialogue: 0,0:02:10.58,0:02:11.10,Cap,,0,0,0,,você está {\c&H00E6FF&}jantando{\c&HFFFFFF&} com
+Dialogue: 0,0:02:11.10,0:02:11.24,Cap,,0,0,0,,você está jantando {\c&H00E6FF&}com{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.24,0:02:11.34,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} sua mãe
+Dialogue: 0,0:02:11.34,0:02:11.48,Cap,,0,0,0,,a {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe
+Dialogue: 0,0:02:11.48,0:02:12.04,Cap,,0,0,0,,a sua {\c&H00E6FF&}mãe{\c&HFFFFFF&}
+Dialogue: 0,0:02:12.04,0:02:12.14,Cap,,0,0,0,,{\c&H00E6FF&}e{\c&HFFFFFF&} a televisão está
+Dialogue: 0,0:02:12.14,0:02:12.20,Cap,,0,0,0,,e {\c&H00E6FF&}a{\c&HFFFFFF&} televisão está
+Dialogue: 0,0:02:12.20,0:02:12.70,Cap,,0,0,0,,e a {\c&H00E6FF&}televisão{\c&HFFFFFF&} está
+Dialogue: 0,0:02:12.70,0:02:12.94,Cap,,0,0,0,,e a televisão {\c&H00E6FF&}está{\c&HFFFFFF&}
+Dialogue: 0,0:02:12.94,0:02:13.30,Cap,,0,0,0,,{\c&H00E6FF&}ligada{\c&HFFFFFF&} no jornal
+Dialogue: 0,0:02:13.30,0:02:13.48,Cap,,0,0,0,,ligada {\c&H00E6FF&}no{\c&HFFFFFF&} jornal
+Dialogue: 0,0:02:13.48,0:02:14.34,Cap,,0,0,150,,ligada no {\c&H00E6FF&}jornal{\c&HFFFFFF&}
+Dialogue: 0,0:02:14.34,0:02:14.48,Cap,,0,0,330,,{\c&H00E6FF&}Uma{\c&HFFFFFF&} senhora de setenta
+Dialogue: 0,0:02:14.48,0:02:14.92,Cap,,0,0,330,,Uma {\c&H00E6FF&}senhora{\c&HFFFFFF&} de setenta
+Dialogue: 0,0:02:14.92,0:02:15.10,Cap,,0,0,330,,Uma senhora {\c&H00E6FF&}de{\c&HFFFFFF&} setenta
+Dialogue: 0,0:02:15.10,0:02:15.29,Cap,,0,0,330,,Uma senhora de {\c&H00E6FF&}setenta{\c&HFFFFFF&}
+Dialogue: 0,0:02:15.29,0:02:15.47,Cap,,0,0,330,,{\c&H00E6FF&}e{\c&HFFFFFF&} três anos aparece
+Dialogue: 0,0:02:15.47,0:02:15.66,Cap,,0,0,330,,e {\c&H00E6FF&}três{\c&HFFFFFF&} anos aparece
+Dialogue: 0,0:02:15.66,0:02:16.30,Cap,,0,0,330,,e três {\c&H00E6FF&}anos{\c&HFFFFFF&} aparece
+Dialogue: 0,0:02:16.30,0:02:16.64,Cap,,0,0,330,,e três anos {\c&H00E6FF&}aparece{\c&HFFFFFF&}
+Dialogue: 0,0:02:16.64,0:02:17.40,Cap,,0,0,330,,{\c&H00E6FF&}chorando{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.40,0:02:17.92,Cap,,0,0,330,,{\c&H00E6FF&}Ela{\c&HFFFFFF&} perdeu todo o
+Dialogue: 0,0:02:17.92,0:02:18.38,Cap,,0,0,330,,Ela {\c&H00E6FF&}perdeu{\c&HFFFFFF&} todo o
+Dialogue: 0,0:02:18.38,0:02:18.74,Cap,,0,0,330,,Ela perdeu {\c&H00E6FF&}todo{\c&HFFFFFF&} o
+Dialogue: 0,0:02:18.74,0:02:18.94,Cap,,0,0,330,,Ela perdeu todo {\c&H00E6FF&}o{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.94,0:02:19.22,Cap,,0,0,330,,{\c&H00E6FF&}dinheiro{\c&HFFFFFF&} que tinha guardado
+Dialogue: 0,0:02:19.22,0:02:19.48,Cap,,0,0,330,,dinheiro {\c&H00E6FF&}que{\c&HFFFFFF&} tinha guardado
+Dialogue: 0,0:02:19.48,0:02:19.68,Cap,,0,0,330,,dinheiro que {\c&H00E6FF&}tinha{\c&HFFFFFF&} guardado
+Dialogue: 0,0:02:19.68,0:02:20.18,Cap,,0,0,330,,dinheiro que tinha {\c&H00E6FF&}guardado{\c&HFFFFFF&}
+Dialogue: 0,0:02:20.18,0:02:20.40,Cap,,0,0,330,,{\c&H00E6FF&}para{\c&HFFFFFF&} a cirurgia do
+Dialogue: 0,0:02:20.40,0:02:20.52,Cap,,0,0,330,,para {\c&H00E6FF&}a{\c&HFFFFFF&} cirurgia do
+Dialogue: 0,0:02:20.52,0:02:20.96,Cap,,0,0,330,,para a {\c&H00E6FF&}cirurgia{\c&HFFFFFF&} do
+Dialogue: 0,0:02:20.96,0:02:21.08,Cap,,0,0,330,,para a cirurgia {\c&H00E6FF&}do{\c&HFFFFFF&}
+Dialogue: 0,0:02:21.08,0:02:21.92,Cap,,0,0,330,,{\c&H00E6FF&}marido{\c&HFFFFFF&}
+Dialogue: 0,0:02:21.92,0:02:22.04,Cap,,0,0,330,,{\c&H00E6FF&}A{\c&HFFFFFF&} repórter fala o
+Dialogue: 0,0:02:22.04,0:02:22.58,Cap,,0,0,330,,A {\c&H00E6FF&}repórter{\c&HFFFFFF&} fala o
+Dialogue: 0,0:02:22.58,0:02:22.94,Cap,,0,0,330,,A repórter {\c&H00E6FF&}fala{\c&HFFFFFF&} o
+Dialogue: 0,0:02:22.94,0:02:23.10,Cap,,0,0,330,,A repórter fala {\c&H00E6FF&}o{\c&HFFFFFF&}
+Dialogue: 0,0:02:23.10,0:02:23.28,Cap,,0,0,330,,{\c&H00E6FF&}nome{\c&HFFFFFF&} dela
+Dialogue: 0,0:02:23.28,0:02:23.98,Cap,,0,0,330,,nome {\c&H00E6FF&}dela{\c&HFFFFFF&}
+Dialogue: 0,0:02:23.98,0:02:24.14,Cap,,0,0,330,,{\c&H00E6FF&}E{\c&HFFFFFF&} você reconhece
+Dialogue: 0,0:02:24.14,0:02:24.36,Cap,,0,0,0,,E {\c&H00E6FF&}você{\c&HFFFFFF&} reconhece
+Dialogue: 0,0:02:24.36,0:02:25.42,Cap,,0,0,0,,E você {\c&H00E6FF&}reconhece{\c&HFFFFFF&}
+Dialogue: 0,0:02:25.42,0:02:25.64,Cap,,0,0,0,,{\c&H00E6FF&}Aquele{\c&HFFFFFF&} nome estava na
+Dialogue: 0,0:02:25.64,0:02:26.02,Cap,,0,0,0,,Aquele {\c&H00E6FF&}nome{\c&HFFFFFF&} estava na
+Dialogue: 0,0:02:26.02,0:02:26.34,Cap,,0,0,0,,Aquele nome {\c&H00E6FF&}estava{\c&HFFFFFF&} na
+Dialogue: 0,0:02:26.34,0:02:26.50,Cap,,0,0,0,,Aquele nome estava {\c&H00E6FF&}na{\c&HFFFFFF&}
+Dialogue: 0,0:02:26.50,0:02:26.68,Cap,,0,0,0,,{\c&H00E6FF&}sua{\c&HFFFFFF&} planilha
+Dialogue: 0,0:02:26.68,0:02:27.68,Cap,,0,0,0,,sua {\c&H00E6FF&}planilha{\c&HFFFFFF&}
+Dialogue: 0,0:02:27.68,0:02:27.74,Cap,,0,0,0,,{\c&H00E6FF&}A{\c&HFFFFFF&} sua mãe balança
+Dialogue: 0,0:02:27.74,0:02:27.92,Cap,,0,0,0,,A {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe balança
+Dialogue: 0,0:02:27.92,0:02:28.14,Cap,,0,0,0,,A sua {\c&H00E6FF&}mãe{\c&HFFFFFF&} balança
+Dialogue: 0,0:02:28.14,0:02:28.68,Cap,,0,0,0,,A sua mãe {\c&H00E6FF&}balança{\c&HFFFFFF&}
+Dialogue: 0,0:02:28.68,0:02:28.84,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} cabeça e diz
+Dialogue: 0,0:02:28.84,0:02:29.18,Cap,,0,0,0,,a {\c&H00E6FF&}cabeça{\c&HFFFFFF&} e diz
+Dialogue: 0,0:02:29.18,0:02:29.50,Cap,,0,0,0,,a cabeça {\c&H00E6FF&}e{\c&HFFFFFF&} diz
+Dialogue: 0,0:02:29.50,0:02:30.14,Cap,,0,0,0,,a cabeça e {\c&H00E6FF&}diz{\c&HFFFFFF&}
+Dialogue: 0,0:02:30.14,0:02:30.34,Cap,,0,0,0,,{\c&H00E6FF&}Que{\c&HFFFFFF&} tipo de pessoa
+Dialogue: 0,0:02:30.34,0:02:30.74,Cap,,0,0,0,,Que {\c&H00E6FF&}tipo{\c&HFFFFFF&} de pessoa
+Dialogue: 0,0:02:30.74,0:02:30.88,Cap,,0,0,0,,Que tipo {\c&H00E6FF&}de{\c&HFFFFFF&} pessoa
+Dialogue: 0,0:02:30.88,0:02:31.36,Cap,,0,0,0,,Que tipo de {\c&H00E6FF&}pessoa{\c&HFFFFFF&}
+Dialogue: 0,0:02:31.36,0:02:31.56,Cap,,0,0,0,,{\c&H00E6FF&}tem{\c&HFFFFFF&} coragem de fazer
+Dialogue: 0,0:02:31.56,0:02:32.10,Cap,,0,0,0,,tem {\c&H00E6FF&}coragem{\c&HFFFFFF&} de fazer
+Dialogue: 0,0:02:32.10,0:02:32.26,Cap,,0,0,0,,tem coragem {\c&H00E6FF&}de{\c&HFFFFFF&} fazer
+Dialogue: 0,0:02:32.26,0:02:32.50,Cap,,0,0,0,,tem coragem de {\c&H00E6FF&}fazer{\c&HFFFFFF&}
+Dialogue: 0,0:02:32.50,0:02:32.80,Cap,,0,0,0,,{\c&H00E6FF&}isso{\c&HFFFFFF&} com uma senhora
+Dialogue: 0,0:02:32.80,0:02:32.96,Cap,,0,0,0,,isso {\c&H00E6FF&}com{\c&HFFFFFF&} uma senhora
+Dialogue: 0,0:02:32.96,0:02:33.18,Cap,,0,0,0,,isso com {\c&H00E6FF&}uma{\c&HFFFFFF&} senhora
+Dialogue: 0,0:02:33.18,0:02:34.04,Cap,,0,0,0,,isso com uma {\c&H00E6FF&}senhora{\c&HFFFFFF&}
+Dialogue: 0,0:02:34.04,0:02:34.36,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} não consegue terminar
+Dialogue: 0,0:02:34.36,0:02:34.68,Cap,,0,0,0,,Você {\c&H00E6FF&}não{\c&HFFFFFF&} consegue terminar
+Dialogue: 0,0:02:34.68,0:02:35.24,Cap,,0,0,0,,Você não {\c&H00E6FF&}consegue{\c&HFFFFFF&} terminar
+Dialogue: 0,0:02:35.24,0:02:35.70,Cap,,0,0,0,,Você não consegue {\c&H00E6FF&}terminar{\c&HFFFFFF&}
+Dialogue: 0,0:02:35.70,0:02:35.90,Cap,,0,0,0,,{\c&H00E6FF&}o{\c&HFFFFFF&} jantar
+Dialogue: 0,0:02:35.90,0:02:36.74,Cap,,0,0,0,,o {\c&H00E6FF&}jantar{\c&HFFFFFF&}
+Dialogue: 0,0:02:36.74,0:02:37.08,Cap,,0,0,0,,{\c&H00E6FF&}Naquela{\c&HFFFFFF&} noite
+Dialogue: 0,0:02:37.08,0:02:37.76,Cap,,0,0,0,,Naquela {\c&H00E6FF&}noite{\c&HFFFFFF&}
+Dialogue: 0,0:02:37.76,0:02:37.94,Cap,,0,0,0,,{\c&H00E6FF&}pela{\c&HFFFFFF&} primeira vez
+Dialogue: 0,0:02:37.94,0:02:38.38,Cap,,0,0,0,,pela {\c&H00E6FF&}primeira{\c&HFFFFFF&} vez
+Dialogue: 0,0:02:38.38,0:02:39.14,Cap,,0,0,0,,pela primeira {\c&H00E6FF&}vez{\c&HFFFFFF&}
+Dialogue: 0,0:02:39.14,0:02:39.42,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} pensa em parar
+Dialogue: 0,0:02:39.42,0:02:39.82,Cap,,0,0,0,,você {\c&H00E6FF&}pensa{\c&HFFFFFF&} em parar
+Dialogue: 0,0:02:39.82,0:02:40.00,Cap,,0,0,0,,você pensa {\c&H00E6FF&}em{\c&HFFFFFF&} parar
+Dialogue: 0,0:02:40.00,0:02:40.84,Cap,,0,0,0,,você pensa em {\c&H00E6FF&}parar{\c&HFFFFFF&}
+Dialogue: 0,0:02:40.84,0:02:41.06,Cap,,0,0,0,,{\c&H00E6FF&}Mas{\c&HFFFFFF&} no dia seguinte
+Dialogue: 0,0:02:41.06,0:02:41.20,Cap,,0,0,0,,Mas {\c&H00E6FF&}no{\c&HFFFFFF&} dia seguinte
+Dialogue: 0,0:02:41.20,0:02:41.40,Cap,,0,0,0,,Mas no {\c&H00E6FF&}dia{\c&HFFFFFF&} seguinte
+Dialogue: 0,0:02:41.40,0:02:42.12,Cap,,0,0,0,,Mas no dia {\c&H00E6FF&}seguinte{\c&HFFFFFF&}
+Dialogue: 0,0:02:42.12,0:02:42.34,Cap,,0,0,0,,{\c&H00E6FF&}chega{\c&HFFFFFF&} a parcela do
+Dialogue: 0,0:02:42.34,0:02:42.50,Cap,,0,0,0,,chega {\c&H00E6FF&}a{\c&HFFFFFF&} parcela do
+Dialogue: 0,0:02:42.50,0:02:42.84,Cap,,0,0,0,,chega a {\c&H00E6FF&}parcela{\c&HFFFFFF&} do
+Dialogue: 0,0:02:42.84,0:02:43.00,Cap,,0,0,0,,chega a parcela {\c&H00E6FF&}do{\c&HFFFFFF&}
+Dialogue: 0,0:02:43.00,0:02:43.38,Cap,,0,0,0,,{\c&H00E6FF&}carro{\c&HFFFFFF&}
+Dialogue: 0,0:02:43.38,0:02:43.80,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} a fatura das
+Dialogue: 0,0:02:43.80,0:02:43.88,Cap,,0,0,0,,E {\c&H00E6FF&}a{\c&HFFFFFF&} fatura das
+Dialogue: 0,0:02:43.88,0:02:44.18,Cap,,0,0,0,,E a {\c&H00E6FF&}fatura{\c&HFFFFFF&} das
+Dialogue: 0,0:02:44.18,0:02:44.42,Cap,,0,0,0,,E a fatura {\c&H00E6FF&}das{\c&HFFFFFF&}
+Dialogue: 0,0:02:44.42,0:02:45.32,Cap,,0,0,0,,{\c&H00E6FF&}viagens{\c&HFFFFFF&}
+Dialogue: 0,0:02:45.32,0:02:45.48,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} você continua
+Dialogue: 0,0:02:45.48,0:02:45.74,Cap,,0,0,0,,E {\c&H00E6FF&}você{\c&HFFFFFF&} continua
+Dialogue: 0,0:02:45.74,0:02:46.36,Cap,,0,0,0,,E você {\c&H00E6FF&}continua{\c&HFFFFFF&}
+Dialogue: 0,0:02:46.36,0:02:47.04,Cap,,0,0,0,,{\c&H00E6FF&}Só{\c&HFFFFFF&} que alguma coisa
+Dialogue: 0,0:02:47.04,0:02:47.64,Cap,,0,0,0,,Só {\c&H00E6FF&}que{\c&HFFFFFF&} alguma coisa
+Dialogue: 0,0:02:47.64,0:02:48.16,Cap,,0,0,0,,Só que {\c&H00E6FF&}alguma{\c&HFFFFFF&} coisa
+Dialogue: 0,0:02:48.16,0:02:48.64,Cap,,0,0,0,,Só que alguma {\c&H00E6FF&}coisa{\c&HFFFFFF&}
+Dialogue: 0,0:02:48.64,0:02:49.40,Cap,,0,0,0,,{\c&H00E6FF&}mudou{\c&HFFFFFF&}
+Dialogue: 0,0:02:49.40,0:02:49.70,Cap,,0,0,0,,{\c&H00E6FF&}Agora{\c&HFFFFFF&} você troca de
+Dialogue: 0,0:02:49.70,0:02:50.02,Cap,,0,0,0,,Agora {\c&H00E6FF&}você{\c&HFFFFFF&} troca de
+Dialogue: 0,0:02:50.02,0:02:50.34,Cap,,0,0,0,,Agora você {\c&H00E6FF&}troca{\c&HFFFFFF&} de
+Dialogue: 0,0:02:50.34,0:02:50.52,Cap,,0,0,0,,Agora você troca {\c&H00E6FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:02:50.52,0:02:50.88,Cap,,0,0,0,,{\c&H00E6FF&}número{\c&HFFFFFF&} toda semana
+Dialogue: 0,0:02:50.88,0:02:51.24,Cap,,0,0,0,,número {\c&H00E6FF&}toda{\c&HFFFFFF&} semana
+Dialogue: 0,0:02:51.24,0:02:52.36,Cap,,0,0,0,,número toda {\c&H00E6FF&}semana{\c&HFFFFFF&}
+Dialogue: 0,0:02:52.36,0:02:52.58,Cap,,0,0,0,,{\c&H00E6FF&}Olha{\c&HFFFFFF&} pela janela antes
+Dialogue: 0,0:02:52.58,0:02:52.80,Cap,,0,0,0,,Olha {\c&H00E6FF&}pela{\c&HFFFFFF&} janela antes
+Dialogue: 0,0:02:52.80,0:02:53.30,Cap,,0,0,0,,Olha pela {\c&H00E6FF&}janela{\c&HFFFFFF&} antes
+Dialogue: 0,0:02:53.30,0:02:53.58,Cap,,0,0,0,,Olha pela janela {\c&H00E6FF&}antes{\c&HFFFFFF&}
+Dialogue: 0,0:02:53.58,0:02:53.74,Cap,,0,0,0,,{\c&H00E6FF&}de{\c&HFFFFFF&} sair de casa
+Dialogue: 0,0:02:53.74,0:02:53.96,Cap,,0,0,0,,de {\c&H00E6FF&}sair{\c&HFFFFFF&} de casa
+Dialogue: 0,0:02:53.96,0:02:54.10,Cap,,0,0,0,,de sair {\c&H00E6FF&}de{\c&HFFFFFF&} casa
+Dialogue: 0,0:02:54.10,0:02:54.86,Cap,,0,0,0,,de sair de {\c&H00E6FF&}casa{\c&HFFFFFF&}
+Dialogue: 0,0:02:54.86,0:02:55.10,Cap,,0,0,0,,{\c&H00E6FF&}Cada{\c&HFFFFFF&} carro parado na
+Dialogue: 0,0:02:55.10,0:02:55.56,Cap,,0,0,0,,Cada {\c&H00E6FF&}carro{\c&HFFFFFF&} parado na
+Dialogue: 0,0:02:55.56,0:02:55.94,Cap,,0,0,0,,Cada carro {\c&H00E6FF&}parado{\c&HFFFFFF&} na
+Dialogue: 0,0:02:55.94,0:02:56.10,Cap,,0,0,0,,Cada carro parado {\c&H00E6FF&}na{\c&HFFFFFF&}
+Dialogue: 0,0:02:56.10,0:02:56.40,Cap,,0,0,0,,{\c&H00E6FF&}rua{\c&HFFFFFF&} parece estar esperando
+Dialogue: 0,0:02:56.40,0:02:56.68,Cap,,0,0,0,,rua {\c&H00E6FF&}parece{\c&HFFFFFF&} estar esperando
+Dialogue: 0,0:02:56.68,0:02:57.00,Cap,,0,0,0,,rua parece {\c&H00E6FF&}estar{\c&HFFFFFF&} esperando
+Dialogue: 0,0:02:57.00,0:02:57.52,Cap,,0,0,0,,rua parece estar {\c&H00E6FF&}esperando{\c&HFFFFFF&}
+Dialogue: 0,0:02:57.52,0:02:57.78,Cap,,0,0,0,,{\c&H00E6FF&}por{\c&HFFFFFF&} você
+Dialogue: 0,0:02:57.78,0:02:58.68,Cap,,0,0,0,,por {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:02:58.68,0:02:58.90,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} quase não dorme
+Dialogue: 0,0:02:58.90,0:02:59.40,Cap,,0,0,0,,Você {\c&H00E6FF&}quase{\c&HFFFFFF&} não dorme
+Dialogue: 0,0:02:59.40,0:02:59.60,Cap,,0,0,0,,Você quase {\c&H00E6FF&}não{\c&HFFFFFF&} dorme
+Dialogue: 0,0:02:59.60,0:03:00.06,Cap,,0,0,0,,Você quase não {\c&H00E6FF&}dorme{\c&HFFFFFF&}
+Dialogue: 0,0:03:00.06,0:03:00.94,Cap,,0,0,0,,{\c&H00E6FF&}mais{\c&HFFFFFF&}
+Dialogue: 0,0:03:00.94,0:03:01.04,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} dinheiro continua entrando
+Dialogue: 0,0:03:01.04,0:03:01.28,Cap,,0,0,0,,O {\c&H00E6FF&}dinheiro{\c&HFFFFFF&} continua entrando
+Dialogue: 0,0:03:01.28,0:03:01.82,Cap,,0,0,0,,O dinheiro {\c&H00E6FF&}continua{\c&HFFFFFF&} entrando
+Dialogue: 0,0:03:01.82,0:03:02.70,Cap,,0,0,0,,O dinheiro continua {\c&H00E6FF&}entrando{\c&HFFFFFF&}
+Dialogue: 0,0:03:02.70,0:03:02.92,Cap,,0,0,0,,{\c&H00E6FF&}mas{\c&HFFFFFF&} a paz vai
+Dialogue: 0,0:03:02.92,0:03:03.06,Cap,,0,0,0,,mas {\c&H00E6FF&}a{\c&HFFFFFF&} paz vai
+Dialogue: 0,0:03:03.06,0:03:03.48,Cap,,0,0,0,,mas a {\c&H00E6FF&}paz{\c&HFFFFFF&} vai
+Dialogue: 0,0:03:03.48,0:03:03.86,Cap,,0,0,0,,mas a paz {\c&H00E6FF&}vai{\c&HFFFFFF&}
+Dialogue: 0,0:03:03.86,0:03:04.26,Cap,,0,0,0,,{\c&H00E6FF&}embora{\c&HFFFFFF&} junto com ele
+Dialogue: 0,0:03:04.26,0:03:04.56,Cap,,0,0,0,,embora {\c&H00E6FF&}junto{\c&HFFFFFF&} com ele
+Dialogue: 0,0:03:04.56,0:03:04.84,Cap,,0,0,0,,embora junto {\c&H00E6FF&}com{\c&HFFFFFF&} ele
+Dialogue: 0,0:03:04.84,0:03:05.54,Cap,,0,0,0,,embora junto com {\c&H00E6FF&}ele{\c&HFFFFFF&}
+Dialogue: 0,0:03:05.54,0:03:06.26,Cap,,0,0,0,,{\c&H00E6FF&}Então{\c&HFFFFFF&}
+Dialogue: 0,0:03:06.26,0:03:06.48,Cap,,0,0,0,,{\c&H00E6FF&}um{\c&HFFFFFF&} dia
+Dialogue: 0,0:03:06.48,0:03:07.16,Cap,,0,0,0,,um {\c&H00E6FF&}dia{\c&HFFFFFF&}
+Dialogue: 0,0:03:07.16,0:03:07.22,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} sua amiga para
+Dialogue: 0,0:03:07.22,0:03:07.38,Cap,,0,0,0,,a {\c&H00E6FF&}sua{\c&HFFFFFF&} amiga para
+Dialogue: 0,0:03:07.38,0:03:07.64,Cap,,0,0,0,,a sua {\c&H00E6FF&}amiga{\c&HFFFFFF&} para
+Dialogue: 0,0:03:07.64,0:03:08.00,Cap,,0,0,0,,a sua amiga {\c&H00E6FF&}para{\c&HFFFFFF&}
+Dialogue: 0,0:03:08.00,0:03:08.16,Cap,,0,0,0,,{\c&H00E6FF&}de{\c&HFFFFFF&} responder
+Dialogue: 0,0:03:08.16,0:03:09.14,Cap,,0,0,0,,de {\c&H00E6FF&}responder{\c&HFFFFFF&}
+Dialogue: 0,0:03:09.14,0:03:09.32,Cap,,0,0,0,,{\c&H00E6FF&}Os{\c&HFFFFFF&} grupos somem
+Dialogue: 0,0:03:09.32,0:03:09.58,Cap,,0,0,0,,Os {\c&H00E6FF&}grupos{\c&HFFFFFF&} somem
+Dialogue: 0,0:03:09.58,0:03:10.56,Cap,,0,0,0,,Os grupos {\c&H00E6FF&}somem{\c&HFFFFFF&}
+Dialogue: 0,0:03:10.56,0:03:10.68,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} número dela não
+Dialogue: 0,0:03:10.68,0:03:10.94,Cap,,0,0,0,,O {\c&H00E6FF&}número{\c&HFFFFFF&} dela não
+Dialogue: 0,0:03:10.94,0:03:11.28,Cap,,0,0,0,,O número {\c&H00E6FF&}dela{\c&HFFFFFF&} não
+Dialogue: 0,0:03:11.28,0:03:11.56,Cap,,0,0,0,,O número dela {\c&H00E6FF&}não{\c&HFFFFFF&}
+Dialogue: 0,0:03:11.56,0:03:12.02,Cap,,0,0,0,,{\c&H00E6FF&}existe{\c&HFFFFFF&} mais
+Dialogue: 0,0:03:12.02,0:03:12.94,Cap,,0,0,0,,existe {\c&H00E6FF&}mais{\c&HFFFFFF&}
+Dialogue: 0,0:03:12.94,0:03:13.20,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} tenta se convencer
+Dialogue: 0,0:03:13.20,0:03:13.54,Cap,,0,0,0,,Você {\c&H00E6FF&}tenta{\c&HFFFFFF&} se convencer
+Dialogue: 0,0:03:13.54,0:03:13.68,Cap,,0,0,0,,Você tenta {\c&H00E6FF&}se{\c&HFFFFFF&} convencer
+Dialogue: 0,0:03:13.68,0:03:14.20,Cap,,0,0,0,,Você tenta se {\c&H00E6FF&}convencer{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.20,0:03:14.40,Cap,,0,0,0,,{\c&H00E6FF&}de{\c&HFFFFFF&} que ela só
+Dialogue: 0,0:03:14.40,0:03:14.52,Cap,,0,0,0,,de {\c&H00E6FF&}que{\c&HFFFFFF&} ela só
+Dialogue: 0,0:03:14.52,0:03:14.66,Cap,,0,0,0,,de que {\c&H00E6FF&}ela{\c&HFFFFFF&} só
+Dialogue: 0,0:03:14.66,0:03:14.86,Cap,,0,0,0,,de que ela {\c&H00E6FF&}só{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.86,0:03:15.18,Cap,,0,0,0,,{\c&H00E6FF&}trocou{\c&HFFFFFF&} de chip
+Dialogue: 0,0:03:15.18,0:03:15.30,Cap,,0,0,0,,trocou {\c&H00E6FF&}de{\c&HFFFFFF&} chip
+Dialogue: 0,0:03:15.30,0:03:15.60,Cap,,0,0,0,,trocou de {\c&H00E6FF&}chip{\c&HFFFFFF&}
+Dialogue: 0,0:03:15.60,0:03:16.78,Cap,,0,0,0,,{\c&H00E6FF&}Mas{\c&HFFFFFF&}
+Dialogue: 0,0:03:16.78,0:03:16.96,Cap,,0,0,0,,{\c&H00E6FF&}no{\c&HFFFFFF&} fundo
+Dialogue: 0,0:03:16.96,0:03:17.78,Cap,,0,0,0,,no {\c&H00E6FF&}fundo{\c&HFFFFFF&}
+Dialogue: 0,0:03:17.78,0:03:18.02,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} sabe
+Dialogue: 0,0:03:18.02,0:03:18.92,Cap,,0,0,0,,você {\c&H00E6FF&}sabe{\c&HFFFFFF&}
+Dialogue: 0,0:03:18.92,0:03:19.22,Cap,,0,0,0,,{\c&H00E6FF&}Três{\c&HFFFFFF&} semanas depois
+Dialogue: 0,0:03:19.22,0:03:19.52,Cap,,0,0,0,,Três {\c&H00E6FF&}semanas{\c&HFFFFFF&} depois
+Dialogue: 0,0:03:19.52,0:03:20.42,Cap,,0,0,0,,Três semanas {\c&H00E6FF&}depois{\c&HFFFFFF&}
+Dialogue: 0,0:03:20.42,0:03:20.58,Cap,,0,0,0,,{\c&H00E6FF&}às{\c&HFFFFFF&} seis da manhã
+Dialogue: 0,0:03:20.58,0:03:20.86,Cap,,0,0,0,,às {\c&H00E6FF&}seis{\c&HFFFFFF&} da manhã
+Dialogue: 0,0:03:20.86,0:03:21.06,Cap,,0,0,0,,às seis {\c&H00E6FF&}da{\c&HFFFFFF&} manhã
+Dialogue: 0,0:03:21.06,0:03:21.74,Cap,,0,0,0,,às seis da {\c&H00E6FF&}manhã{\c&HFFFFFF&}
+Dialogue: 0,0:03:21.74,0:03:22.02,Cap,,0,0,0,,{\c&H00E6FF&}alguém{\c&HFFFFFF&} bate na porta
+Dialogue: 0,0:03:22.02,0:03:22.44,Cap,,0,0,0,,alguém {\c&H00E6FF&}bate{\c&HFFFFFF&} na porta
+Dialogue: 0,0:03:22.44,0:03:22.62,Cap,,0,0,0,,alguém bate {\c&H00E6FF&}na{\c&HFFFFFF&} porta
+Dialogue: 0,0:03:22.62,0:03:23.54,Cap,,0,0,0,,alguém bate na {\c&H00E6FF&}porta{\c&HFFFFFF&}
+Dialogue: 0,0:03:23.54,0:03:23.74,Cap,,0,0,0,,{\c&H00E6FF&}Não{\c&HFFFFFF&} é uma batida
+Dialogue: 0,0:03:23.74,0:03:23.88,Cap,,0,0,0,,Não {\c&H00E6FF&}é{\c&HFFFFFF&} uma batida
+Dialogue: 0,0:03:23.88,0:03:24.02,Cap,,0,0,0,,Não é {\c&H00E6FF&}uma{\c&HFFFFFF&} batida
+Dialogue: 0,0:03:24.02,0:03:24.40,Cap,,0,0,0,,Não é uma {\c&H00E6FF&}batida{\c&HFFFFFF&}
+Dialogue: 0,0:03:24.40,0:03:25.30,Cap,,0,0,0,,{\c&H00E6FF&}normal{\c&HFFFFFF&}
+Dialogue: 0,0:03:25.30,0:03:25.58,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} ouve a voz
+Dialogue: 0,0:03:25.58,0:03:25.88,Cap,,0,0,0,,Você {\c&H00E6FF&}ouve{\c&HFFFFFF&} a voz
+Dialogue: 0,0:03:25.88,0:03:25.98,Cap,,0,0,0,,Você ouve {\c&H00E6FF&}a{\c&HFFFFFF&} voz
+Dialogue: 0,0:03:25.98,0:03:26.24,Cap,,0,0,0,,Você ouve a {\c&H00E6FF&}voz{\c&HFFFFFF&}
+Dialogue: 0,0:03:26.24,0:03:26.42,Cap,,0,0,0,,{\c&H00E6FF&}da{\c&HFFFFFF&} sua mãe na
+Dialogue: 0,0:03:26.42,0:03:26.64,Cap,,0,0,0,,da {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe na
+Dialogue: 0,0:03:26.64,0:03:27.00,Cap,,0,0,0,,da sua {\c&H00E6FF&}mãe{\c&HFFFFFF&} na
+Dialogue: 0,0:03:27.00,0:03:27.18,Cap,,0,0,0,,da sua mãe {\c&H00E6FF&}na{\c&HFFFFFF&}
+Dialogue: 0,0:03:27.18,0:03:28.06,Cap,,0,0,0,,{\c&H00E6FF&}sala{\c&HFFFFFF&}
+Dialogue: 0,0:03:28.06,0:03:29.08,Cap,,0,0,0,,{\c&H00E6FF&}Confusa{\c&HFFFFFF&}
+Dialogue: 0,0:03:29.08,0:03:30.20,Cap,,0,0,0,,{\c&H00E6FF&}Assustada{\c&HFFFFFF&}
+Dialogue: 0,0:03:30.20,0:03:30.38,Cap,,0,0,0,,{\c&H00E6FF&}Quando{\c&HFFFFFF&} você abre a
+Dialogue: 0,0:03:30.38,0:03:30.70,Cap,,0,0,0,,Quando {\c&H00E6FF&}você{\c&HFFFFFF&} abre a
+Dialogue: 0,0:03:30.70,0:03:30.96,Cap,,0,0,0,,Quando você {\c&H00E6FF&}abre{\c&HFFFFFF&} a
+Dialogue: 0,0:03:30.96,0:03:31.04,Cap,,0,0,0,,Quando você abre {\c&H00E6FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:03:31.04,0:03:31.24,Cap,,0,0,0,,{\c&H00E6FF&}porta{\c&HFFFFFF&} do quarto
+Dialogue: 0,0:03:31.24,0:03:31.44,Cap,,0,0,0,,porta {\c&H00E6FF&}do{\c&HFFFFFF&} quarto
+Dialogue: 0,0:03:31.44,0:03:32.22,Cap,,0,0,0,,porta do {\c&H00E6FF&}quarto{\c&HFFFFFF&}
+Dialogue: 0,0:03:32.22,0:03:32.36,Cap,,0,0,0,,{\c&H00E6FF&}vê{\c&HFFFFFF&} os policiais
+Dialogue: 0,0:03:32.36,0:03:32.50,Cap,,0,0,0,,vê {\c&H00E6FF&}os{\c&HFFFFFF&} policiais
+Dialogue: 0,0:03:32.50,0:03:33.66,Cap,,0,0,0,,vê os {\c&H00E6FF&}policiais{\c&HFFFFFF&}
+Dialogue: 0,0:03:33.66,0:03:33.78,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} vê o rosto
+Dialogue: 0,0:03:33.78,0:03:33.92,Cap,,0,0,0,,E {\c&H00E6FF&}vê{\c&HFFFFFF&} o rosto
+Dialogue: 0,0:03:33.92,0:03:34.04,Cap,,0,0,0,,E vê {\c&H00E6FF&}o{\c&HFFFFFF&} rosto
+Dialogue: 0,0:03:34.04,0:03:34.46,Cap,,0,0,0,,E vê o {\c&H00E6FF&}rosto{\c&HFFFFFF&}
+Dialogue: 0,0:03:34.46,0:03:34.66,Cap,,0,0,0,,{\c&H00E6FF&}da{\c&HFFFFFF&} sua mãe
+Dialogue: 0,0:03:34.66,0:03:34.88,Cap,,0,0,0,,da {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe
+Dialogue: 0,0:03:34.88,0:03:35.52,Cap,,0,0,0,,da sua {\c&H00E6FF&}mãe{\c&HFFFFFF&}
+Dialogue: 0,0:03:35.52,0:03:35.90,Cap,,0,0,0,,{\c&H00E6FF&}olhando{\c&HFFFFFF&} para você como
+Dialogue: 0,0:03:35.90,0:03:36.14,Cap,,0,0,0,,olhando {\c&H00E6FF&}para{\c&HFFFFFF&} você como
+Dialogue: 0,0:03:36.14,0:03:36.56,Cap,,0,0,0,,olhando para {\c&H00E6FF&}você{\c&HFFFFFF&} como
+Dialogue: 0,0:03:36.56,0:03:36.80,Cap,,0,0,0,,olhando para você {\c&H00E6FF&}como{\c&HFFFFFF&}
+Dialogue: 0,0:03:36.80,0:03:37.00,Cap,,0,0,0,,{\c&H00E6FF&}se{\c&HFFFFFF&} não te conhecesse
+Dialogue: 0,0:03:37.00,0:03:37.24,Cap,,0,0,0,,se {\c&H00E6FF&}não{\c&HFFFFFF&} te conhecesse
+Dialogue: 0,0:03:37.24,0:03:37.38,Cap,,0,0,0,,se não {\c&H00E6FF&}te{\c&HFFFFFF&} conhecesse
+Dialogue: 0,0:03:37.38,0:03:38.50,Cap,,0,0,0,,se não te {\c&H00E6FF&}conhecesse{\c&HFFFFFF&}
+Dialogue: 0,0:03:38.50,0:03:38.72,Cap,,0,0,0,,{\c&H00E6FF&}Eles{\c&HFFFFFF&} levam o seu
+Dialogue: 0,0:03:38.72,0:03:39.06,Cap,,0,0,0,,Eles {\c&H00E6FF&}levam{\c&HFFFFFF&} o seu
+Dialogue: 0,0:03:39.06,0:03:39.18,Cap,,0,0,0,,Eles levam {\c&H00E6FF&}o{\c&HFFFFFF&} seu
+Dialogue: 0,0:03:39.18,0:03:39.26,Cap,,0,0,0,,Eles levam o {\c&H00E6FF&}seu{\c&HFFFFFF&}
+Dialogue: 0,0:03:39.26,0:03:40.18,Cap,,0,0,0,,{\c&H00E6FF&}celular{\c&HFFFFFF&}
+Dialogue: 0,0:03:40.18,0:03:40.26,Cap,,0,0,0,,{\c&H00E6FF&}o{\c&HFFFFFF&} seu notebook e
+Dialogue: 0,0:03:40.26,0:03:40.36,Cap,,0,0,0,,o {\c&H00E6FF&}seu{\c&HFFFFFF&} notebook e
+Dialogue: 0,0:03:40.36,0:03:40.80,Cap,,0,0,0,,o seu {\c&H00E6FF&}notebook{\c&HFFFFFF&} e
+Dialogue: 0,0:03:40.80,0:03:41.26,Cap,,0,0,0,,o seu notebook {\c&H00E6FF&}e{\c&HFFFFFF&}
+Dialogue: 0,0:03:41.26,0:03:41.46,Cap,,0,0,0,,{\c&H00E6FF&}as{\c&HFFFFFF&} chaves do carro
+Dialogue: 0,0:03:41.46,0:03:41.72,Cap,,0,0,0,,as {\c&H00E6FF&}chaves{\c&HFFFFFF&} do carro
+Dialogue: 0,0:03:41.72,0:03:41.92,Cap,,0,0,0,,as chaves {\c&H00E6FF&}do{\c&HFFFFFF&} carro
+Dialogue: 0,0:03:41.92,0:03:42.62,Cap,,0,0,0,,as chaves do {\c&H00E6FF&}carro{\c&HFFFFFF&}
+Dialogue: 0,0:03:42.62,0:03:42.80,Cap,,0,0,0,,{\c&H00E6FF&}Na{\c&HFFFFFF&} frente dos vizinhos
+Dialogue: 0,0:03:42.80,0:03:43.18,Cap,,0,0,0,,Na {\c&H00E6FF&}frente{\c&HFFFFFF&} dos vizinhos
+Dialogue: 0,0:03:43.18,0:03:43.40,Cap,,0,0,0,,Na frente {\c&H00E6FF&}dos{\c&HFFFFFF&} vizinhos
+Dialogue: 0,0:03:43.40,0:03:43.96,Cap,,0,0,0,,Na frente dos {\c&H00E6FF&}vizinhos{\c&HFFFFFF&}
+Dialogue: 0,0:03:43.96,0:03:44.42,Cap,,0,0,0,,{\c&H00E6FF&}Na{\c&HFFFFFF&} frente de todo
+Dialogue: 0,0:03:44.42,0:03:44.68,Cap,,0,0,0,,Na {\c&H00E6FF&}frente{\c&HFFFFFF&} de todo
+Dialogue: 0,0:03:44.68,0:03:44.92,Cap,,0,0,0,,Na frente {\c&H00E6FF&}de{\c&HFFFFFF&} todo
+Dialogue: 0,0:03:44.92,0:03:45.22,Cap,,0,0,0,,Na frente de {\c&H00E6FF&}todo{\c&HFFFFFF&}
+Dialogue: 0,0:03:45.22,0:03:46.08,Cap,,0,0,0,,{\c&H00E6FF&}mundo{\c&HFFFFFF&}
+Dialogue: 0,0:03:46.08,0:03:46.20,Cap,,0,0,0,,{\c&H00E6FF&}Na{\c&HFFFFFF&} delegacia
+Dialogue: 0,0:03:46.20,0:03:47.14,Cap,,0,0,0,,Na {\c&H00E6FF&}delegacia{\c&HFFFFFF&}
+Dialogue: 0,0:03:47.14,0:03:47.34,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} descobre que o
+Dialogue: 0,0:03:47.34,0:03:47.88,Cap,,0,0,0,,você {\c&H00E6FF&}descobre{\c&HFFFFFF&} que o
+Dialogue: 0,0:03:47.88,0:03:48.00,Cap,,0,0,0,,você descobre {\c&H00E6FF&}que{\c&HFFFFFF&} o
+Dialogue: 0,0:03:48.00,0:03:48.12,Cap,,0,0,0,,você descobre que {\c&H00E6FF&}o{\c&HFFFFFF&}
+Dialogue: 0,0:03:48.12,0:03:48.34,Cap,,0,0,0,,{\c&H00E6FF&}grupo{\c&HFFFFFF&} estava sendo investigado
+Dialogue: 0,0:03:48.34,0:03:48.62,Cap,,0,0,0,,grupo {\c&H00E6FF&}estava{\c&HFFFFFF&} sendo investigado
+Dialogue: 0,0:03:48.62,0:03:48.94,Cap,,0,0,0,,grupo estava {\c&H00E6FF&}sendo{\c&HFFFFFF&} investigado
+Dialogue: 0,0:03:48.94,0:03:49.62,Cap,,0,0,0,,grupo estava sendo {\c&H00E6FF&}investigado{\c&HFFFFFF&}
+Dialogue: 0,0:03:49.62,0:03:49.86,Cap,,0,0,0,,{\c&H00E6FF&}havia{\c&HFFFFFF&} oito meses
+Dialogue: 0,0:03:49.86,0:03:50.40,Cap,,0,0,0,,havia {\c&H00E6FF&}oito{\c&HFFFFFF&} meses
+Dialogue: 0,0:03:50.40,0:03:51.38,Cap,,0,0,0,,havia oito {\c&H00E6FF&}meses{\c&HFFFFFF&}
+Dialogue: 0,0:03:51.38,0:03:51.62,Cap,,0,0,0,,{\c&H00E6FF&}Cada{\c&HFFFFFF&} transferência
+Dialogue: 0,0:03:51.62,0:03:52.84,Cap,,0,0,0,,Cada {\c&H00E6FF&}transferência{\c&HFFFFFF&}
+Dialogue: 0,0:03:52.84,0:03:53.08,Cap,,0,0,0,,{\c&H00E6FF&}Cada{\c&HFFFFFF&} mensagem
+Dialogue: 0,0:03:53.08,0:03:53.72,Cap,,0,0,0,,Cada {\c&H00E6FF&}mensagem{\c&HFFFFFF&}
+Dialogue: 0,0:03:53.72,0:03:54.28,Cap,,0,0,0,,{\c&H00E6FF&}Estava{\c&HFFFFFF&} tudo lá
+Dialogue: 0,0:03:54.28,0:03:54.68,Cap,,0,0,0,,Estava {\c&H00E6FF&}tudo{\c&HFFFFFF&} lá
+Dialogue: 0,0:03:54.68,0:03:55.36,Cap,,0,0,0,,Estava tudo {\c&H00E6FF&}lá{\c&HFFFFFF&}
+Dialogue: 0,0:03:55.36,0:03:55.46,Cap,,0,0,0,,{\c&H00E6FF&}As{\c&HFFFFFF&} suas contas são
+Dialogue: 0,0:03:55.46,0:03:55.62,Cap,,0,0,0,,As {\c&H00E6FF&}suas{\c&HFFFFFF&} contas são
+Dialogue: 0,0:03:55.62,0:03:56.12,Cap,,0,0,0,,As suas {\c&H00E6FF&}contas{\c&HFFFFFF&} são
+Dialogue: 0,0:03:56.12,0:03:56.28,Cap,,0,0,0,,As suas contas {\c&H00E6FF&}são{\c&HFFFFFF&}
+Dialogue: 0,0:03:56.28,0:03:57.38,Cap,,0,0,0,,{\c&H00E6FF&}bloqueadas{\c&HFFFFFF&}
+Dialogue: 0,0:03:57.38,0:03:57.48,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} carro é apreendido
+Dialogue: 0,0:03:57.48,0:03:57.86,Cap,,0,0,0,,O {\c&H00E6FF&}carro{\c&HFFFFFF&} é apreendido
+Dialogue: 0,0:03:57.86,0:03:58.14,Cap,,0,0,0,,O carro {\c&H00E6FF&}é{\c&HFFFFFF&} apreendido
+Dialogue: 0,0:03:58.14,0:03:59.16,Cap,,0,0,0,,O carro é {\c&H00E6FF&}apreendido{\c&HFFFFFF&}
+Dialogue: 0,0:03:59.16,0:03:59.26,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} os amigos que
+Dialogue: 0,0:03:59.26,0:03:59.38,Cap,,0,0,0,,E {\c&H00E6FF&}os{\c&HFFFFFF&} amigos que
+Dialogue: 0,0:03:59.38,0:03:59.72,Cap,,0,0,0,,E os {\c&H00E6FF&}amigos{\c&HFFFFFF&} que
+Dialogue: 0,0:03:59.72,0:03:59.96,Cap,,0,0,0,,E os amigos {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:03:59.96,0:04:00.56,Cap,,0,0,0,,{\c&H00E6FF&}comentavam{\c&HFFFFFF&} nos seus stories
+Dialogue: 0,0:04:00.56,0:04:00.74,Cap,,0,0,0,,comentavam {\c&H00E6FF&}nos{\c&HFFFFFF&} seus stories
+Dialogue: 0,0:04:00.74,0:04:00.88,Cap,,0,0,0,,comentavam nos {\c&H00E6FF&}seus{\c&HFFFFFF&} stories
+Dialogue: 0,0:04:00.88,0:04:01.42,Cap,,0,0,0,,comentavam nos seus {\c&H00E6FF&}stories{\c&HFFFFFF&}
+Dialogue: 0,0:04:01.42,0:04:02.88,Cap,,0,0,0,,{\c&H00E6FF&}desaparecem{\c&HFFFFFF&}
+Dialogue: 0,0:04:02.88,0:04:03.22,Cap,,0,0,0,,{\c&H00E6FF&}Ninguém{\c&HFFFFFF&} liga
+Dialogue: 0,0:04:03.22,0:04:04.00,Cap,,0,0,0,,Ninguém {\c&H00E6FF&}liga{\c&HFFFFFF&}
+Dialogue: 0,0:04:04.00,0:04:04.36,Cap,,0,0,0,,{\c&H00E6FF&}Ninguém{\c&HFFFFFF&} pergunta como você
+Dialogue: 0,0:04:04.36,0:04:04.88,Cap,,0,0,0,,Ninguém {\c&H00E6FF&}pergunta{\c&HFFFFFF&} como você
+Dialogue: 0,0:04:04.88,0:04:05.28,Cap,,0,0,0,,Ninguém pergunta {\c&H00E6FF&}como{\c&HFFFFFF&} você
+Dialogue: 0,0:04:05.28,0:04:05.62,Cap,,0,0,0,,Ninguém pergunta como {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:04:05.62,0:04:06.36,Cap,,0,0,0,,{\c&H00E6FF&}está{\c&HFFFFFF&}
+Dialogue: 0,0:04:06.36,0:04:06.50,Cap,,0,0,0,,{\c&H00E6FF&}A{\c&HFFFFFF&} única pessoa que
+Dialogue: 0,0:04:06.50,0:04:06.72,Cap,,0,0,0,,A {\c&H00E6FF&}única{\c&HFFFFFF&} pessoa que
+Dialogue: 0,0:04:06.72,0:04:07.20,Cap,,0,0,0,,A única {\c&H00E6FF&}pessoa{\c&HFFFFFF&} que
+Dialogue: 0,0:04:07.20,0:04:07.36,Cap,,0,0,0,,A única pessoa {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:04:07.36,0:04:07.72,Cap,,0,0,0,,{\c&H00E6FF&}aparece{\c&HFFFFFF&} na audiência é
+Dialogue: 0,0:04:07.72,0:04:07.98,Cap,,0,0,0,,aparece {\c&H00E6FF&}na{\c&HFFFFFF&} audiência é
+Dialogue: 0,0:04:07.98,0:04:08.58,Cap,,0,0,0,,aparece na {\c&H00E6FF&}audiência{\c&HFFFFFF&} é
+Dialogue: 0,0:04:08.58,0:04:08.88,Cap,,0,0,0,,aparece na audiência {\c&H00E6FF&}é{\c&HFFFFFF&}
+Dialogue: 0,0:04:08.88,0:04:08.94,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} sua mãe
+Dialogue: 0,0:04:08.94,0:04:09.18,Cap,,0,0,0,,a {\c&H00E6FF&}sua{\c&HFFFFFF&} mãe
+Dialogue: 0,0:04:09.18,0:04:09.94,Cap,,0,0,0,,a sua {\c&H00E6FF&}mãe{\c&HFFFFFF&}
+Dialogue: 0,0:04:09.94,0:04:10.10,Cap,,0,0,0,,{\c&H00E6FF&}Ela{\c&HFFFFFF&} não diz nada
+Dialogue: 0,0:04:10.10,0:04:10.28,Cap,,0,0,0,,Ela {\c&H00E6FF&}não{\c&HFFFFFF&} diz nada
+Dialogue: 0,0:04:10.28,0:04:10.50,Cap,,0,0,0,,Ela não {\c&H00E6FF&}diz{\c&HFFFFFF&} nada
+Dialogue: 0,0:04:10.50,0:04:11.24,Cap,,0,0,0,,Ela não diz {\c&H00E6FF&}nada{\c&HFFFFFF&}
+Dialogue: 0,0:04:11.24,0:04:11.46,Cap,,0,0,0,,{\c&H00E6FF&}Só{\c&HFFFFFF&} segura a sua
+Dialogue: 0,0:04:11.46,0:04:11.94,Cap,,0,0,0,,Só {\c&H00E6FF&}segura{\c&HFFFFFF&} a sua
+Dialogue: 0,0:04:11.94,0:04:12.10,Cap,,0,0,0,,Só segura {\c&H00E6FF&}a{\c&HFFFFFF&} sua
+Dialogue: 0,0:04:12.10,0:04:12.18,Cap,,0,0,0,,Só segura a {\c&H00E6FF&}sua{\c&HFFFFFF&}
+Dialogue: 0,0:04:12.18,0:04:12.38,Cap,,0,0,0,,{\c&H00E6FF&}mão{\c&HFFFFFF&}
+Dialogue: 0,0:04:12.38,0:04:12.88,Cap,,0,0,0,,{\c&H00E6FF&}O{\c&HFFFFFF&} advogado explica que
+Dialogue: 0,0:04:12.88,0:04:13.34,Cap,,0,0,0,,O {\c&H00E6FF&}advogado{\c&HFFFFFF&} explica que
+Dialogue: 0,0:04:13.34,0:04:13.86,Cap,,0,0,0,,O advogado {\c&H00E6FF&}explica{\c&HFFFFFF&} que
+Dialogue: 0,0:04:13.86,0:04:14.02,Cap,,0,0,0,,O advogado explica {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:04:14.02,0:04:14.26,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} vai responder por
+Dialogue: 0,0:04:14.26,0:04:14.38,Cap,,0,0,0,,você {\c&H00E6FF&}vai{\c&HFFFFFF&} responder por
+Dialogue: 0,0:04:14.38,0:04:14.86,Cap,,0,0,0,,você vai {\c&H00E6FF&}responder{\c&HFFFFFF&} por
+Dialogue: 0,0:04:14.86,0:04:15.12,Cap,,0,0,0,,você vai responder {\c&H00E6FF&}por{\c&HFFFFFF&}
+Dialogue: 0,0:04:15.12,0:04:16.04,Cap,,0,0,0,,{\c&H00E6FF&}estelionato{\c&HFFFFFF&}
+Dialogue: 0,0:04:16.04,0:04:16.42,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} que as vítimas
+Dialogue: 0,0:04:16.42,0:04:16.50,Cap,,0,0,0,,E {\c&H00E6FF&}que{\c&HFFFFFF&} as vítimas
+Dialogue: 0,0:04:16.50,0:04:16.68,Cap,,0,0,0,,E que {\c&H00E6FF&}as{\c&HFFFFFF&} vítimas
+Dialogue: 0,0:04:16.68,0:04:17.06,Cap,,0,0,0,,E que as {\c&H00E6FF&}vítimas{\c&HFFFFFF&}
+Dialogue: 0,0:04:17.06,0:04:17.30,Cap,,0,0,0,,{\c&H00E6FF&}têm{\c&HFFFFFF&} o direito de
+Dialogue: 0,0:04:17.30,0:04:17.38,Cap,,0,0,0,,têm {\c&H00E6FF&}o{\c&HFFFFFF&} direito de
+Dialogue: 0,0:04:17.38,0:04:17.68,Cap,,0,0,0,,têm o {\c&H00E6FF&}direito{\c&HFFFFFF&} de
+Dialogue: 0,0:04:17.68,0:04:17.96,Cap,,0,0,0,,têm o direito {\c&H00E6FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:04:17.96,0:04:18.32,Cap,,0,0,0,,{\c&H00E6FF&}receber{\c&HFFFFFF&} o dinheiro de
+Dialogue: 0,0:04:18.32,0:04:18.50,Cap,,0,0,0,,receber {\c&H00E6FF&}o{\c&HFFFFFF&} dinheiro de
+Dialogue: 0,0:04:18.50,0:04:18.80,Cap,,0,0,0,,receber o {\c&H00E6FF&}dinheiro{\c&HFFFFFF&} de
+Dialogue: 0,0:04:18.80,0:04:18.94,Cap,,0,0,0,,receber o dinheiro {\c&H00E6FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:04:18.94,0:04:19.70,Cap,,0,0,0,,{\c&H00E6FF&}volta{\c&HFFFFFF&}
+Dialogue: 0,0:04:19.70,0:04:19.86,Cap,,0,0,0,,{\c&H00E6FF&}Tudo{\c&HFFFFFF&} o que você
+Dialogue: 0,0:04:19.86,0:04:20.10,Cap,,0,0,0,,Tudo {\c&H00E6FF&}o{\c&HFFFFFF&} que você
+Dialogue: 0,0:04:20.10,0:04:20.10,Cap,,0,0,0,,Tudo o {\c&H00E6FF&}que{\c&HFFFFFF&} você
+Dialogue: 0,0:04:20.10,0:04:20.34,Cap,,0,0,0,,Tudo o que {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:04:20.34,0:04:21.10,Cap,,0,0,0,,{\c&H00E6FF&}gastou{\c&HFFFFFF&}
+Dialogue: 0,0:04:21.10,0:04:21.62,Cap,,0,0,0,,{\c&H00E6FF&}agora{\c&HFFFFFF&} você deve
+Dialogue: 0,0:04:21.62,0:04:22.16,Cap,,0,0,0,,agora {\c&H00E6FF&}você{\c&HFFFFFF&} deve
+Dialogue: 0,0:04:22.16,0:04:23.12,Cap,,0,0,0,,agora você {\c&H00E6FF&}deve{\c&HFFFFFF&}
+Dialogue: 0,0:04:23.12,0:04:23.36,Cap,,0,0,0,,{\c&H00E6FF&}Entre{\c&HFFFFFF&} os nomes do
+Dialogue: 0,0:04:23.36,0:04:23.52,Cap,,0,0,0,,Entre {\c&H00E6FF&}os{\c&HFFFFFF&} nomes do
+Dialogue: 0,0:04:23.52,0:04:23.82,Cap,,0,0,0,,Entre os {\c&H00E6FF&}nomes{\c&HFFFFFF&} do
+Dialogue: 0,0:04:23.82,0:04:23.90,Cap,,0,0,0,,Entre os nomes {\c&H00E6FF&}do{\c&HFFFFFF&}
+Dialogue: 0,0:04:23.90,0:04:24.78,Cap,,0,0,0,,{\c&H00E6FF&}processo{\c&HFFFFFF&}
+Dialogue: 0,0:04:24.78,0:04:25.00,Cap,,0,0,0,,{\c&H00E6FF&}está{\c&HFFFFFF&} o daquela senhora
+Dialogue: 0,0:04:25.00,0:04:25.10,Cap,,0,0,0,,está {\c&H00E6FF&}o{\c&HFFFFFF&} daquela senhora
+Dialogue: 0,0:04:25.10,0:04:25.36,Cap,,0,0,0,,está o {\c&H00E6FF&}daquela{\c&HFFFFFF&} senhora
+Dialogue: 0,0:04:25.36,0:04:25.88,Cap,,0,0,0,,está o daquela {\c&H00E6FF&}senhora{\c&HFFFFFF&}
+Dialogue: 0,0:04:25.88,0:04:26.06,Cap,,0,0,0,,{\c&H00E6FF&}do{\c&HFFFFFF&} jornal
+Dialogue: 0,0:04:26.06,0:04:26.88,Cap,,0,0,0,,do {\c&H00E6FF&}jornal{\c&HFFFFFF&}
+Dialogue: 0,0:04:26.88,0:04:27.08,Cap,,0,0,0,,{\c&H00E6FF&}Todo{\c&HFFFFFF&} aquele dinheiro durou
+Dialogue: 0,0:04:27.08,0:04:27.40,Cap,,0,0,0,,Todo {\c&H00E6FF&}aquele{\c&HFFFFFF&} dinheiro durou
+Dialogue: 0,0:04:27.40,0:04:27.84,Cap,,0,0,0,,Todo aquele {\c&H00E6FF&}dinheiro{\c&HFFFFFF&} durou
+Dialogue: 0,0:04:27.84,0:04:28.22,Cap,,0,0,0,,Todo aquele dinheiro {\c&H00E6FF&}durou{\c&HFFFFFF&}
+Dialogue: 0,0:04:28.22,0:04:28.74,Cap,,0,0,0,,{\c&H00E6FF&}oito{\c&HFFFFFF&} meses
+Dialogue: 0,0:04:28.74,0:04:29.72,Cap,,0,0,0,,oito {\c&H00E6FF&}meses{\c&HFFFFFF&}
+Dialogue: 0,0:04:29.72,0:04:29.82,Cap,,0,0,0,,{\c&H00E6FF&}A{\c&HFFFFFF&} dívida com a
+Dialogue: 0,0:04:29.82,0:04:30.20,Cap,,0,0,0,,A {\c&H00E6FF&}dívida{\c&HFFFFFF&} com a
+Dialogue: 0,0:04:30.20,0:04:30.38,Cap,,0,0,0,,A dívida {\c&H00E6FF&}com{\c&HFFFFFF&} a
+Dialogue: 0,0:04:30.38,0:04:30.44,Cap,,0,0,0,,A dívida com {\c&H00E6FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:04:30.44,0:04:31.10,Cap,,0,0,0,,{\c&H00E6FF&}justiça{\c&HFFFFFF&}
+Dialogue: 0,0:04:31.10,0:04:31.40,Cap,,0,0,0,,{\c&H00E6FF&}e{\c&HFFFFFF&} com a sua
+Dialogue: 0,0:04:31.40,0:04:31.52,Cap,,0,0,0,,e {\c&H00E6FF&}com{\c&HFFFFFF&} a sua
+Dialogue: 0,0:04:31.52,0:04:31.60,Cap,,0,0,0,,e com {\c&H00E6FF&}a{\c&HFFFFFF&} sua
+Dialogue: 0,0:04:31.60,0:04:31.78,Cap,,0,0,0,,e com a {\c&H00E6FF&}sua{\c&HFFFFFF&}
+Dialogue: 0,0:04:31.78,0:04:32.58,Cap,,0,0,0,,{\c&H00E6FF&}consciência{\c&HFFFFFF&}
+Dialogue: 0,0:04:32.58,0:04:33.00,Cap,,0,0,0,,{\c&H00E6FF&}vai{\c&HFFFFFF&} durar muitos anos
+Dialogue: 0,0:04:33.00,0:04:33.34,Cap,,0,0,0,,vai {\c&H00E6FF&}durar{\c&HFFFFFF&} muitos anos
+Dialogue: 0,0:04:33.34,0:04:33.86,Cap,,0,0,0,,vai durar {\c&H00E6FF&}muitos{\c&HFFFFFF&} anos
+Dialogue: 0,0:04:33.86,0:04:34.94,Cap,,0,0,0,,vai durar muitos {\c&H00E6FF&}anos{\c&HFFFFFF&}
+Dialogue: 0,0:04:34.94,0:04:35.24,Cap,,0,0,0,,{\c&H00E6FF&}Hoje{\c&HFFFFFF&}
+Dialogue: 0,0:04:35.24,0:04:35.64,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} trabalha num emprego
+Dialogue: 0,0:04:35.64,0:04:36.10,Cap,,0,0,0,,você {\c&H00E6FF&}trabalha{\c&HFFFFFF&} num emprego
+Dialogue: 0,0:04:36.10,0:04:36.22,Cap,,0,0,0,,você trabalha {\c&H00E6FF&}num{\c&HFFFFFF&} emprego
+Dialogue: 0,0:04:36.22,0:04:36.58,Cap,,0,0,0,,você trabalha num {\c&H00E6FF&}emprego{\c&HFFFFFF&}
+Dialogue: 0,0:04:36.58,0:04:37.32,Cap,,0,0,0,,{\c&H00E6FF&}comum{\c&HFFFFFF&}
+Dialogue: 0,0:04:37.32,0:04:37.62,Cap,,0,0,0,,{\c&H00E6FF&}ganhando{\c&HFFFFFF&} pouco
+Dialogue: 0,0:04:37.62,0:04:38.00,Cap,,0,0,0,,ganhando {\c&H00E6FF&}pouco{\c&HFFFFFF&}
+Dialogue: 0,0:04:38.00,0:04:38.48,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} uma parte de
+Dialogue: 0,0:04:38.48,0:04:38.62,Cap,,0,0,0,,E {\c&H00E6FF&}uma{\c&HFFFFFF&} parte de
+Dialogue: 0,0:04:38.62,0:04:39.00,Cap,,0,0,0,,E uma {\c&H00E6FF&}parte{\c&HFFFFFF&} de
+Dialogue: 0,0:04:39.00,0:04:39.20,Cap,,0,0,0,,E uma parte {\c&H00E6FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:04:39.20,0:04:39.54,Cap,,0,0,0,,{\c&H00E6FF&}tudo{\c&HFFFFFF&} o que você
+Dialogue: 0,0:04:39.54,0:04:39.76,Cap,,0,0,0,,tudo {\c&H00E6FF&}o{\c&HFFFFFF&} que você
+Dialogue: 0,0:04:39.76,0:04:39.78,Cap,,0,0,0,,tudo o {\c&H00E6FF&}que{\c&HFFFFFF&} você
+Dialogue: 0,0:04:39.78,0:04:40.02,Cap,,0,0,0,,tudo o que {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:04:40.02,0:04:40.60,Cap,,0,0,0,,{\c&H00E6FF&}recebe{\c&HFFFFFF&} vai direto para
+Dialogue: 0,0:04:40.60,0:04:40.92,Cap,,0,0,0,,recebe {\c&H00E6FF&}vai{\c&HFFFFFF&} direto para
+Dialogue: 0,0:04:40.92,0:04:41.44,Cap,,0,0,0,,recebe vai {\c&H00E6FF&}direto{\c&HFFFFFF&} para
+Dialogue: 0,0:04:41.44,0:04:41.62,Cap,,0,0,0,,recebe vai direto {\c&H00E6FF&}para{\c&HFFFFFF&}
+Dialogue: 0,0:04:41.62,0:04:41.80,Cap,,0,0,0,,{\c&H00E6FF&}as{\c&HFFFFFF&} vítimas
+Dialogue: 0,0:04:41.80,0:04:42.66,Cap,,0,0,0,,as {\c&H00E6FF&}vítimas{\c&HFFFFFF&}
+Dialogue: 0,0:04:42.66,0:04:42.92,Cap,,0,0,0,,{\c&H00E6FF&}Às{\c&HFFFFFF&} vezes
+Dialogue: 0,0:04:42.92,0:04:43.18,Cap,,0,0,0,,Às {\c&H00E6FF&}vezes{\c&HFFFFFF&}
+Dialogue: 0,0:04:43.18,0:04:43.64,Cap,,0,0,0,,{\c&H00E6FF&}você{\c&HFFFFFF&} passa em frente
+Dialogue: 0,0:04:43.64,0:04:43.90,Cap,,0,0,0,,você {\c&H00E6FF&}passa{\c&HFFFFFF&} em frente
+Dialogue: 0,0:04:43.90,0:04:44.14,Cap,,0,0,0,,você passa {\c&H00E6FF&}em{\c&HFFFFFF&} frente
+Dialogue: 0,0:04:44.14,0:04:44.40,Cap,,0,0,0,,você passa em {\c&H00E6FF&}frente{\c&HFFFFFF&}
+Dialogue: 0,0:04:44.40,0:04:44.58,Cap,,0,0,0,,{\c&H00E6FF&}à{\c&HFFFFFF&} faculdade que trancou
+Dialogue: 0,0:04:44.58,0:04:45.04,Cap,,0,0,0,,à {\c&H00E6FF&}faculdade{\c&HFFFFFF&} que trancou
+Dialogue: 0,0:04:45.04,0:04:45.26,Cap,,0,0,0,,à faculdade {\c&H00E6FF&}que{\c&HFFFFFF&} trancou
+Dialogue: 0,0:04:45.26,0:04:45.72,Cap,,0,0,0,,à faculdade que {\c&H00E6FF&}trancou{\c&HFFFFFF&}
+Dialogue: 0,0:04:45.72,0:04:46.14,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} pensa que
+Dialogue: 0,0:04:46.14,0:04:46.46,Cap,,0,0,0,,E {\c&H00E6FF&}pensa{\c&HFFFFFF&} que
+Dialogue: 0,0:04:46.46,0:04:46.72,Cap,,0,0,0,,E pensa {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:04:46.72,0:04:47.20,Cap,,0,0,0,,{\c&H00E6FF&}se{\c&HFFFFFF&} tivesse aguentado só
+Dialogue: 0,0:04:47.20,0:04:47.48,Cap,,0,0,0,,se {\c&H00E6FF&}tivesse{\c&HFFFFFF&} aguentado só
+Dialogue: 0,0:04:47.48,0:04:48.08,Cap,,0,0,0,,se tivesse {\c&H00E6FF&}aguentado{\c&HFFFFFF&} só
+Dialogue: 0,0:04:48.08,0:04:48.46,Cap,,0,0,0,,se tivesse aguentado {\c&H00E6FF&}só{\c&HFFFFFF&}
+Dialogue: 0,0:04:48.46,0:04:48.72,Cap,,0,0,0,,{\c&H00E6FF&}mais{\c&HFFFFFF&} um pouco
+Dialogue: 0,0:04:48.72,0:04:48.86,Cap,,0,0,0,,mais {\c&H00E6FF&}um{\c&HFFFFFF&} pouco
+Dialogue: 0,0:04:48.86,0:04:49.14,Cap,,0,0,0,,mais um {\c&H00E6FF&}pouco{\c&HFFFFFF&}
+Dialogue: 0,0:04:49.14,0:04:49.64,Cap,,0,0,0,,{\c&H00E6FF&}a{\c&HFFFFFF&} sua história podia
+Dialogue: 0,0:04:49.64,0:04:49.80,Cap,,0,0,0,,a {\c&H00E6FF&}sua{\c&HFFFFFF&} história podia
+Dialogue: 0,0:04:49.80,0:04:50.20,Cap,,0,0,0,,a sua {\c&H00E6FF&}história{\c&HFFFFFF&} podia
+Dialogue: 0,0:04:50.20,0:04:50.44,Cap,,0,0,0,,a sua história {\c&H00E6FF&}podia{\c&HFFFFFF&}
+Dialogue: 0,0:04:50.44,0:04:50.70,Cap,,0,0,0,,{\c&H00E6FF&}ter{\c&HFFFFFF&} sido outra
+Dialogue: 0,0:04:50.70,0:04:50.94,Cap,,0,0,0,,ter {\c&H00E6FF&}sido{\c&HFFFFFF&} outra
+Dialogue: 0,0:04:50.94,0:04:51.76,Cap,,0,0,0,,ter sido {\c&H00E6FF&}outra{\c&HFFFFFF&}
+Dialogue: 0,0:04:51.76,0:04:51.96,Cap,,0,0,0,,{\c&H00E6FF&}Você{\c&HFFFFFF&} queria uma vida
+Dialogue: 0,0:04:51.96,0:04:52.36,Cap,,0,0,0,,Você {\c&H00E6FF&}queria{\c&HFFFFFF&} uma vida
+Dialogue: 0,0:04:52.36,0:04:52.56,Cap,,0,0,0,,Você queria {\c&H00E6FF&}uma{\c&HFFFFFF&} vida
+Dialogue: 0,0:04:52.56,0:04:52.76,Cap,,0,0,0,,Você queria uma {\c&H00E6FF&}vida{\c&HFFFFFF&}
+Dialogue: 0,0:04:52.76,0:04:53.70,Cap,,0,0,0,,{\c&H00E6FF&}fácil{\c&HFFFFFF&}
+Dialogue: 0,0:04:53.70,0:04:53.82,Cap,,0,0,0,,{\c&H00E6FF&}Mas{\c&HFFFFFF&} descobriu que não
+Dialogue: 0,0:04:53.82,0:04:54.56,Cap,,0,0,0,,Mas {\c&H00E6FF&}descobriu{\c&HFFFFFF&} que não
+Dialogue: 0,0:04:54.56,0:04:54.80,Cap,,0,0,0,,Mas descobriu {\c&H00E6FF&}que{\c&HFFFFFF&} não
+Dialogue: 0,0:04:54.80,0:04:54.94,Cap,,0,0,0,,Mas descobriu que {\c&H00E6FF&}não{\c&HFFFFFF&}
+Dialogue: 0,0:04:54.94,0:04:55.42,Cap,,0,0,0,,{\c&H00E6FF&}existe{\c&HFFFFFF&} dinheiro fácil
+Dialogue: 0,0:04:55.42,0:04:55.80,Cap,,0,0,0,,existe {\c&H00E6FF&}dinheiro{\c&HFFFFFF&} fácil
+Dialogue: 0,0:04:55.80,0:04:56.76,Cap,,0,0,0,,existe dinheiro {\c&H00E6FF&}fácil{\c&HFFFFFF&}
+Dialogue: 0,0:04:56.76,0:04:56.92,Cap,,0,0,0,,{\c&H00E6FF&}Só{\c&HFFFFFF&} existe dinheiro que
+Dialogue: 0,0:04:56.92,0:04:57.30,Cap,,0,0,0,,Só {\c&H00E6FF&}existe{\c&HFFFFFF&} dinheiro que
+Dialogue: 0,0:04:57.30,0:04:57.86,Cap,,0,0,0,,Só existe {\c&H00E6FF&}dinheiro{\c&HFFFFFF&} que
+Dialogue: 0,0:04:57.86,0:04:58.18,Cap,,0,0,0,,Só existe dinheiro {\c&H00E6FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:04:58.18,0:04:58.46,Cap,,0,0,0,,{\c&H00E6FF&}alguém{\c&HFFFFFF&} perdeu
+Dialogue: 0,0:04:58.46,0:04:59.36,Cap,,0,0,0,,alguém {\c&H00E6FF&}perdeu{\c&HFFFFFF&}
+Dialogue: 0,0:04:59.36,0:04:59.56,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} você
+Dialogue: 0,0:04:59.56,0:05:00.24,Cap,,0,0,0,,E {\c&H00E6FF&}você{\c&HFFFFFF&}
+Dialogue: 0,0:05:00.24,0:05:00.60,Cap,,0,0,0,,{\c&H00E6FF&}conhece{\c&HFFFFFF&} alguém que já
+Dialogue: 0,0:05:00.60,0:05:00.88,Cap,,0,0,0,,conhece {\c&H00E6FF&}alguém{\c&HFFFFFF&} que já
+Dialogue: 0,0:05:00.88,0:05:01.04,Cap,,0,0,0,,conhece alguém {\c&H00E6FF&}que{\c&HFFFFFF&} já
+Dialogue: 0,0:05:01.04,0:05:01.20,Cap,,0,0,0,,conhece alguém que {\c&H00E6FF&}já{\c&HFFFFFF&}
+Dialogue: 0,0:05:01.20,0:05:01.48,Cap,,0,0,0,,{\c&H00E6FF&}caiu{\c&HFFFFFF&} num golpe
+Dialogue: 0,0:05:01.48,0:05:01.54,Cap,,0,0,0,,caiu {\c&H00E6FF&}num{\c&HFFFFFF&} golpe
+Dialogue: 0,0:05:01.54,0:05:02.26,Cap,,0,0,0,,caiu num {\c&H00E6FF&}golpe{\c&HFFFFFF&}
+Dialogue: 0,0:05:02.26,0:05:02.58,Cap,,0,0,0,,{\c&H00E6FF&}Conta{\c&HFFFFFF&} aqui nos comentários
+Dialogue: 0,0:05:02.58,0:05:02.74,Cap,,0,0,0,,Conta {\c&H00E6FF&}aqui{\c&HFFFFFF&} nos comentários
+Dialogue: 0,0:05:02.74,0:05:02.84,Cap,,0,0,0,,Conta aqui {\c&H00E6FF&}nos{\c&HFFFFFF&} comentários
+Dialogue: 0,0:05:02.84,0:05:03.82,Cap,,0,0,0,,Conta aqui nos {\c&H00E6FF&}comentários{\c&HFFFFFF&}
+Dialogue: 0,0:05:03.82,0:05:04.02,Cap,,0,0,0,,{\c&H00E6FF&}Essa{\c&HFFFFFF&} história pode proteger
+Dialogue: 0,0:05:04.02,0:05:04.46,Cap,,0,0,0,,Essa {\c&H00E6FF&}história{\c&HFFFFFF&} pode proteger
+Dialogue: 0,0:05:04.46,0:05:04.70,Cap,,0,0,0,,Essa história {\c&H00E6FF&}pode{\c&HFFFFFF&} proteger
+Dialogue: 0,0:05:04.70,0:05:05.26,Cap,,0,0,0,,Essa história pode {\c&H00E6FF&}proteger{\c&HFFFFFF&}
+Dialogue: 0,0:05:05.26,0:05:05.64,Cap,,0,0,0,,{\c&H00E6FF&}alguém{\c&HFFFFFF&}
+Dialogue: 0,0:05:05.64,0:05:06.08,Cap,,0,0,0,,{\c&H00E6FF&}E{\c&HFFFFFF&} se inscreve no
+Dialogue: 0,0:05:06.08,0:05:06.20,Cap,,0,0,0,,E {\c&H00E6FF&}se{\c&HFFFFFF&} inscreve no
+Dialogue: 0,0:05:06.20,0:05:06.66,Cap,,0,0,0,,E se {\c&H00E6FF&}inscreve{\c&HFFFFFF&} no
+Dialogue: 0,0:05:06.66,0:05:06.76,Cap,,0,0,0,,E se inscreve {\c&H00E6FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:05:06.76,0:05:07.06,Cap,,0,0,0,,{\c&H00E6FF&}canal{\c&HFFFFFF&} para acompanhar mais
+Dialogue: 0,0:05:07.06,0:05:07.30,Cap,,0,0,0,,canal {\c&H00E6FF&}para{\c&HFFFFFF&} acompanhar mais
+Dialogue: 0,0:05:07.30,0:05:07.82,Cap,,0,0,0,,canal para {\c&H00E6FF&}acompanhar{\c&HFFFFFF&} mais
+Dialogue: 0,0:05:07.82,0:05:08.16,Cap,,0,0,0,,canal para acompanhar {\c&H00E6FF&}mais{\c&HFFFFFF&}
+Dialogue: 0,0:05:08.16,0:05:08.80,Cap,,0,0,0,,{\c&H00E6FF&}histórias{\c&HFFFFFF&} em POV
+Dialogue: 0,0:05:08.80,0:05:09.02,Cap,,0,0,0,,histórias {\c&H00E6FF&}em{\c&HFFFFFF&} POV
+Dialogue: 0,0:05:09.02,0:05:10.14,Cap,,0,0,0,,histórias em {\c&H00E6FF&}POV{\c&HFFFFFF&}

@@ -1,0 +1,5 @@
+  { const a = FLAKES.geometry.attributes.position.array, b = FLAKES.userData.base; for (let i = 0; i < a.length / 3; i++) { a[i * 3] = b[i * 3] + camera.position.x + Math.sin(t + i) * 0.1; a[i * 3 + 1] = ((b[i * 3 + 1] - t * 0.6) % 5 + 5) % 5 - 1; a[i * 3 + 2] = b[i * 3 + 2] + camera.position.z - 2; } FLAKES.geometry.attributes.position.needsUpdate = true; }
+  if (st.pup) posePup(st.pup, t); else PUP.g.visible = false;
+  const hw = st.wall ?? 0; HOUSE.visible = hw > 0; HOUSE.scale.set(1, Math.max(0.01, Math.min(1, hw * 1.3)), 1);
+  SPARK.forEach((s) => (s.visible = false)); if (hw > 0 && hw < 1.8) SPARK.forEach((s, i) => { const ph = (t * 1.3 + i / 12) % 1; s.visible = true; s.position.set(-0.6 + (i / 11) * 1.2, 0.1 + ph * 1.1, 0.15); s.scale.setScalar(0.06 * (1 - ph)); });
+  BREATH.forEach((s) => (s.visible = false)); if (st.pup && (st.pup.shiver ?? 0) > 0.3) { const P0 = st.pup.pos; BREATH.forEach((s, i) => { const ph = (t * 0.8 + i / 3) % 1; s.visible = true; s.position.set(P0[0] + 0.03, P0[1] + 0.6 + ph * 0.1, P0[2] + 0.62 + ph * 0.25); s.scale.setScalar(0.04 + 0.12 * ph); s.material.opacity = 0.35 * (1 - ph); }); }

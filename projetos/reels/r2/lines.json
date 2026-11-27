@@ -1,0 +1,13 @@
+[
+["L1", "Seu melhor amigo te pede dois mil reais emprestado.", 0.15],
+["L2", "Ele jura que paga no fim do mês!", 0.25],
+["L3", "Você empresta. Afinal, amigo é pra isso.", 0.35],
+["L4", "Passa um mês...", 0.15],
+["L4b", "dois...", 0.12, 1.0],
+["L4c", "três...", 0.25, 1.0],
+["L5", "E ele some! Não responde nem mensagem.", 0.3],
+["L6", "Aí você abre as redes sociais...", 0.1],
+["L7", "e ele tá em Cancún! De férias! Com o seu dinheiro!", 0.25],
+["L8", "E ainda publica: quem tem amigo, tem tudo.", 0.4],
+["L9", "E aí? O que você faz?", 0.2]
+]

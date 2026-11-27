@@ -1,0 +1,82 @@
+data,hora,formato,tema,estrutura,cta_para
+2026-12-02,19:00,LONGO 16:9,Compilado #1: 4 Lendas de Escola Que Assustam Até Hoje,"Compilado: A Loira do Banheiro, O Jogo do Copo, A Professora da Sala 13, Maria Sangrenta no Espelho",
+2026-12-03,12:00,SHORT 9:16,A Loira do Banheiro,Regra proibida,Compilado #1 (2026-12-02)
+2026-12-04,12:00,SHORT 9:16,O Jogo do Copo,Relato de testemunha,Compilado #1 (2026-12-02)
+2026-12-05,12:00,SHORT 9:16,A Professora da Sala 13,Começa pelo fim,Compilado #1 (2026-12-02)
+2026-12-06,12:00,SHORT 9:16,Maria Sangrenta no Espelho,Desafio ao espectador,Compilado #1 (2026-12-02)
+2026-12-06,19:00,LONGO 16:9,Compilado #2: 3 Lendas da Floresta Amazônica,"Compilado: O Curupira, A Matinta Pereira, O Mapinguari",
+2026-12-07,12:00,SHORT 9:16,O Curupira,Você na mata,Compilado #2 (2026-12-06)
+2026-12-08,12:00,SHORT 9:16,A Matinta Pereira,Contagem até a meia-noite,Compilado #2 (2026-12-06)
+2026-12-09,12:00,SHORT 9:16,O Mapinguari,Relato do seringueiro,Compilado #2 (2026-12-06)
+2026-12-09,19:00,LONGO 16:9,Compilado #3: As Lendas Mais Assustadoras dos Rios,"Compilado: O Boto Cor-de-Rosa, A Iara, A Cobra Grande (Boiúna), O Navio Fantasma do Amazonas",
+2026-12-10,12:00,SHORT 9:16,O Boto Cor-de-Rosa,Relato de testemunha,Compilado #3 (2026-12-09)
+2026-12-11,12:00,SHORT 9:16,A Iara,Regra proibida,Compilado #3 (2026-12-09)
+2026-12-12,12:00,SHORT 9:16,A Cobra Grande (Boiúna),Começa pelo fim,Compilado #3 (2026-12-09)
+2026-12-13,12:00,SHORT 9:16,O Navio Fantasma do Amazonas,Você no barco,Compilado #3 (2026-12-09)
+2026-12-13,19:00,LONGO 16:9,Compilado #4: 3 Bonecas Amaldiçoadas,"Compilado: A Boneca de Pano que Inspirou Filmes (Annabelle), O Boneco Robert, A Ilha das Bonecas",
+2026-12-14,12:00,SHORT 9:16,A Boneca de Pano que Inspirou Filmes (Annabelle),Relato real,Compilado #4 (2026-12-13)
+2026-12-15,12:00,SHORT 9:16,O Boneco Robert,Contagem de noites,Compilado #4 (2026-12-13)
+2026-12-16,12:00,SHORT 9:16,A Ilha das Bonecas,Você na ilha,Compilado #4 (2026-12-13)
+2026-12-16,19:00,LONGO 16:9,Compilado #5: Lendas de Estrada: Nunca Dê Carona,"Compilado: A Mulher de Branco, O Carona da Meia-Noite, A Moça do Táxi de Belém, O Ônibus da Madrugada",
+2026-12-17,12:00,SHORT 9:16,A Mulher de Branco,Regra proibida,Compilado #5 (2026-12-16)
+2026-12-18,12:00,SHORT 9:16,O Carona da Meia-Noite,Você ao volante,Compilado #5 (2026-12-16)
+2026-12-19,12:00,SHORT 9:16,A Moça do Táxi de Belém,Relato do taxista,Compilado #5 (2026-12-16)
+2026-12-20,12:00,SHORT 9:16,O Ônibus da Madrugada,Começa pelo fim,Compilado #5 (2026-12-16)
+2026-12-20,19:00,LONGO 16:9,Compilado #6: Monstros do Interior do Brasil,"Compilado: O Corpo-Seco, A Mula sem Cabeça, O Lobisomem do Sétimo Filho",
+2026-12-21,12:00,SHORT 9:16,O Corpo-Seco,Relato de testemunha,Compilado #6 (2026-12-20)
+2026-12-22,12:00,SHORT 9:16,A Mula sem Cabeça,Você na estrada de terra,Compilado #6 (2026-12-20)
+2026-12-23,12:00,SHORT 9:16,O Lobisomem do Sétimo Filho,Contagem de luas,Compilado #6 (2026-12-20)
+2026-12-23,19:00,LONGO 16:9,Compilado #7: Lendas de Natal Que Ninguém Te Contou,"Compilado: O Krampus, Grýla, a Bruxa da Islândia, O Gato de Natal, Frau Perchta",
+2026-12-24,12:00,SHORT 9:16,O Krampus,Regra proibida,Compilado #7 (2026-12-23)
+2026-12-25,12:00,SHORT 9:16,"Grýla, a Bruxa da Islândia",Começa pelo fim,Compilado #7 (2026-12-23)
+2026-12-26,12:00,SHORT 9:16,O Gato de Natal,Desafio ao espectador,Compilado #7 (2026-12-23)
+2026-12-27,12:00,SHORT 9:16,Frau Perchta,Relato de testemunha,Compilado #7 (2026-12-23)
+2026-12-27,19:00,LONGO 16:9,Compilado #8: Lendas Que Moram Dentro de Casa,"Compilado: A Pisadeira, O Bicho-Papão, O Homem do Saco",
+2026-12-28,12:00,SHORT 9:16,A Pisadeira,Você dormindo,Compilado #8 (2026-12-27)
+2026-12-29,12:00,SHORT 9:16,O Bicho-Papão,Contagem de noites,Compilado #8 (2026-12-27)
+2026-12-30,12:00,SHORT 9:16,O Homem do Saco,Relato de criança,Compilado #8 (2026-12-27)
+2026-12-30,19:00,LONGO 16:9,Compilado #9: Lendas de Cemitério,"Compilado: A Procissão das Almas, A Noiva de Preto, As Batidas no Túmulo, A Mulher que Chora no Portão",
+2026-12-31,12:00,SHORT 9:16,A Procissão das Almas,Você na janela,Compilado #9 (2026-12-30)
+2027-01-01,12:00,SHORT 9:16,A Noiva de Preto,Começa pelo fim,Compilado #9 (2026-12-30)
+2027-01-02,12:00,SHORT 9:16,As Batidas no Túmulo,Relato do coveiro,Compilado #9 (2026-12-30)
+2027-01-03,12:00,SHORT 9:16,A Mulher que Chora no Portão,Regra proibida,Compilado #9 (2026-12-30)
+2027-01-03,19:00,LONGO 16:9,Compilado #10: 3 Lendas Japonesas Aterrorizantes,"Compilado: Kuchisake-onna, Hanako-san, Teke Teke",
+2027-01-04,12:00,SHORT 9:16,Kuchisake-onna,Desafio ao espectador,Compilado #10 (2027-01-03)
+2027-01-05,12:00,SHORT 9:16,Hanako-san,Regra proibida,Compilado #10 (2027-01-03)
+2027-01-06,12:00,SHORT 9:16,Teke Teke,Você na estação,Compilado #10 (2027-01-03)
+2027-01-06,19:00,LONGO 16:9,Compilado #11: Lendas do Nordeste,"Compilado: O Cabeça de Cuia, A Perna Cabeluda, O Papa-Figo, O Gritador",
+2027-01-07,12:00,SHORT 9:16,O Cabeça de Cuia,Relato do pescador,Compilado #11 (2027-01-06)
+2027-01-08,12:00,SHORT 9:16,A Perna Cabeluda,Começa pelo fim,Compilado #11 (2027-01-06)
+2027-01-09,12:00,SHORT 9:16,O Papa-Figo,Regra proibida,Compilado #11 (2027-01-06)
+2027-01-10,12:00,SHORT 9:16,O Gritador,Você no sertão,Compilado #11 (2027-01-06)
+2027-01-10,19:00,LONGO 16:9,Compilado #12: Criaturas Que Voam à Noite,"Compilado: O Homem-Mariposa, A Rasga-Mortalha, O Boitatá",
+2027-01-11,12:00,SHORT 9:16,O Homem-Mariposa,Relato de testemunha,Compilado #12 (2027-01-10)
+2027-01-12,12:00,SHORT 9:16,A Rasga-Mortalha,Contagem de piados,Compilado #12 (2027-01-10)
+2027-01-13,12:00,SHORT 9:16,O Boitatá,Você no campo,Compilado #12 (2027-01-10)
+2027-01-13,19:00,LONGO 16:9,Compilado #13: Os Guardiões da Mata,"Compilado: A Caipora, O Anhangá, O Capelobo, O Mão-Pelada",
+2027-01-14,12:00,SHORT 9:16,A Caipora,Regra proibida,Compilado #13 (2027-01-13)
+2027-01-15,12:00,SHORT 9:16,O Anhangá,Você caçando,Compilado #13 (2027-01-13)
+2027-01-16,12:00,SHORT 9:16,O Capelobo,Relato de testemunha,Compilado #13 (2027-01-13)
+2027-01-17,12:00,SHORT 9:16,O Mão-Pelada,Começa pelo fim,Compilado #13 (2027-01-13)
+2027-01-17,19:00,LONGO 16:9,Compilado #14: Lendas Sombrias da Europa,"Compilado: Baba Yaga, O Holandês Voador, A Banshee",
+2027-01-18,12:00,SHORT 9:16,Baba Yaga,Você na floresta,Compilado #14 (2027-01-17)
+2027-01-19,12:00,SHORT 9:16,O Holandês Voador,Relato do marinheiro,Compilado #14 (2027-01-17)
+2027-01-20,12:00,SHORT 9:16,A Banshee,Contagem de gritos,Compilado #14 (2027-01-17)
+2027-01-20,19:00,LONGO 16:9,Compilado #15: Lendas das Américas,"Compilado: La Llorona, O Wendigo, O Chupa-Cabra, O Demônio de Jersey",
+2027-01-21,12:00,SHORT 9:16,La Llorona,Regra proibida,Compilado #15 (2027-01-20)
+2027-01-22,12:00,SHORT 9:16,O Wendigo,Relato de testemunha,Compilado #15 (2027-01-20)
+2027-01-23,12:00,SHORT 9:16,O Chupa-Cabra,Começa pelo fim,Compilado #15 (2027-01-20)
+2027-01-24,12:00,SHORT 9:16,O Demônio de Jersey,Você na mata,Compilado #15 (2027-01-20)
+2027-01-24,19:00,LONGO 16:9,Compilado #16: Jogos Proibidos Que Você Nunca Deve Jogar,"Compilado: Charlie Charlie, O Jogo da Meia-Noite, A Hora Morta (3h da manhã)",
+2027-01-25,12:00,SHORT 9:16,Charlie Charlie,Desafio ao espectador,Compilado #16 (2027-01-24)
+2027-01-26,12:00,SHORT 9:16,O Jogo da Meia-Noite,Regra proibida,Compilado #16 (2027-01-24)
+2027-01-27,12:00,SHORT 9:16,A Hora Morta (3h da manhã),Contagem regressiva,Compilado #16 (2027-01-24)
+2027-01-27,19:00,LONGO 16:9,Compilado #17: Lendas de Manaus e Belém,"Compilado: O Fantasma do Teatro Amazonas, O Lençol que Anda (Visagem de Belém), Os Encantados do Rio Negro, A Cobra Norato",
+2027-01-28,12:00,SHORT 9:16,O Fantasma do Teatro Amazonas,Relato do vigia,Compilado #17 (2027-01-27)
+2027-01-29,12:00,SHORT 9:16,O Lençol que Anda (Visagem de Belém),Você na rua escura,Compilado #17 (2027-01-27)
+2027-01-30,12:00,SHORT 9:16,Os Encantados do Rio Negro,Começa pelo fim,Compilado #17 (2027-01-27)
+2027-01-31,12:00,SHORT 9:16,A Cobra Norato,Relato de pescador,Compilado #17 (2027-01-27)
+2027-01-31,19:00,LONGO 16:9,Compilado #18: As Lendas Mais Pedidas nos Comentários,"Compilado: O Saci e o Redemoinho, A Cuca, O Quibungo",
+2027-02-01,12:00,SHORT 9:16,O Saci e o Redemoinho,Regra proibida,Compilado #18 (2027-01-31)
+2027-02-02,12:00,SHORT 9:16,A Cuca,Contagem de noites,Compilado #18 (2027-01-31)
+2027-02-03,12:00,SHORT 9:16,O Quibungo,Relato de testemunha,Compilado #18 (2027-01-31)
