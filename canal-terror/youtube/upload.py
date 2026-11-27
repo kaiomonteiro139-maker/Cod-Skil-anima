@@ -102,7 +102,6 @@ def playlist_id(yt, nome, cache):
 
 
 def enviar(fila, teste):
-    from googleapiclient.http import MediaFileUpload
     pendentes = [v for v in fila if v.get("aprovado") and not v.get("youtube_id")]
     if not pendentes: print("Nada para enviar (aprove vídeos com: python upload.py aprovar ID)."); return
     for v in pendentes:
@@ -114,6 +113,7 @@ def enviar(fila, teste):
                  "status": {"privacyStatus": "private", "publishAt": utc.strftime("%Y-%m-%dT%H:%M:%SZ"), "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}}
         print(f"→ {v['id']}: {v['titulo']}  (publica {utc:%Y-%m-%d %H:%M} UTC)")
         if teste: print("   [teste] " + json.dumps(corpo["status"])); continue
+        from googleapiclient.http import MediaFileUpload
         req = yt.videos().insert(part="snippet,status", body=corpo, notifySubscribers=True, media_body=MediaFileUpload(str(AQUI / v["arquivo"]), chunksize=8 * 1024 * 1024, resumable=True))
         vid = com_repeticao(req, "vídeo")["id"]; v["youtube_id"] = vid; salvar(fila); print(f"   enviado: https://youtu.be/{vid}")
         if v.get("thumbnail"):
